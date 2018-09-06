@@ -1,0 +1,53 @@
+/* set body and h1, h2, h3 */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+
+@import url("components/button.css");
+@import url("components/dropdown.css");
+/*
+@import url("components/card.css");
+@import url("components/badge.css");
+@import url("components/banner.css");
+@import url("components/tabs.css");
+@import url("components/list.css");
+*/
+
+body {
+	font-family: "Open Sans", "Helvetica", "sans-serif";
+  	padding-bottom: 200px;
+  	background-color: #A0CCDA;
+}
+
+h1, h2, h3, p {
+	font-family: "Montserrat", "sans-serif";
+}
+
+h1 {
+	padding: 30px;
+}
+
+h3, button {
+	margin: 10px;
+}
+
+.container {
+	width: auto;
+	background-color: #A0CCDA;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#container1 {
+	background-color: #7C7BAF;
+}
+#h-btn-container{
+	margin: 20px;
+}
+#poem-container{
+	margin: 30px;
+}
+
+#container1 button {
+	flex-direction: row;
+	align-self: flex-end;
+}
