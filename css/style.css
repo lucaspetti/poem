@@ -13,8 +13,8 @@
 
 body {
 	font-family: "Open Sans", "Helvetica", "sans-serif";
-  	padding-bottom: 200px;
-  	background: rgba(218,235,247,1);
+  padding-bottom: 200px;
+  background: rgba(218,235,247,1);
 }
 
 h1, h2, h3, p {
@@ -27,10 +27,12 @@ h3, button {
 	margin: 10px;
 }
 header {
-	margin: 30px;
+	background: rgba(200,205,297,0.5);
 	display: flex;
+	width: auto;
 	flex-direction: column;
 	align-items: center;
+	border-bottom: 1px solid darkblue;
 }
 .container {
 	width: auto;
@@ -39,15 +41,19 @@ header {
 	flex-direction: column;
 	align-items: center;
 }
+#main-title{
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
 #languages {
 	position: absolute;
 	right: 10px;
-	top: 30px;
+	top: 15px;
 	margin: 10px 0px;
 }
 #h-btn-container{
 	margin: 20px;
 }
 #poem-container{
-	margin: 30px;
+	margin: 100px;
 }
