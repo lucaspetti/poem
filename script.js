@@ -70,6 +70,69 @@ and this is the wonder that\'s keeping the stars apart<br>\
 <br>\
 i carry your heart\(i carry it in my heart)<br>'
   },
+  {
+    name: '<strong>Edgar Allan Poe</strong>',
+    poem: 'Dream-Land<br><br>By a route obscure and lonely,<br />\
+  Haunted by ill angels only,<br /> \
+  Where an Eidolon, named NIGHT,<br />\
+  On a black throne reigns upright,<br />\
+  I have reached these lands but newly<br />\
+  From an ultimate dim Thule<br />\
+  From a wild weird clime that lieth, sublime,<br />\
+  Out of SPACE -- out of TIME.<br /><br />\
+\
+  Bottomless vales and boundless floods,<br />\
+  And chasms, and caves, and Titan woods,<br />\
+  With forms that no man can discover<br />\
+  For the dews that drip all over;<br />\
+  Mountains toppling evermore<br />\
+  Into seas without a shore;<br />\
+  Seas that restlessly aspire,<br />\
+  Surging, unto skies of fire;<br />\
+  Lakes that endlessly outspread<br />\
+  Their lone waters -- lone and dead, --<br />\
+  Their still waters -- still and chilly<br />\
+  With the snows of the lolling lily.<br /><br />\
+\
+  By the lakes that thus outspread<br />\
+  Their lone waters, lone and dead, --<br />\
+  Their sad waters, sad and chilly<br />\
+  With the snows of the lolling lily, --<br />\
+  By the mountains -- near the river<br />\
+  Murmuring lowly, murmuring ever, --<br />\
+  By the grey woods, -- by the swamp<br />\
+  Where the toad and the newt encamp, --<br />\
+  By the dismal tarns and pools<br />\
+  Where dwell the Ghouls, --<br />\
+  By each spot the most unholy --<br />\
+  In each nook most melancholy, --<br />\
+  There the traveller meets aghast<br />\
+  Sheeted Memories of the Past --<br />\
+  Shrouded forms that start and sigh<br />\
+  As they pass the wanderer by --<br />\
+  White-robed forms of friends long given,<br />\
+  In agony, to the Earth -- and Heaven.<br /><br />\
+  \
+  For the heart whose woes are legion<br />\
+  \'Tis a peaceful, soothing region --<br />\
+  For the spirit that walks in shadow<br />\
+  \'Tis -- oh \'tis an Eldorado!<br />\
+  But the traveller, travelling through it,<br />\
+  May not -- dare not openly view it;<br />\
+  Never its mysteries are exposed<br />\
+  To the weak human eye unclosed;<br />\
+  So wills its King, who hath forbid<br />\
+  The uplifting of the fringed lid;<br />\
+  And thus the sad Soul that here passes<br />\
+  Beholds it but through darkened glasses.<br /><br />\
+  \
+  By a route obscure and lonely,<br />\
+  Haunted by ill angels only, <br />\
+  Where an Eidolon, named NIGHT,<br />\
+  On a black throne reigns upright,<br />\
+  I have wandered home but newly<br />\
+  From this ultimate dim Thule.<br />'
+  },
 ]
 //French poems array:
 const Poesie = [
@@ -112,7 +175,61 @@ vois je vois terriblement je vois/de toutes les montagnes de \
 toutes les îles/il ne reste plus rien que les quelques mauvais chicots/de l’impenitente salive de la mer\
 <br>\
 <br>"Soleil cou coupé" (1948)'
-  }
+  },
+  {
+    name: '<strong>Arthur Rimbaud</strong>',
+    poem: '<strong>Ophélie</strong><br><br>\
+I<br>\
+<br>\
+Sur l\'onde calme et noire où dorment les étoiles<br>\
+La blanche Ophélia flotte comme un grand lys,<br>\
+Flotte très lentement, couchée en ses longs voiles...<br>\
+- On entend dans les bois lointains des hallalis.<br>\
+<br>\
+Voici plus de mille ans que la triste Ophélie<br>\
+Passe, fantôme blanc, sur le long fleuve noir.<br>\
+Voici plus de mille ans que sa douce folie<br>\
+Murmure sa romance à la brise du soir.<br>\
+<br>\
+Le vent baise ses seins et déploie en corolle<br>\
+Ses grands voiles bercés mollement par les eaux ;<br>\
+Les saules frissonnants pleurent sur son épaule,<br>\
+Sur son grand front rêveur s\'inclinent les roseaux.<br>\
+<br>\
+Les nénuphars froissés soupirent autour d\'elle ;<br>\
+Elle éveille parfois, dans un aune qui dort,<br>\
+Quelque nid, d\'où s\'échappe un petit frisson d\'aile :<br>\
+- Un chant mystérieux tombe des astres d\'or.<br>\
+<br>\
+II<br>\
+<br>\
+Ô pâle Ophélia ! belle comme la neige !<br>\
+Oui tu mourus, enfant, par un fleuve emporté !<br>\
+- C\'est que les vents tombant des grands monts de Norwège<br>\
+T\'avaient parlé tout bas de l\'âpre liberté ;<br>\
+<br>\
+C\'est qu\'un souffle, tordant ta grande chevelure,<br>\
+A ton esprit rêveur portait d\'étranges bruits ;<br>\
+Que ton coeur écoutait le chant de la Nature<br>\
+Dans les plaintes de l\'arbre et les soupirs des nuits ;<br>\
+<br>\
+C\'est que la voix des mers folles, immense râle,<br>\
+Brisait ton sein d\'enfant, trop humain et trop doux ;<br>\
+C\'est qu\'un matin d\'avril, un beau cavalier pâle,<br>\
+Un pauvre fou, s\'assit muet à tes genoux !<br>\
+<br>\
+Ciel ! Amour ! Liberté ! Quel rêve, ô pauvre Folle !<br>\
+Tu te fondais à lui comme une neige au feu :<br>\
+Tes grandes visions étranglaient ta parole<br>\
+- Et l\'Infini terrible effara ton oeil bleu !<br>\
+<br>\
+III<br>\
+<br>\
+- Et le Poète dit qu\'aux rayons des étoiles<br>\
+Tu viens chercher, la nuit, les fleurs que tu cueillis ;<br>\
+Et qu\'il a vu sur l\'eau, couchée en ses longs voiles,<br>\
+La blanche Ophélia flotter, comme un grand lys.'
+  },
 ]
 //Spanish poems array:
 const Poesias = [
@@ -152,9 +269,47 @@ y cambió bruscamente mi existencia:<br>\
 di mi adhesión al puro movimiento.<br>'
   },
   {
-    name: '<strong>Gardel</strong>',
-    poem: 'chien'
-  }
+    name: '<strong>Ajo</strong>',
+    poem: '<strong>Pseudobiografía</strong><br>\
+<br>\
+Si quiero que nieve pongo<br>\
+una lavadora de ropa blanca,<br>\
+si quiero que llueva<br>\
+la tiendo de ropa gris.<br>\
+No es casualidad que todos<br>\
+los yogures de fresa<br>\
+caduquen en mi cumpleaños.<br>\
+Fumo mucho para olvidarlo todo,<br>\
+no consigo toser siquiera.'
+  },{
+    name: '<strong>Blanca Varela</strong>',
+    poem: '<strong>Nadie nos dice cómo</strong><br>\
+<br>\
+Nadie nos dice cómo<br>\
+voltear la cara contra la pared<br>\
+y<br>\
+morirnos sencillamente<br>\
+así como lo hicieron el gato<br>\
+o el perro de la casa<br>\
+o el elefante<br>\
+que caminó en pos de su agonía<br>\
+como quien va<br>\
+a una impostergable ceremonia<br>\
+batiendo orejas<br>\
+al compás<br>\
+del cadencioso resuello<br>\
+de su trompa<br>\
+sólo en el reino animal<br>\
+hay ejemplares de tal<br>\
+comportamiento<br>\
+cambiar el paso<br>\
+acercarse<br>\
+y oler lo ya vivido<br>\
+y dar la vuelta<br>\
+sencillamente<br>\
+dar la vuelta'
+  },
+
 ]
 //German poems array:
 const Gedichte = [
@@ -189,6 +344,37 @@ Noch die Bomber.<br>\
 <br>\
 Von den neuen Antennen kamen die alten Dummheiten.<br>\
 Die Weisheit wurde von Mund zu Mund weitergegeben.<br>'
+  },
+  {
+    name: '<strong>Heinrich Heine</strong>',
+    poem: '<strong>Vermächtniß</strong><br>\
+<br>\
+Nun mein Leben geht zu End’,<br>\
+Mach’ ich auch mein Testament;<br>\
+Christlich will ich drin bedenken<br>\
+Meine Feinde mit Geschenken.<br>\
+<br>\
+Diese würd’gen, tugendfesten<br>\
+Widersacher sollen erben<br>\
+All mein Siechthum und Verderben,<br>\
+Meine sämmtlichen Gebresten.<br>\
+<br>\
+Ich vermach’ Euch die Coliken,<br>\
+Die den Bauch wie Zangen zwicken,<br>\
+Harnbeschwerden, die perfiden<br>\
+Preußischen Hämorrhoiden.<br>\
+<br>\
+Meine Krämpfe sollt Ihr haben,<br>\
+Speichelfluß und Gliederzucken,<br>\
+Knochendarre in dem Rucken,<br>\
+Lauter schöne Gottesgaben.<br>\
+<br>\
+Codizill zu dem Vermächtniß:<br>\
+In Vergessenheit versenken<br>\
+Soll der Herr Eu’r Angedenken,<br>\
+Er vertilge Eu’r Gedächtniß.<br>\
+<br>\
+[1851]'
   },
 ]
 //Italian poems array:
@@ -315,9 +501,66 @@ dos rostos de mármore esbraseados<br>\
 Cantam pássaros exóticos no teu púbis.<br>\
 E só ouvindo-os nos amamos como sonhamos.<br>'
   },
+  {
+    name: '<strong>Torquato Neto</strong>',
+    poem: '<strong>Cogito</strong><br>\
+<br>\
+eu sou como eu sou<br>\
+pronome<br>\
+pessoal intransferível<br>\
+do homem que iniciei<br>\
+na medida do impossível<br>\
+<br>\
+eu sou como eu sou<br>\
+agora<br>\
+sem grandes segredos dantes<br>\
+sem novos secretos dentes<br>\
+nesta hora<br>\
+<br>\
+eu sou como eu sou<br>\
+presente<br>\
+desferrolhado indecente<br>\
+feito um pedaço de mim<br>\
+<br>\
+eu sou como eu sou<br>\
+vidente<br>\
+e vivo tranqüilamente<br>\
+todas as horas do fim'
+  },
+  {
+    name: '<strong>Roberto Piva</strong>',
+    poem: '<strong>A piedade</strong><br>\
+<br>\
+Eu urrava nos poliedros da Justiça meu momento<br>\
+abatido na extrema paliçada<br>\
+os professores falavam da vontade de dominar e da<br>\
+luta pela vida<br>\
+as senhoras católicas são piedosas<br>\
+os comunistas são piedosos<br>\
+os comerciantes são piedosos<br>\
+só eu não sou piedoso<br>\
+se eu fosse piedoso meu sexo seria dócil e só se ergueria<br>\
+aos sábados à noite<br>\
+eu seria um bom filho meus colegas me chamariam<br>\
+cu-de-ferro e me fariam perguntas: por que navio<br>\
+bóia? por que prego afunda?<br>\
+eu deixaria proliferar uma úlcera e admiraria as<br>\
+estátuas de fortes dentaduras<br>\
+iria a bailes onde eu não poderia levar meus amigos<br>\
+pederastas ou barbudos<br>\
+eu me universalizaria no senso comum e eles diriam<br>\
+que tenho todas as virtudes<br>\
+eu não sou piedoso<br>\
+eu nunca poderei ser piedoso<br>\
+meus olhos retinem e tingem-se de verde<br>\
+Os arranha-céus de carniça se decompõem nos<br>\
+pavimentos<br>\
+os adolescentes nas escolas bufam como cadelas<br>\
+asfixiadas<br>\
+arcanjos de enxofre bombardeiam o horizonte através<br>\
+dos meus sonhos.'
+  },
 ]
-
-
 //Sort poems
 const sortBtn = document.querySelector('.sort-btn');
 const poemAuthor = document.querySelector('.poem-author');
