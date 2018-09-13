@@ -562,6 +562,7 @@ dos meus sonhos.'
   },
 ]
 //Sort poems
+//Arrange the modules for poem arrays
 const sortBtn = document.querySelector('.sort-btn');
 const poemAuthor = document.querySelector('.poem-author');
 const poem = document.querySelector('#poem');
