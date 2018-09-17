@@ -715,4 +715,14 @@ asfixiadas<br>\
 arcanjos de enxofre bombardeiam o horizonte através<br>\
 dos meus sonhos.'
   },
+  {
+  	name: '<strong>Dirceu Villa</strong>',
+  	poem: '<strong>Pontos-de-fuga do século XX</strong><br><br>\
+Era Yeltsin<br>Em 1995, parecendo uma caricatura<br>\
+De Russo frente às câmeras do Western<br>\Americano, que pensava: "É nisso<br>\
+Que dá o Comunismo".<br><br>\
+O que Hobsbawn chamou<br>"Capitalismo de Estado": onde<br>\
+Deus & Mammon dão lugar<br>Aos Canalhas do Partido: tudo<br>\
+Em maiúsculas, ou uniforme militar.'
+  }
 ]
