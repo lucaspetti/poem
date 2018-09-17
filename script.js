@@ -547,6 +547,32 @@ Er vertilge Eu’r Gedächtniß.<br>\
 <br>\
 [1851]'
   },
+  {
+    name: '<strong>Matthias Claudius</strong>',
+    poem: '<strong>Abendlied</strong><br><br>\
+    Der Mond ist aufgegangen,<br>Die goldnen Sternlein prangen<br>\
+Am Himmel hell und klar;<br>Der Wald steht schwarz und schweiget,<br>\
+Und aus den Wiesen steiget<br>Der weiße Nebel wunderbar.<br><br>\
+Wie ist die Welt so stille,<br>Und in der Dämmrung Hülle<br>\
+So traulich und so hold!<br>Als eine stille Kammer,<br>\
+Wo ihr des Tages Jammer<br>Verschlafen und vergessen sollt.<br><br>\
+Seht ihr den Mond dort stehen?<br>Er ist nur halb zu sehen,<br>\
+Und ist doch rund und schön!<br>So sind wohl manche Sachen,<br>\
+Die wir getrost belachen,<br>Weil unsre Augen sie nicht sehn.<br><br>\
+Wir stolze Menschenkinder<br>Sind eitel arme Sünder<br>\
+Und wissen gar nicht viel;<br>Wir spinnen Luftgespinste<br>\
+Und suchen viele Künste<br>Und kommen weiter von dem Ziel.<br><br>\
+Gott, laß uns dein Heil schauen,<br>Auf nichts Vergänglichs trauen,<br>\
+Nicht Eitelkeit uns freun!<br>Laß uns einfältig werden<br>\
+Und vor dir hier auf Erden<br>Wie Kinder fromm und fröhlich sein!<br><br>\
+Wollst endlich sonder Grämen<br>Aus dieser Welt uns nehmen<br>\
+Durch einen sanften Tod!<br>Und, wenn du uns genommen,<br>\
+Laß uns in Himmel kommen,<br>Du unser Herr und unser Gott!<br><br>\
+So legt euch denn, ihr Brüder,<br>In Gottes Namen nieder;<br>\
+Kalt ist der Abendhauch.<br>Verschon uns, Gott! mit Strafen,<br>\
+Und laß uns ruhig schlafen!<br>\
+Und unsern kranken Nachbar auch!'
+  },
 ]
 //Italian poems array:
 const Poesia = [
