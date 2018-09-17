@@ -1,54 +1,110 @@
-/*const colorBtn = document.querySelector('.colorBtn');
-const bodyBcg = document.querySelector('body');
-const hex = document.querySelector('.hex');*/
+//Sort poems
+const sortBtn = document.querySelector('.sort-btn');
+const poemAuthor = document.querySelector('.poem-author');
+const poem = document.querySelector('#poem');
+
+sortBtn.addEventListener('click', displayPoem);
+function displayPoem (){
+//sort poems in English
+  if (sortBtn.innerHTML === 'Sort') {
+    let number = Math.floor(Math.random()*englishPoems.length);
+    poemAuthor.innerHTML = englishPoems[number].name;
+    poem.innerHTML = englishPoems[number].poem;
+  }
+//sort poems in French
+  else if (sortBtn.innerHTML === 'Trier') {
+    let number = Math.floor(Math.random()*Poesie.length);
+    poemAuthor.innerHTML = Poesie[number].name;
+    poem.innerHTML = Poesie[number].poem;
+  }
+//sort poems in Spanish
+  else if (instruction.innerHTML === 'Clica al botón para sortear un poema:') {
+    let number = Math.floor(Math.random()*Poesias.length);
+    poemAuthor.innerHTML = Poesias[number].name;
+    poem.innerHTML = Poesias[number].poem;
+  }
+//sort poems in German
+  else if (sortBtn.innerHTML === 'Sortieren') {
+    let number = Math.floor(Math.random()*Gedichte.length);
+    poemAuthor.innerHTML = Gedichte[number].name;
+    poem.innerHTML = Gedichte[number].poem;
+  }
+//sort poems in Italian
+  else if (sortBtn.innerHTML === 'Ordinare') {
+    let number = Math.floor(Math.random()*Poesia.length);
+    poemAuthor.innerHTML = Poesia[number].name;
+    poem.innerHTML = Poesia[number].poem;
+  }
+//sort poems in Portuguese
+  else if (instruction.innerHTML === 'Clique abaixo para sortear um poema:') {
+    let number = Math.floor(Math.random()*Poemas.length);
+    poemAuthor.innerHTML = Poemas[number].name;
+    poem.innerHTML = Poemas[number].poem;
+  }
+}
+//access instructions:
+const instruction = document.querySelector('#instruction');
+//Access language buttons:
+const englishBtn = document.querySelector('#english-btn');
+const frenchBtn = document.querySelector('#french-btn');
+const spanishBtn = document.querySelector('#spanish-btn');
+const germanBtn = document.querySelector('#german-btn');
+const italianBtn = document.querySelector('#italian-btn');
+const portugueseBtn = document.querySelector('#portuguese-btn');
+
+frenchBtn.addEventListener('click', frenchSite);
+spanishBtn.addEventListener('click', spanishSite);
+germanBtn.addEventListener('click', germanSite);
+italianBtn.addEventListener('click', italianSite);
+portugueseBtn.addEventListener('click', portugueseSite);
+
+function frenchSite (){
+  sortBtn.innerHTML = 'Trier';
+  instruction.innerHTML = 'Cliquez sur le bouton pour trier un poème:';
+}
+function spanishSite (){
+  sortBtn.innerHTML = 'Sortear';
+  instruction.innerHTML = 'Clica al botón para sortear un poema:';
+}
+function germanSite (){
+  sortBtn.innerHTML = 'Sortieren';
+  instruction.innerHTML = 'Klicken Sie hier, um ein Gedicht zu sortieren:';
+}
+function italianSite (){
+  sortBtn.innerHTML = 'Assortire';
+  instruction.innerHTML = 'Fare clic sul pulsante per ordinare una poesia:';
+}
+function portugueseSite (){
+  sortBtn.innerHTML = 'Sortear';
+  instruction.innerHTML = 'Clique abaixo para sortear um poema:';
+}
 //English poems array:
-const Poems = [
+const englishPoems = [
   {
     name: '<strong>William Shakespeare</strong>',
-    poem: 'Come away, come away, death, <br>\
-\    And in sad cypress let me be laid.  <br>\
-Fly away, fly away, breath\; <br>\
-\    I am slain by a fair cruel maid. <br>\
-My shroud of white, stuck all with yew, <br>\
-\             O, prepare it! <br>\
-My part of death, no one so true <br>\
-\         Did share it. <br>\
-<br>\
-Not a flower, not a flower sweet, <br>\
-\    On my black coffin let there be strown. <br>\
-Not a friend, not a friend greet <br>\
-\    My poor corpse, where my bones shall be thrown. <br>\
-A thousand thousand sighs to save, <br>\
-\             Lay me, O, where <br>\
-Sad true lover never find my grave, <br>\
-\             To weep there!'
+    poem: 'Come away, come away, death, <br>And in sad cypress let me be laid.<br>\
+Fly away, fly away, breath\; <br>I am slain by a fair cruel maid. <br>\
+My shroud of white, stuck all with yew, <br>O, prepare it! <br>\
+My part of death, no one so true <br>Did share it. <br><br>\
+Not a flower, not a flower sweet, <br>On my black coffin let there be strown. <br>\
+Not a friend, not a friend greet <br>My poor corpse, where my bones shall be thrown. <br>\
+A thousand thousand sighs to save, <br>Lay me, O, where <br>\
+Sad true lover never find my grave, <br>To weep there!'
   },
   {
     name: '<strong>bp Nichol</strong>',
-    poem: 'of those saints we know the listing follows<br>\
-saint orm married saint rain<br>\
-gave birth to saint iff and saint ave<br>\
-this is the oldest family<br>\
-saint iff married saint rive<br>\
-gave birth to saint reat<br>\
-who married saint agnes<br>\
-gave birth to saint rand<br>\
-saint ave married saint raits<br>\
-gave birth to saint ranglehold<br>\
-who did not marry<br>\
-of the other families<br>\
-these we mention<br>\
-saint ill married saint ove<br>\
-gave birth to saint and & saint rike<br>\
-saint and did not marry<br>\
-saint rike married saint ain<br>\
-gave birth to their son<br>\
-the nameless one<br>\
-saint aggers wife is now forgotten<br>\
-gave birth to saint ump & saint rap<br>\
-gave birth to noone<br>\
-dying in the fire reat had set<br><br>\
-(from Martyrology 1)<br>'
+    poem: 'of those saints we know the listing follows<br>saint orm married saint rain<br>\
+gave birth to saint iff and saint ave<br>this is the oldest family<br>\
+saint iff married saint rive<br>gave birth to saint reat<br>\
+who married saint agnes<br>gave birth to saint rand<br>\
+saint ave married saint raits<br>gave birth to saint ranglehold<br>\
+who did not marry<br>of the other families<br>\
+these we mention<br>saint ill married saint ove<br>\
+gave birth to saint and & saint rike<br>saint and did not marry<br>\
+saint rike married saint ain<br>gave birth to their son<br>\
+the nameless one<br>saint aggers wife is now forgotten<br>\
+gave birth to saint ump & saint rap<br>gave birth to noone<br>\
+dying in the fire reat had set<br><br>(from Martyrology 1)<br>'
   },
   {
     name: '<strong>E.E. Cummings</strong>',
@@ -133,7 +189,21 @@ i carry your heart\(i carry it in my heart)<br>'
   I have wandered home but newly<br />\
   From this ultimate dim Thule.<br />'
   },
+  {
+    //number five
+    name: '<strong>Adrienne Rich</strong>',
+    poem: 'What kinds of times are these?<br><br>\
+There\'s a place between two stands of trees where the grass grows uphill<br>\
+and the old revolutionary road breaks off into shadows<br>\
+near a meeting-house abandoned by the persecuted<br>\
+who disappeared into those shadows<br><br>\
+I\'ve walked there picking mushrooms at the edge of dread, but don\'t be fooled<br>\
+this isn\'t a Russian poem, this is not somewhere else but here,<br>\
+our country moving closer to its own truth and dread,<br>\
+its own ways of making people disappear<br>'
+  }
 ]
+
 //French poems array:
 const Poesie = [
   {
@@ -230,6 +300,14 @@ Tu viens chercher, la nuit, les fleurs que tu cueillis ;<br>\
 Et qu\'il a vu sur l\'eau, couchée en ses longs voiles,<br>\
 La blanche Ophélia flotter, comme un grand lys.'
   },
+  {
+    //number five
+    name: '<strong>Antoine Wauters</strong>',
+    poem: 'Tout part d’un coup de sang, d’un<br>appel rouge au corps. D’un besoin<br>\
+de passer, d’être passé, traversé sur-le-<br>champ. D’un besoin d’entendre plus<br>\
+que de parler. Tout part d’un cri<br>éclair venu d’en bas, babil ou diable,<br>\
+dense aux entrailles.'
+  }
 ]
 //Spanish poems array:
 const Poesias = [
@@ -270,8 +348,7 @@ di mi adhesión al puro movimiento.<br>'
   },
   {
     name: '<strong>Ajo</strong>',
-    poem: '<strong>Pseudobiografía</strong><br>\
-<br>\
+    poem: '<strong>Pseudobiografía</strong><br><br>\
 Si quiero que nieve pongo<br>\
 una lavadora de ropa blanca,<br>\
 si quiero que llueva<br>\
@@ -287,45 +364,139 @@ no consigo toser siquiera.'
 <br>\
 Nadie nos dice cómo<br>\
 voltear la cara contra la pared<br>\
-y<br>\
-morirnos sencillamente<br>\
-así como lo hicieron el gato<br>\
-o el perro de la casa<br>\
-o el elefante<br>\
-que caminó en pos de su agonía<br>\
-como quien va<br>\
-a una impostergable ceremonia<br>\
-batiendo orejas<br>\
-al compás<br>\
-del cadencioso resuello<br>\
-de su trompa<br>\
-sólo en el reino animal<br>\
-hay ejemplares de tal<br>\
-comportamiento<br>\
-cambiar el paso<br>\
-acercarse<br>\
-y oler lo ya vivido<br>\
-y dar la vuelta<br>\
-sencillamente<br>\
-dar la vuelta'
-  },
-
+y<br>morirnos sencillamente<br>así como lo hicieron el gato<br>\
+o el perro de la casa<br>o el elefante<br>que caminó en pos de su agonía<br>\
+como quien va<br>a una impostergable ceremonia<br>batiendo orejas<br>\
+al compás<br>del cadencioso resuello<br>de su trompa<br>\
+sólo en el reino animal<br>hay ejemplares de tal<br>comportamiento<br>\
+cambiar el paso<br>acercarse<br>y oler lo ya vivido<br>\
+y dar la vuelta<br>sencillamente<br>dar la vuelta'
+  },{
+  name: '<strong>Cecilia Pavón</strong>',
+  poem: '<strong>Bicicleta robada secuestrada</strong><br><br>\
+Quizás la revolución está en sus cuerpos y yo no la vea<br><br>\
+Esta es la historia de una bicicleta robada<br>\
+Sólo sé que cerca del canal está el dueño<br>\
+o la dueña<br>\
+Cerca del canal,<br>\
+cerca de un canal<br>\
+Pero he olvidado el nombre de las calles<br><br>\
+Una madrugada salimos de beber de un bar revolucionario<br>\
+y mi bicicleta estaba atada accidentalmente a otra,<br>\
+una cadena se enredaba por entre los cables del freno y<br>\
+la mantenía<br>sujeta a un poste<br>\
+Todos se iban<br>en taxis,<br>\
+en colectivos,<br>en autos que estaban llenos<br>\
+y a mi bicicleta, yo no la podía sacar<br>tuve que dejarla ahí<br><br>\
+Si alguien la encuentra<br>rompe el candado<br>\
+y se la lleva<br>pero de todas formas era robada,<br>\
+comprada a muy bajo precio<br>en el mercado de pulgas<br>\
+o en un patio de atrás sospechoso<br>a una mujer inmigrante<br>\
+a quien que no se le entendia muy bien lo que decía,<br>pero de todos modos decía:<br>\
+“esta ser bicicleta mia vieja”<br>“esta no ser robô”<br><br>\
+Son las tres de la tarde de un día de verano con viento<br>\
+Los árboles que hasta ahora había visto secos<br>se mueven demasiado cargados<br>\
+de hojas rebosantes de vida<br>En lugar de nieve, hebras de pólen alargadas que vuelan<br>\
+como insectos<br>Alguien ató su bicicleta accidentalmente a la mia<br>\
+no sé si es un accidente o es un robô<br>no sé si es un robo o es la verdadera dueña<br>\
+que sé que existe porque un día se me acerco en un parque<br><br>\
+Yo no soy la verdadera dueña, y ola compré<br>por ese precio tan bajo<br>\
+en ese patio<br>de atrás<br>\
+o mercado de pulgas<br>a una mujer con acento extranjero<br>\
+de pelo largo y jeans gastados<br>que decía<br>\
+“no peligro, esta ser bicicleta mía pasado”<br><br>\
+Luego de conocer la felicidade de la bicicleta<br>estar sin ella es como vivir sin alas<br><br>\
+Pasaban los días y la bicicleta seguía ahí en el Puente<br>\
+el dueño no la venía a desatar, era verano, volava el polen<br>\
+manchado de sol<br>yo pedía bebidas que me hacían mal<br>\
+como espresso<br>café<br>\
+negro<br>sin leche<br>\
+miraba la bicicleta desde el otro lado del Puente, y lloraba<br><br>\
+La bicicleta rosada atada<br>a través del cable del freno<br>\
+por error<br>a la bicicleta celeste, oxidada, de un desconocido<br><br>\
+El secuestro de la bicicleta robada sucede<br>durante la única semana de sol del año<br><br>\
+Las grandes cosas<br>las cosas raras<br>\
+sucedem en momentos de decisión o de locura<br>por ejemplo:<br>\
+dejar su país,<br>cortar el cable del freno<br>\
+con una pinza para liberar a la bicicleta,<br>disfrutar,<br>\
+gozar<br>con el crimen,<br>\
+romperle la rueda a la otra bicicleta o<br>tirarle ácido al asiento<br>\
+Algo así.<br><br>\
+La bicicleta era mi única fuente de diversion<br>\
+Ahora que está llegando el verano<br>\
+y hay pocas horas de verdadera noche<br>\
+la bicicleta era mi mejor,<br>mi única amiga<br>\
+Es tonto decirlo<br>es hasta tan simple<br>\
+pero con la bicicleta paseando por la ciudad<br>me sentía libre<br>\
+la ciudad era como un paisaje<br>que yo podía ver gratis<br>\
+pasando a toda velocidad<br>por la ventana de un tren inter-city<br>\
+sólo que la ventana no tenía marcos<br>era una ventana sin límite<br>\
+y rosada<br>una ventana con forma de bicicleta rosada<br>\
+robada<br>comprada a una chica<br>que decía “no ser peligro, no robado, mía antes bicicleta”<br><br>\
+Yo sabía que era robada<br>igual la compré<br>\
+Un día en un parque se acercó<br>la verdadera dueña<br>\
+una mujer de unos treinta años<br>y dijo que esa sería su bicicleta<br>\
+pero yo la defendí con uñas y dientes<br>inventé una historia extrañísima<br>\
+complicada<br>con muchas etapas<br>\
+de cómo esa bicicleta había<br>venido de Paris en barco<br>\
+en correo, desarmada<br>en una caja de carton<br>\
+enviada como obsequio por un ex-amante<br><br>\
+¿Si me quitan la bicicleta<br>qué más me queda acá?<br>\
+Sí,<br>están los Cafés Revolucionarios<br>\
+donde se discute el futuro del mundo<br>Pero nada,<br>\
+nada<br>puede compararse<br>\
+con ella.'
+},{//number five
+  name: '<strong>Violeta Parra</strong>',
+  poem: '<strong>Maldigo del alto cielo</strong><br><br>\
+Maldigo del alto cielo<br>La estrella con su reflejo<br>\
+Maldigo los azulejos<br>Destellos del arroyuelo<br>\
+Maldigo del bajo suelo<br>La piedra con su contorno<br>\
+Maldigo el fuego del horno<br>Porque mi alma está de luto<br>\
+Maldigo los estatutos<br>Del tiempo con sus bochornos<br>\
+Cuánto será mi dolor.<br><br>\
+Maldigo la cordillera<br>De los Andes y de la costa<br>\
+Maldigo señor la angosta<br>Y larga faja de tierra<br>\
+También la paz y la guerra<br>Lo franco y lo veleidoso<br>\
+Maldigo lo perfumoso<br>Porque mi anhelo está muerto<br>\
+Maldigo todo lo cierto<br>Y lo falso con lo dudoso<br>\
+Cuánto será mi dolor.<br><br>\
+Maldigo la primavera<br>Con sus jardines en flor<br>\
+Y del otoño el color<br>Yo lo maldigo de veras<br>\
+A la nube pasajera<br>La maldigo tanto y tanto<br>\
+Porque me asiste un quebranto<br>Maldigo el invierno entero<br>\
+Con el verano embustero<br>Maldigo profano y santo<br>\
+Cuánto será mi dolor.<br><br>\
+Maldigo a la solitaria<br>Figura de la bandera<br>\
+Maldigo cualquier emblema<br>La venus y la araucaria<br>\
+El trino de la canaria<br>El cosmo y sus planetas<br>\
+La tierra y todas sus grietas<br>Porque me aqueja un pesar<br>\
+Maldigo del ancho mar<br>Sus puertos y sus caletas<br>\
+Cuánto será mi dolor.<br><br>\
+Maldigo luna y paisaje<br>Los valles y los desiertos<br>\
+Maldigo muerto por muerto<br>Y al vivo de rey a paje<br>\
+Al ave con su plumaje<br>Yo la maldigo a porfia<br>\
+Las aulas , las sacrsitias<br>Porque me aflije un dolor<br>\
+Maldigo el vocablo amor<br>Con toda su porquería<br>\
+Cuánto será mi dolor.<br><br>\
+Maldigo por fin lo blanco<br>Lo negro con lo amarillo<br>\
+Obispos y monaguillos<br>Ministros y predicantes<br>\
+Yo los maldigo llorando<br>Lo libre y lo prisionero<br>\
+Lo dulce y lo pendenciero<br>Le pongo mi maldición<br>\
+En griego y español<br>Por culpa de un traicionero<br>\
+Cuánto será mi dolor.'
+  }
 ]
 //German poems array:
 const Gedichte = [
   {
     name: '<strong>Goethe</strong>',
     poem: '<strong>Glückliche Fahrt</strong><br><br>\
-Die Nebel zerreißen, <br>\
-Der Himmel ist helle, <br>\
-Und Äolus löset <br>\
-Das ängstliche Band. <br>\
-Es säuseln die Winde, <br>\
-Es rührt sich der Schiffer. <br>\
-Geschwinde! Geschwinde! <br>\
-Es teilt sich die Welle, <br>\
-Es naht sich die Ferne; <br>\
-Schon seh ich das Land!<br>'
+Die Nebel zerreißen, <br>Der Himmel ist helle, <br>\
+Und Äolus löset <br>Das ängstliche Band. <br>\
+Es säuseln die Winde, <br>Es rührt sich der Schiffer. <br>\
+Geschwinde! Geschwinde! <br>Es teilt sich die Welle, <br>\
+Es naht sich die Ferne; <br>Schon seh ich das Land!<br>'
   },
   {
     name: '<strong>Bertolt Brecht</strong>',
@@ -503,29 +674,13 @@ E só ouvindo-os nos amamos como sonhamos.<br>'
   },
   {
     name: '<strong>Torquato Neto</strong>',
-    poem: '<strong>Cogito</strong><br>\
-<br>\
-eu sou como eu sou<br>\
-pronome<br>\
-pessoal intransferível<br>\
-do homem que iniciei<br>\
-na medida do impossível<br>\
-<br>\
-eu sou como eu sou<br>\
-agora<br>\
-sem grandes segredos dantes<br>\
-sem novos secretos dentes<br>\
-nesta hora<br>\
-<br>\
-eu sou como eu sou<br>\
-presente<br>\
-desferrolhado indecente<br>\
-feito um pedaço de mim<br>\
-<br>\
-eu sou como eu sou<br>\
-vidente<br>\
-e vivo tranqüilamente<br>\
-todas as horas do fim'
+    poem: '<strong>Cogito</strong><br><br>\
+eu sou como eu sou<br>pronome<br>\pessoal intransferível<br>do homem que iniciei<br>\
+na medida do impossível<br><br>eu sou como eu sou<br>agora<br>\
+sem grandes segredos dantes<br>sem novos secretos dentes<br>\
+nesta hora<br><br>eu sou como eu sou<br>presente<br>\
+desferrolhado indecente<br>feito um pedaço de mim<br><br>\
+eu sou como eu sou<br>vidente<br>e vivo tranqüilamente<br>todas as horas do fim'
   },
   {
     name: '<strong>Roberto Piva</strong>',
@@ -561,87 +716,3 @@ arcanjos de enxofre bombardeiam o horizonte através<br>\
 dos meus sonhos.'
   },
 ]
-//Sort poems
-//Arrange the modules for poem arrays
-const sortBtn = document.querySelector('.sort-btn');
-const poemAuthor = document.querySelector('.poem-author');
-const poem = document.querySelector('#poem');
-
-sortBtn.addEventListener('click', displayQuote);
-
-function displayQuote (){
-//sort poems in English
-  if (sortBtn.innerHTML === 'Sort') {
-    let number = Math.floor(Math.random()*Poems.length);
-    poemAuthor.innerHTML = Poems[number].name;
-    poem.innerHTML = Poems[number].poem;
-  }
-//sort poems in French
-  else if (sortBtn.innerHTML === 'Trier') {
-    let number = Math.floor(Math.random()*Poesie.length);
-    poemAuthor.innerHTML = Poesie[number].name;
-    poem.innerHTML = Poesie[number].poem;
-  }
-//sort poems in Spanish
-  else if (instruction.innerHTML === 'Clica al botón para sortear un poema:') {
-    let number = Math.floor(Math.random()*Poesias.length);
-    poemAuthor.innerHTML = Poesias[number].name;
-    poem.innerHTML = Poesias[number].poem;
-  }
-//sort poems in German
-  else if (sortBtn.innerHTML === 'Sortieren') {
-    let number = Math.floor(Math.random()*Gedichte.length);
-    poemAuthor.innerHTML = Gedichte[number].name;
-    poem.innerHTML = Gedichte[number].poem;
-  }
-//sort poems in Italian
-  else if (sortBtn.innerHTML === 'Ordinare') {
-    let number = Math.floor(Math.random()*Poesia.length);
-    poemAuthor.innerHTML = Poesia[number].name;
-    poem.innerHTML = Poesia[number].poem;
-  }
-//sort poems in Portuguese
-  else if (instruction.innerHTML === 'Clique abaixo para sortear um poema:') {
-    let number = Math.floor(Math.random()*Poemas.length);
-    poemAuthor.innerHTML = Poemas[number].name;
-    poem.innerHTML = Poemas[number].poem;
-  }
-}
-
-
-//access instructions:
-const instruction = document.querySelector('#instruction');
-//Access language buttons:
-const englishBtn = document.querySelector('#english-btn');
-const frenchBtn = document.querySelector('#french-btn');
-const spanishBtn = document.querySelector('#spanish-btn');
-const germanBtn = document.querySelector('#german-btn');
-const italianBtn = document.querySelector('#italian-btn');
-const portugueseBtn = document.querySelector('#portuguese-btn');
-
-frenchBtn.addEventListener('click', frenchSite);
-spanishBtn.addEventListener('click', spanishSite);
-germanBtn.addEventListener('click', germanSite);
-italianBtn.addEventListener('click', italianSite);
-portugueseBtn.addEventListener('click', portugueseSite);
-
-function frenchSite (){
-  sortBtn.innerHTML = 'Trier';
-  instruction.innerHTML = 'Cliquez sur le bouton pour trier un poème:';
-}
-function spanishSite (){
-  sortBtn.innerHTML = 'Sortear';
-  instruction.innerHTML = 'Clica al botón para sortear un poema:';
-}
-function germanSite (){
-  sortBtn.innerHTML = 'Sortieren';
-  instruction.innerHTML = 'Klicken Sie hier, um ein Gedicht zu sortieren:';
-}
-function italianSite (){
-  sortBtn.innerHTML = 'Ordinare';
-  instruction.innerHTML = 'Fare clic sul pulsante per ordinare una poesia:';
-}
-function portugueseSite (){
-  sortBtn.innerHTML = 'Sortear';
-  instruction.innerHTML = 'Clique abaixo para sortear um poema:';
-}
