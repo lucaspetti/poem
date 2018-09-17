@@ -572,6 +572,16 @@ So legt euch denn, ihr Brüder,<br>In Gottes Namen nieder;<br>\
 Kalt ist der Abendhauch.<br>Verschon uns, Gott! mit Strafen,<br>\
 Und laß uns ruhig schlafen!<br>\
 Und unsern kranken Nachbar auch!'
+  }, { //number five:
+    name: '<strong>Rainer Maria Rilke</strong>',
+    poem: '<strong>Eranna an Sappho</strong><br><br>\
+O du wilde weite Werferin:<br>Wie ein Speer bei andern Dingen<br>\
+lag ich bei den Meinen. Dein Erklingen<br>warf mich weit. Ich weiß nicht, wo ich bin.<br>\
+Mich kann keiner wiederbringen.<br><br>\
+Meine Schwestern denken mich und weben,<br>und das Haus ist voll vertrauter Schritte.<br>\
+Ich allein bin fern und fortgegeben,<br>und ich zittere wie eine Bitte;<br>\
+denn die schöne Göttin in der Mitte<br>\
+ihrer Mythen glüht und lebt mein Leben.'
   },
 ]
 //Italian poems array:
@@ -642,7 +652,37 @@ Ch’ i i’ medesmo non so quel ch’ io mi voglio,<br>\
 E tremo a mèzza state, ardemdo il verno.<br>\
 <br>\
 Soneto XXII, “Il Canzonieri”'
-  },
+  }, {
+    name: 'Giovanni Boccaccio',
+    poem: '<strong>Oh come son talora</strong><br><br>\
+    Oh come son talora<br>maravigliosi in noi,<br>\
+Amor, gl\'incendii tuoi!<br>Con accorciato crin, succinta in gonna,<br>\
+innamorata donna<br>seguì del suo fedel l\'orme leggiadre<br>\
+fra bellicose squadre.<br>Ma così gran valore<br>\
+nelle donne moderne or non si vede,<br>\
+che, s\'han maggior bellezza, han minor fede.'
+  }, {
+    name: 'Pier Paolo Pasolini',
+    poem: '<strong>Alla bandiera rossa</strong><br><br>\
+Per chi conosce solo il tuo colore, bandiera rossa,<br>\
+tu devi realmente esistere, perché lui esista:<br>chi era coperto di croste è coperto di piaghe,<br>\
+il bracciante diventa mendicante,<br>il napoletano calabrese, il calabrese africano,<br>\
+l\'analfabeta una bufala o un cane.<br>Chi conosceva appena il tuo colore, bandiera rossa,<br>\
+sta per non conoscerti più, neanche coi sensi:<br>tu che già vanti tante glorie borghesi e operaie,<br>\
+ridiventa straccio, e il più povero ti sventoli.'
+  }, { //number five:
+    name: 'Giuseppe Ungaretti',
+    poem: 'VEGLIA<br><br>\
+Un’intera nottata<br>buttato vicino<br>\
+a un compagno<br>massacrato<br>\
+con la sua bocca<br>digrignata<br>\
+volta al plenilunio,<br>con la congestione<br>\
+delle sue mani<br>penetrata<br>\
+nel mio silenzio<br>ho scritto<br>\
+lettere piene d’amore.<br>Non sono mai stato<br>\
+tanto<br>attaccato alla vita.'
+  }
+
 ]
 //Portuguese poems array:
 const Poemas = [
@@ -741,7 +781,7 @@ asfixiadas<br>\
 arcanjos de enxofre bombardeiam o horizonte através<br>\
 dos meus sonhos.'
   },
-  {
+  { //number five:
   	name: '<strong>Dirceu Villa</strong>',
   	poem: '<strong>Pontos-de-fuga do século XX</strong><br><br>\
 Era Yeltsin<br>Em 1995, parecendo uma caricatura<br>\
