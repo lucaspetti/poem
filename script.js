@@ -128,7 +128,7 @@ i carry your heart\(i carry it in my heart)<br>'
   },
   {
     name: '<strong>Edgar Allan Poe</strong>',
-    poem: 'Dream-Land<br><br>By a route obscure and lonely,<br />\
+    poem: '<strong>Dream-Land</strong><br><br>By a route obscure and lonely,<br />\
   Haunted by ill angels only,<br /> \
   Where an Eidolon, named NIGHT,<br />\
   On a black throne reigns upright,<br />\
@@ -192,7 +192,7 @@ i carry your heart\(i carry it in my heart)<br>'
   {
     //number five
     name: '<strong>Adrienne Rich</strong>',
-    poem: 'What kinds of times are these?<br><br>\
+    poem: '<strong>What kinds of times are these?</strong><br><br>\
 There\'s a place between two stands of trees where the grass grows uphill<br>\
 and the old revolutionary road breaks off into shadows<br>\
 near a meeting-house abandoned by the persecuted<br>\
@@ -221,7 +221,7 @@ Mais priez Dieu que tous nous vueille absouldre!<br>'
   },
   {
     name: '<strong>Jacques Brel</strong>',
-    poem: 'A mon dernier repas<br>\
+    poem: '<strong>A mon dernier repas</strong><br>\
 <br>\
 Je veux voir mes voisins<br>\
 Et puis quelques Chinois<br>\
@@ -588,7 +588,7 @@ ihrer Mythen glüht und lebt mein Leben.'
 const Poesia = [
   {
     name: '<strong>Dante Alighieri</strong>',
-    poem: 'INFERNO<br>\
+    poem: '<strong>INFERNO</strong><br>\
 <br>\
 \         <strong>Dal CANTO I</strong><br>\
 <br>\
@@ -672,7 +672,7 @@ sta per non conoscerti più, neanche coi sensi:<br>tu che già vanti tante glori
 ridiventa straccio, e il più povero ti sventoli.'
   }, { //number five:
     name: 'Giuseppe Ungaretti',
-    poem: 'VEGLIA<br><br>\
+    poem: '<strong>VEGLIA</strong><br><br>\
 Un’intera nottata<br>buttato vicino<br>\
 a un compagno<br>massacrato<br>\
 con la sua bocca<br>digrignata<br>\
