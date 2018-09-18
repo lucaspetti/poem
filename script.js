@@ -2,14 +2,21 @@
 const sortBtn = document.querySelector('.sort-btn');
 const poemAuthor = document.querySelector('.poem-author');
 const poem = document.querySelector('#poem');
+const imageContainer = document.querySelector('#img-container');
+const poemImage = new Image(200, 200);
+imageContainer.appendChild(poemImage);
 
 sortBtn.addEventListener('click', displayPoem);
+
 function displayPoem (){
 //sort poems in English
   if (sortBtn.innerHTML === 'Sort') {
     let number = Math.floor(Math.random()*englishPoems.length);
     poemAuthor.innerHTML = englishPoems[number].name;
     poem.innerHTML = englishPoems[number].poem;
+    poemImage.src = englishImgArray[number].src;
+    poemImage.height = englishImgArray[number].height;
+    poemImage.width = englishImgArray[number].width;
   }
 //sort poems in French
   else if (sortBtn.innerHTML === 'Trier') {
@@ -51,7 +58,7 @@ const spanishBtn = document.querySelector('#spanish-btn');
 const germanBtn = document.querySelector('#german-btn');
 const italianBtn = document.querySelector('#italian-btn');
 const portugueseBtn = document.querySelector('#portuguese-btn');
-
+//Change the language:
 frenchBtn.addEventListener('click', frenchSite);
 spanishBtn.addEventListener('click', spanishSite);
 germanBtn.addEventListener('click', germanSite);
@@ -202,7 +209,22 @@ this isn\'t a Russian poem, this is not somewhere else but here,<br>\
 our country moving closer to its own truth and dread,<br>\
 its own ways of making people disappear<br>'
   }
-]
+] //sorting the Images:
+const englishImgArray = new Array ();
+englishImgArray[0] = new Image(300, 300);
+englishImgArray[0].src = 'https://cdn.pensador.com/img/authors/wi/ll/william-shakespeare-2-l.jpg';
+
+englishImgArray[1] = new Image(200, 200);
+englishImgArray[1].src = 'https://www.poetryinvoice.com/sites/default/files/images/authors/bp-nichol.jpg';
+
+englishImgArray[2] = new Image(250, 250);
+englishImgArray[2].src = 'https://2.bp.blogspot.com/--af-ZtkuKOQ/Wq-20a3gTZI/AAAAAAAATeI/LZhHTJAuz3EXGMooR8bAs_fFKzi8z2t8wCLcBGAs/s1600/eecummings.jpg';
+
+englishImgArray[3] = new Image(360, 225);
+englishImgArray[3].src = 'https://www.telegraph.co.uk/content/dam/books/2016/04/19/edgardallanpoe_trans_NvBQzQNjv4Bqeo_i_u9APj8RuoebjoAHt0k9u7HhRJvuo-ZLenGRumA.jpg?imwidth=450';
+
+englishImgArray[4] = new Image(400, 250);
+englishImgArray[4].src = 'http://static.poetryfoundation.org/o/harriet/2012/04/adrienne-rich.jpg';
 
 //French poems array:
 const Poesie = [
