@@ -3,7 +3,8 @@ const sortBtn = document.querySelector('.sort-btn');
 const poemAuthor = document.querySelector('.poem-author');
 const poem = document.querySelector('#poem');
 const imageContainer = document.querySelector('#img-container');
-const poemImage = new Image(200, 200);
+const poemImage = new Image(252, 426);
+poemImage.src = 'https://i.pinimg.com/originals/11/f9/89/11f98901cb2cb2c67efd46bb23d8cb5e.jpg';
 imageContainer.appendChild(poemImage);
 
 sortBtn.addEventListener('click', displayPoem);
@@ -23,30 +24,35 @@ function displayPoem (){
     let number = Math.floor(Math.random()*Poesie.length);
     poemAuthor.innerHTML = Poesie[number].name;
     poem.innerHTML = Poesie[number].poem;
+    poemImage.src = '#';
   }
 //sort poems in Spanish
   else if (instruction.innerHTML === 'Clica al botón para sortear un poema:') {
     let number = Math.floor(Math.random()*Poesias.length);
     poemAuthor.innerHTML = Poesias[number].name;
     poem.innerHTML = Poesias[number].poem;
+    poemImage.src = '#';
   }
 //sort poems in German
   else if (sortBtn.innerHTML === 'Sortieren') {
     let number = Math.floor(Math.random()*Gedichte.length);
     poemAuthor.innerHTML = Gedichte[number].name;
     poem.innerHTML = Gedichte[number].poem;
+    poemImage.src = '#';
   }
 //sort poems in Italian
   else if (sortBtn.innerHTML === 'Ordinare') {
     let number = Math.floor(Math.random()*Poesia.length);
     poemAuthor.innerHTML = Poesia[number].name;
     poem.innerHTML = Poesia[number].poem;
+    poemImage.src = '#';
   }
 //sort poems in Portuguese
   else if (instruction.innerHTML === 'Clique abaixo para sortear um poema:') {
     let number = Math.floor(Math.random()*Poemas.length);
     poemAuthor.innerHTML = Poemas[number].name;
     poem.innerHTML = Poemas[number].poem;
+    poemImage.src = '#';
   }
 }
 //access instructions:
@@ -59,31 +65,54 @@ const germanBtn = document.querySelector('#german-btn');
 const italianBtn = document.querySelector('#italian-btn');
 const portugueseBtn = document.querySelector('#portuguese-btn');
 //Change the language:
+englishBtn.addEventListener('click', englishSite);
 frenchBtn.addEventListener('click', frenchSite);
 spanishBtn.addEventListener('click', spanishSite);
 germanBtn.addEventListener('click', germanSite);
 italianBtn.addEventListener('click', italianSite);
 portugueseBtn.addEventListener('click', portugueseSite);
 
+function englishSite (){
+  sortBtn.innerHTML = 'Sort';
+  instruction.innerHTML = 'Click the button to sort a poem:';
+  poemAuthor.innerHTML = '';
+  poem.innerHTML = '';
+  poemImage.src = 'https://i.pinimg.com/originals/11/f9/89/11f98901cb2cb2c67efd46bb23d8cb5e.jpg';
+}
 function frenchSite (){
   sortBtn.innerHTML = 'Trier';
   instruction.innerHTML = 'Cliquez sur le bouton pour trier un poème:';
+  poemAuthor.innerHTML = '';
+  poem.innerHTML = '';
+  poemImage.src = '';
 }
 function spanishSite (){
   sortBtn.innerHTML = 'Sortear';
   instruction.innerHTML = 'Clica al botón para sortear un poema:';
+  poemAuthor.innerHTML = '';
+  poem.innerHTML = '';
+  poemImage.src = '';
 }
 function germanSite (){
   sortBtn.innerHTML = 'Sortieren';
   instruction.innerHTML = 'Klicken Sie hier, um ein Gedicht zu sortieren:';
+  poemAuthor.innerHTML = '';
+  poem.innerHTML = '';
+  poemImage.src = '';
 }
 function italianSite (){
   sortBtn.innerHTML = 'Assortire';
   instruction.innerHTML = 'Fare clic sul pulsante per ordinare una poesia:';
+  poemAuthor.innerHTML = '';
+  poem.innerHTML = '';
+  poemImage.src = '';
 }
 function portugueseSite (){
   sortBtn.innerHTML = 'Sortear';
   instruction.innerHTML = 'Clique abaixo para sortear um poema:';
+  poemAuthor.innerHTML = '';
+  poem.innerHTML = '';
+  poemImage.src = '';
 }
 //English poems array:
 const englishPoems = [
