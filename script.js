@@ -240,19 +240,19 @@ its own ways of making people disappear<br>'
   }
 ] //sorting the Images:
 const englishImgArray = new Array ();
-englishImgArray[0] = new Image(300, 300);
+englishImgArray[0] = new Image(250, 250);
 englishImgArray[0].src = 'https://cdn.pensador.com/img/authors/wi/ll/william-shakespeare-2-l.jpg';
 
-englishImgArray[1] = new Image(200, 200);
+englishImgArray[1] = new Image(250, 250);
 englishImgArray[1].src = 'https://www.poetryinvoice.com/sites/default/files/images/authors/bp-nichol.jpg';
 
 englishImgArray[2] = new Image(250, 250);
 englishImgArray[2].src = 'https://2.bp.blogspot.com/--af-ZtkuKOQ/Wq-20a3gTZI/AAAAAAAATeI/LZhHTJAuz3EXGMooR8bAs_fFKzi8z2t8wCLcBGAs/s1600/eecummings.jpg';
 
-englishImgArray[3] = new Image(360, 225);
+englishImgArray[3] = new Image(240, 150);
 englishImgArray[3].src = 'https://www.telegraph.co.uk/content/dam/books/2016/04/19/edgardallanpoe_trans_NvBQzQNjv4Bqeo_i_u9APj8RuoebjoAHt0k9u7HhRJvuo-ZLenGRumA.jpg?imwidth=450';
 
-englishImgArray[4] = new Image(400, 250);
+englishImgArray[4] = new Image(200, 125);
 englishImgArray[4].src = 'http://static.poetryfoundation.org/o/harriet/2012/04/adrienne-rich.jpg';
 
 //French poems array:
