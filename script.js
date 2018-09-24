@@ -33,28 +33,36 @@ function displayPoem (){
     let number = Math.floor(Math.random()*Poesias.length);
     poemAuthor.innerHTML = Poesias[number].name;
     poem.innerHTML = Poesias[number].poem;
-    poemImage.src = '#';
+    poemImage.src = spanishImgArray[number].src;
+    poemImage.height = spanishImgArray[number].height;
+    poemImage.width = spanishImgArray[number].width;
   }
 //sort poems in German
   else if (sortBtn.innerHTML === 'Sortieren') {
     let number = Math.floor(Math.random()*Gedichte.length);
     poemAuthor.innerHTML = Gedichte[number].name;
     poem.innerHTML = Gedichte[number].poem;
-    poemImage.src = '#';
+    poemImage.src = germanImgArray[number].src;
+    poemImage.height = germanImgArray[number].height;
+    poemImage.width = germanImgArray[number].width;
   }
 //sort poems in Italian
-  else if (sortBtn.innerHTML === 'Ordinare') {
+  else if (sortBtn.innerHTML === 'Assortire') {
     let number = Math.floor(Math.random()*Poesia.length);
     poemAuthor.innerHTML = Poesia[number].name;
     poem.innerHTML = Poesia[number].poem;
-    poemImage.src = '#';
+    poemImage.src = italianImgArray[number].src;
+    poemImage.height = italianImgArray[number].height;
+    poemImage.width = italianImgArray[number].width;
   }
 //sort poems in Portuguese
   else if (instruction.innerHTML === 'Clique abaixo para sortear um poema:') {
     let number = Math.floor(Math.random()*Poemas.length);
     poemAuthor.innerHTML = Poemas[number].name;
     poem.innerHTML = Poemas[number].poem;
-    poemImage.src = '#';
+    poemImage.src = portugueseImgArray[number].src;
+    poemImage.height = portugueseImgArray[number].height;
+    poemImage.width = portugueseImgArray[number].width;
   }
 }
 //access instructions:
@@ -89,8 +97,8 @@ function frenchSite (){
   poemAuthor.innerHTML = '';
   poem.innerHTML = '';
   poemImage.src = 'https://upload.wikimedia.org/wikipedia/commons/a/a7/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg';
-  poemImage.height = 626;
-  poemImage.width = 496;
+  poemImage.height = 620;
+  poemImage.width = 780;
 }
 function spanishSite (){
   sortBtn.innerHTML = 'Sortear';
@@ -567,6 +575,21 @@ En griego y español<br>Por culpa de un traicionero<br>\
 Cuánto será mi dolor.'
   }
 ]
+const spanishImgArray = new Array ();
+spanishImgArray[0] = new Image(300, 402); //Neruda
+spanishImgArray[0].src = 'http://www.agenciabalcells.com/fileadmin/_processed_/csm_Neruda__Pablo_cd1395ffd0.jpg';
+
+spanishImgArray[1] = new Image(425, 268); //Ajo
+spanishImgArray[1].src = 'http://www.culturasur.com/typo3temp/pics/e12e321467.jpg';
+
+spanishImgArray[2] = new Image(300, 224); //Blanca Varela
+spanishImgArray[2].src = 'https://deadorkicking.com/wp-content/uploads/featured-img/b/blanca-varela-300x224.jpg';
+
+spanishImgArray[3] = new Image(280, 425); //Cecilia Pavon
+spanishImgArray[3].src = 'http://2.bp.blogspot.com/_5wUPFCGo68w/TTWbRV-RVzI/AAAAAAAABSU/_6ObuHfL_n4/s1600/pavon.jpg';
+
+spanishImgArray[4] = new Image(405, 270); //Violeta Parra
+spanishImgArray[4].src = 'http://www.eldesconcierto.cl/wp-content/uploads/2017/10/violeta-parra-810x540.jpg';
 //German poems array:
 const Gedichte = [
   {
@@ -664,6 +687,21 @@ denn die schöne Göttin in der Mitte<br>\
 ihrer Mythen glüht und lebt mein Leben.'
   },
 ]
+const germanImgArray = new Array ();
+germanImgArray[0] = new Image(200, 266); //goethe
+germanImgArray[0].src = 'https://images.gr-assets.com/authors/1532614109p5/285217.jpg';
+
+germanImgArray[1] = new Image(353, 500); //Brecht
+germanImgArray[1].src = 'https://usefulstooges.com/wp-content/uploads/2016/10/bertolt-brecht-pic.jpg';
+
+germanImgArray[2] = new Image(327, 400); //Heinrich Heine
+germanImgArray[2].src = 'https://www.kunstkopie.de/kunst/e_palm/heinrich-heine_palm.jpg';
+
+germanImgArray[3] = new Image(170, 237); //Matthias Claudius
+germanImgArray[3].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/MatthiasClaudius.jpg/170px-MatthiasClaudius.jpg';
+
+germanImgArray[4] = new Image(200, 236); //Rilke
+germanImgArray[4].src = 'https://images.gr-assets.com/authors/1493785350p5/7906.jpg';
 //Italian poems array:
 const Poesia = [
   {
@@ -762,8 +800,22 @@ nel mio silenzio<br>ho scritto<br>\
 lettere piene d’amore.<br>Non sono mai stato<br>\
 tanto<br>attaccato alla vita.'
   }
-
 ]
+const italianImgArray = new Array ();
+italianImgArray[0] = new Image(220, 336); //dante
+italianImgArray[0].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Portrait_de_Dante.jpg/220px-Portrait_de_Dante.jpg';
+
+italianImgArray[1] = new Image(450, 600); //petrarca
+italianImgArray[1].src = 'https://d3d00swyhr67nd.cloudfront.net/w1200h1200/NTIII/NTIII_BLI_355512.jpg';
+
+italianImgArray[2] = new Image(214, 317); //boccaccio
+italianImgArray[2].src = 'https://m.media-amazon.com/images/M/MV5BZjdlZmQwNDItZDVhZi00MzU1LTlhMGMtMDBhZDdlOGZmZWUyXkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_UY317_CR20,0,214,317_AL_.jpg';
+
+italianImgArray[3] = new Image(370, 512); //pasolini
+italianImgArray[3].src = 'https://m.media-amazon.com/images/M/MV5BMjMyOTk0NjU3OF5BMl5BanBnXkFtZTcwNzMwMDgxOA@@._V1_.jpg';
+
+italianImgArray[4] = new Image(450, 275); //ungaretti
+italianImgArray[4].src = 'https://www.libriantichionline.com/typo3temp/pics/fe33cff6b2.jpeg';
 //Portuguese poems array:
 const Poemas = [
   {
@@ -872,3 +924,18 @@ Deus & Mammon dão lugar<br>Aos Canalhas do Partido: tudo<br>\
 Em maiúsculas, ou uniforme militar.'
   }
 ]
+const portugueseImgArray = new Array ();
+portugueseImgArray[0] = new Image(240, 285); //drummond
+portugueseImgArray[0].src = 'https://assets.mubi.com/images/cast_member/74538/image-w240.jpg?1506559121';
+
+portugueseImgArray[1] = new Image(400, 244); //mario de andrade
+portugueseImgArray[1].src = 'https://blackwomenofbrazil.co/wp-content/uploads/2017/06/mc3a1rio-de-andrade.jpg';
+
+portugueseImgArray[2] = new Image(480, 360); //torquato neto
+portugueseImgArray[2].src = 'https://i.ytimg.com/vi/BVK9LZLmwMY/0.jpg';
+
+portugueseImgArray[3] = new Image(460, 301); //roberto piva
+portugueseImgArray[3].src = 'https://abrilveja.files.wordpress.com/2016/12/piva-31-460x301.jpg';
+
+portugueseImgArray[4] = new Image(375, 375); //dirceu villa
+portugueseImgArray[4].src = 'http://www.atelierpoesia.it/portal/images/FOTO_POETI/VILLA_DIRCEU.jpg';
