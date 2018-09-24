@@ -27,12 +27,19 @@ h3, button {
 	margin: 10px;
 }
 header {
-	background: rgba(200,205,297,0.5);
+	background: rgba(255,254,255,1);
 	display: flex;
 	width: auto;
+	height: 400px;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	border-bottom: 1px solid darkblue;
+}
+header h1 {
+	text-align: center;
+	align-self: center;
+	font-size: 70px;
 }
 .container {
 	width: auto;
@@ -46,14 +53,19 @@ header {
 	margin-bottom: 10px;
 }
 #languages {
-	position: absolute;
+	float: right;
+	/*position: absolute;
 	right: 10px;
 	top: 15px;
-	margin: 10px 0px;
+	margin: 10px 0px;*/
 }
 #h-btn-container{
-	margin: 20px;
+	margin: 20px 20px 50px 20px;
+	padding: 20px;
 }
 #poem-container{
 	margin: 50px;
+}
+#instruction {
+	padding: 40px;
 }
