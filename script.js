@@ -24,7 +24,9 @@ function displayPoem (){
     let number = Math.floor(Math.random()*Poesie.length);
     poemAuthor.innerHTML = Poesie[number].name;
     poem.innerHTML = Poesie[number].poem;
-    poemImage.src = '#';
+    poemImage.src = frenchImgArray[number].src;
+    poemImage.height = frenchImgArray[number].height;
+    poemImage.width = frenchImgArray[number].width;
   }
 //sort poems in Spanish
   else if (instruction.innerHTML === 'Clica al botón para sortear un poema:') {
@@ -84,7 +86,7 @@ function frenchSite (){
   instruction.innerHTML = 'Cliquez sur le bouton pour trier un poème:';
   poemAuthor.innerHTML = '';
   poem.innerHTML = '';
-  poemImage.src = '';
+  poemImage.src = 'https://i.pinimg.com/originals/3a/88/68/3a88681dcf05fa35fe69c8e9f4b3f9ce.jpg';
 }
 function spanishSite (){
   sortBtn.innerHTML = 'Sortear';
@@ -360,6 +362,21 @@ que de parler. Tout part d’un cri<br>éclair venu d’en bas, babil ou diable,
 dense aux entrailles.'
   }
 ]
+const frenchImgArray = new Array ();
+frenchImgArray[0] = new Image(250, 250);
+frenchImgArray[0].src = 'https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxMzA0OTEyMzk3/francois-villon-38551-1-402.jpg';
+
+frenchImgArray[1] = new Image(250, 250);
+frenchImgArray[1].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jacques_Brel_1963.jpg/220px-Jacques_Brel_1963.jpg';
+
+frenchImgArray[2] = new Image(250, 250);
+frenchImgArray[2].src = 'https://images.gr-assets.com/authors/1288990863p5/49591.jpg';
+
+frenchImgArray[3] = new Image(250, 250);
+frenchImgArray[3].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Rimbaud.PNG/226px-Rimbaud.PNG';
+
+frenchImgArray[4] = new Image(220, 270);
+frenchImgArray[4].src = 'http://www.literaturenights.eu/uploads/304/a70265ce208eff1ef497ca85903831c5.jpg';
 //Spanish poems array:
 const Poesias = [
   {
