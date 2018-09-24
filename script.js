@@ -3,8 +3,8 @@ const sortBtn = document.querySelector('.sort-btn');
 const poemAuthor = document.querySelector('.poem-author');
 const poem = document.querySelector('#poem');
 const imageContainer = document.querySelector('#img-container');
-const poemImage = new Image(252, 426);
-poemImage.src = 'https://i.pinimg.com/originals/11/f9/89/11f98901cb2cb2c67efd46bb23d8cb5e.jpg';
+const poemImage = new Image(672, 372);
+poemImage.src = 'https://i1.wp.com/artlistr.com/wp-content/uploads/2017/04/Fort-Vimieux-1831-JMW-Turner.jpg';
 imageContainer.appendChild(poemImage);
 
 sortBtn.addEventListener('click', displayPoem);
@@ -79,42 +79,54 @@ function englishSite (){
   instruction.innerHTML = 'Click the button to sort a poem:';
   poemAuthor.innerHTML = '';
   poem.innerHTML = '';
-  poemImage.src = 'https://i.pinimg.com/originals/11/f9/89/11f98901cb2cb2c67efd46bb23d8cb5e.jpg';
+  poemImage.src = 'https://i1.wp.com/artlistr.com/wp-content/uploads/2017/04/Fort-Vimieux-1831-JMW-Turner.jpg';
+  poemImage.height = 372;
+  poemImage.width = 672;
 }
 function frenchSite (){
   sortBtn.innerHTML = 'Trier';
   instruction.innerHTML = 'Cliquez sur le bouton pour trier un poème:';
   poemAuthor.innerHTML = '';
   poem.innerHTML = '';
-  poemImage.src = 'https://i.pinimg.com/originals/3a/88/68/3a88681dcf05fa35fe69c8e9f4b3f9ce.jpg';
+  poemImage.src = 'https://upload.wikimedia.org/wikipedia/commons/a/a7/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg';
+  poemImage.height = 626;
+  poemImage.width = 496;
 }
 function spanishSite (){
   sortBtn.innerHTML = 'Sortear';
   instruction.innerHTML = 'Clica al botón para sortear un poema:';
   poemAuthor.innerHTML = '';
   poem.innerHTML = '';
-  poemImage.src = '';
+  poemImage.src = 'https://ep00.epimg.net/cultura/imagenes/2016/07/06/actualidad/1467838131_406594_1467838290_noticia_normal.jpg';
+  poemImage.height = 380;
+  poemImage.width = 490;
 }
 function germanSite (){
   sortBtn.innerHTML = 'Sortieren';
   instruction.innerHTML = 'Klicken Sie hier, um ein Gedicht zu sortieren:';
   poemAuthor.innerHTML = '';
   poem.innerHTML = '';
-  poemImage.src = '';
+  poemImage.src = 'https://upload.wikimedia.org/wikipedia/commons/9/93/Delacroix_Faust_1.jpg';
+  poemImage.height = 555;
+  poemImage.width = 375;
 }
 function italianSite (){
   sortBtn.innerHTML = 'Assortire';
   instruction.innerHTML = 'Fare clic sul pulsante per ordinare una poesia:';
   poemAuthor.innerHTML = '';
   poem.innerHTML = '';
-  poemImage.src = '';
+  poemImage.src = 'http://blog.graphe.it/wp-content/uploads/2016/10/PortaInfernoDante.jpg';
+  poemImage.height = 351;
+  poemImage.width = 620;
 }
 function portugueseSite (){
   sortBtn.innerHTML = 'Sortear';
   instruction.innerHTML = 'Clique abaixo para sortear um poema:';
   poemAuthor.innerHTML = '';
   poem.innerHTML = '';
-  poemImage.src = '';
+  poemImage.src = 'https://www.jornaltornado.pt/wp-content/uploads/2018/02/Recriar-Os-Lusiadas-em-teatro-animado-900x506.jpg';
+  poemImage.height = 378;
+  poemImage.width = 675;
 }
 //English poems array:
 const englishPoems = [
@@ -366,7 +378,7 @@ const frenchImgArray = new Array ();
 frenchImgArray[0] = new Image(250, 250);
 frenchImgArray[0].src = 'https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxMzA0OTEyMzk3/francois-villon-38551-1-402.jpg';
 
-frenchImgArray[1] = new Image(250, 250);
+frenchImgArray[1] = new Image(220, 323);
 frenchImgArray[1].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jacques_Brel_1963.jpg/220px-Jacques_Brel_1963.jpg';
 
 frenchImgArray[2] = new Image(250, 250);

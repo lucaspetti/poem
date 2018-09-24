@@ -12,9 +12,9 @@
 */
 
 body {
-	font-family: "Open Sans", "Helvetica", "sans-serif";
+  font-family: "Open Sans", "Helvetica", "sans-serif";
   padding-bottom: 200px;
-  background: rgba(218,235,247,1);
+  background: linear-gradient(to bottom, #ffffff 0%,#a6b5bc 100%);
 }
 
 h1, h2, h3, p {
@@ -27,7 +27,8 @@ h3, button {
 	margin: 10px;
 }
 header {
-	background: rgba(255,254,255,1);
+	background: #ffffff url(https://images.pexels.com/photos/1260727/pexels-photo-1260727.jpeg);
+	background-size: cover;
 	display: flex;
 	width: auto;
 	height: 400px;
@@ -40,6 +41,7 @@ header h1 {
 	text-align: center;
 	align-self: center;
 	font-size: 70px;
+	font-weight: bold;
 }
 .container {
 	width: auto;
