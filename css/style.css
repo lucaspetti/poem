@@ -1,6 +1,5 @@
 /* set body and h1, h2, h3 */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
-
 @import url("components/button.css");
 @import url("components/dropdown.css");
 /*
@@ -35,7 +34,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	border-bottom: 1px solid darkblue;
+	border-bottom: 1px solid black;
 }
 header h1 {
 	text-align: center;
