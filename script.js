@@ -136,6 +136,14 @@ function portugueseSite (){
   poemImage.height = 378;
   poemImage.width = 675;
 }
+/*
+Poetry Foundation
+poets.org
+poesie-francaise.fr
+poesi.as
+Modo de usar e co
+Escamandro
+*/
 //English poems array:
 const englishPoems = [
   {
@@ -248,7 +256,6 @@ i carry your heart (i carry it in my heart)<br>'
   From this ultimate dim Thule.<br />'
   },
   {
-    //number five
     name: '<strong>Adrienne Rich</strong>',
     poem: '<strong>What kinds of times are these?</strong><br><br>\
 There\'s a place between two stands of trees where the grass grows uphill<br>\
@@ -259,7 +266,19 @@ I\'ve walked there picking mushrooms at the edge of dread, but don\'t be fooled<
 this isn\'t a Russian poem, this is not somewhere else but here,<br>\
 our country moving closer to its own truth and dread,<br>\
 its own ways of making people disappear<br>'
-  }
+  },
+  { //number six. Add Robert Frost, John Keats, William Wordsworth, Emily Dickinson,
+    name: '<strong>W.B. Yeats</strong>',
+    poem: '<strong>Before The World Was Made</strong><br><br>\
+    If I make the lashes dark<br>And the eyes more bright\
+And the lips more scarlet,<br>Or ask if all be right<br>\
+From mirror after mirror,<br>No vanity\'s displayed:<br>\
+I\'m looking for the face I had<br>Before the world was made.<br><br>\
+What if I look upon a man<br>As though on my beloved,<br>\
+And my blood be cold the while<br>And my heart unmoved?<br>\
+Why should he think me cruel<br>Or that he is betrayed?<br>\
+I\'d have him love the thing that was<br>Before the world was made'
+  },
 ] //sorting the Images:
 const englishImgArray = new Array ();
 englishImgArray[0] = new Image(250, 250);
@@ -277,6 +296,8 @@ englishImgArray[3].src = 'https://www.telegraph.co.uk/content/dam/books/2016/04/
 englishImgArray[4] = new Image(200, 125);
 englishImgArray[4].src = 'http://static.poetryfoundation.org/o/harriet/2012/04/adrienne-rich.jpg';
 
+englishImgArray[5] = new Image(220, 300);
+englishImgArray[5].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/William_Butler_Yeats_by_George_Charles_Beresford.jpg/220px-William_Butler_Yeats_by_George_Charles_Beresford.jpg';
 //French poems array:
 const Poesie = [
   {
@@ -374,13 +395,30 @@ Et qu\'il a vu sur l\'eau, couchée en ses longs voiles,<br>\
 La blanche Ophélia flotter, comme un grand lys.'
   },
   {
-    //number five
     name: '<strong>Antoine Wauters</strong>',
     poem: 'Tout part d’un coup de sang, d’un<br>appel rouge au corps. D’un besoin<br>\
 de passer, d’être passé, traversé sur-le-<br>champ. D’un besoin d’entendre plus<br>\
 que de parler. Tout part d’un cri<br>éclair venu d’en bas, babil ou diable,<br>\
 dense aux entrailles.'
-  }
+  },
+  { //number six. Add Paul Valery, Victor hugo, Mallarmé, Christine de Pizan, Anne Marie Albiach, Jean Cocteau
+    name: '<strong>Charles Baudelaire</strong>',
+    poem: '<strong>À une passante</strong><br><br>\
+La rue assourdissante autour de moi hurlait.<br>\
+Longue, mince, en grand deuil, douleur majestueuse,<br>\
+Une femme passa, d\'une main fastueuse<br>\
+Soulevant, balançant le feston et l\'ourlet;<br><br>\
+Agile et noble, avec sa jambe de statue.<br>\
+Moi, je buvais, crispé comme un extravagant,<br>\
+Dans son oeil, ciel livide où germe l\'ouragan,<br>\
+La douceur qui fascine et le plaisir qui tue.<br><br>\
+Un éclair... puis la nuit! - Fugitive beauté<br>\
+Dont le regard m\'a fait soudainement renaître,<br>\
+Ne te verrai-je plus que dans l\'éternité?<br><br>\
+Ailleurs, bien loin d\'ici! trop tard! jamais peut-être!<br>\
+Car j\'ignore où tu fuis, tu ne sais où je vais,<br>\
+Ô toi que j\'eusse aimée, ô toi qui le savais!'
+  },
 ]
 const frenchImgArray = new Array ();
 frenchImgArray[0] = new Image(250, 250);
@@ -397,6 +435,9 @@ frenchImgArray[3].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/
 
 frenchImgArray[4] = new Image(220, 270);
 frenchImgArray[4].src = 'http://www.literaturenights.eu/uploads/304/a70265ce208eff1ef497ca85903831c5.jpg';
+
+frenchImgArray[5] = new Image(231, 300);
+frenchImgArray[5].src = 'https://almabooks.com/wp-content/uploads/2016/10/Baudelaire-231x300.jpg';
 //Spanish poems array:
 const Poesias = [
   {
@@ -534,7 +575,7 @@ Sí,<br>están los Cafés Revolucionarios<br>\
 donde se discute el futuro del mundo<br>Pero nada,<br>\
 nada<br>puede compararse<br>\
 con ella.'
-},{//number five
+},{
   name: '<strong>Violeta Parra</strong>',
   poem: '<strong>Maldigo del alto cielo</strong><br><br>\
 Maldigo del alto cielo<br>La estrella con su reflejo<br>\
@@ -573,7 +614,24 @@ Yo los maldigo llorando<br>Lo libre y lo prisionero<br>\
 Lo dulce y lo pendenciero<br>Le pongo mi maldición<br>\
 En griego y español<br>Por culpa de un traicionero<br>\
 Cuánto será mi dolor.'
-  }
+  },
+  { //number six. Add Garcia Lorca, Octavio Paz, Antonio Machado, Lope de Vega, Juana Inés de la Cruz, Rosario Castellanos
+    name: '<strong>Jorge Luis Borges</strong>',
+    poem: 'Ese alto caballero americano<br>\
+cierra el volumen de Montaigne y sale<br>\
+en busca de otro goce que no vale<br>\
+menos, la tarde que ya exalta el llano.<br><br>\
+Hacia el hondo poniente y su declive,<br>\
+hacia el confín que ese poniente dora,<br>\
+camina por los campos como ahora<br>\
+por la memoria de quien esto escribe.<br><br>\
+Piensa: Leí los libros esenciales<br>\
+y otros compuse que el oscuro olvido<br>\
+no ha de borrar. Un dios me ha concedido<br><br>\
+lo que es dado saber a los mortales.<br>\
+Por todo el continente anda mi nombre;<br>\
+no he vivido. Quisiera ser otro hombre.'
+  },
 ]
 const spanishImgArray = new Array ();
 spanishImgArray[0] = new Image(300, 402); //Neruda
@@ -590,6 +648,9 @@ spanishImgArray[3].src = 'http://2.bp.blogspot.com/_5wUPFCGo68w/TTWbRV-RVzI/AAAA
 
 spanishImgArray[4] = new Image(405, 270); //Violeta Parra
 spanishImgArray[4].src = 'http://www.eldesconcierto.cl/wp-content/uploads/2017/10/violeta-parra-810x540.jpg';
+
+spanishImgArray[5] = new Image(200, 202);
+spanishImgArray[5].src = 'https://images.gr-assets.com/authors/1537559279p5/500.jpg';
 //German poems array:
 const Gedichte = [
   {
@@ -686,6 +747,19 @@ Ich allein bin fern und fortgegeben,<br>und ich zittere wie eine Bitte;<br>\
 denn die schöne Göttin in der Mitte<br>\
 ihrer Mythen glüht und lebt mein Leben.'
   },
+  { //number six. Add Herman Hesse, Friedrich Schiller, Erich Kästner, Günter Grass, Nelly Sachs, Novalis
+    name: '<strong>Rose Ausländer</strong>',
+    poem: '<strong>Noch bist du da</strong><br><br>\
+Wirf deine Angst<br>in die Luft<br><br>\
+Bald<br>ist deine Zeit um<br>\
+bald<br>wächst der Himmel<br>\
+unter dem Gras<br>fallen deine Träume<br>\
+ins Nirgends<br><br>\
+Noch<br>duftet die Nelke<br>\
+singt die Drossel<br>noch darfst du lieben<br>\
+Worte verschenken<br>noch bist du da<br><br>\
+Sei was du bist<br>Gib was du hast'
+  },
 ]
 const germanImgArray = new Array ();
 germanImgArray[0] = new Image(200, 266); //goethe
@@ -702,6 +776,9 @@ germanImgArray[3].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/
 
 germanImgArray[4] = new Image(200, 236); //Rilke
 germanImgArray[4].src = 'https://images.gr-assets.com/authors/1493785350p5/7906.jpg';
+
+germanImgArray[5] = new Image(220, 320);
+germanImgArray[5].src = 'http://1.bp.blogspot.com/_5wUPFCGo68w/Sl0mqSrElJI/AAAAAAAAA90/BF09_M8eFf0/s320/rose_auslander.jpg2.jpg';
 //Italian poems array:
 const Poesia = [
   {
@@ -799,13 +876,31 @@ delle sue mani<br>penetrata<br>\
 nel mio silenzio<br>ho scritto<br>\
 lettere piene d’amore.<br>Non sono mai stato<br>\
 tanto<br>attaccato alla vita.'
-  }
+  },
+  { //number six. Add Alda Merini, Gabriele D'Annunzio, Ludovico Ariosto, Amelia Rosselli, Michelangelo, Moderata Fonte,
+    name: 'Gaspara Stampa',
+    poem: '<strong>La mia vita è un mar</strong><br><br>\
+La mia vita è un mar: l\'acqua è \'l mio pianto,<br>\
+i venti sono l\'aure de\' sospiri,<br>\
+la speranza è la nave, i miei desiri<br>\
+la vela e i remi, che la caccian tanto.<br><br>\
+La tramontana mia è il lume santo<br>\
+de\' miei duo chiari, due stellanti iri,<br>\
+a\' quai convien ch\'ancor lontana i\' miri<br>\
+sena timon, senza nocchier a canto.<br><br>\
+Le perigliose e sùbite tempeste<br>\
+son le teme e le fredde gelosie,<br>\
+al dipartirsi tarde, al venir preste.<br><br>\
+Bonacce non vi son, perché dal die<br>\
+che voi, conte, da me lontan vi feste,<br>\
+partîr con voi l\'ore serene mie.'
+  },
 ]
 const italianImgArray = new Array ();
-italianImgArray[0] = new Image(220, 336); //dante
+italianImgArray[0] = new Image(220, 336);
 italianImgArray[0].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Portrait_de_Dante.jpg/220px-Portrait_de_Dante.jpg';
 
-italianImgArray[1] = new Image(450, 600); //petrarca
+italianImgArray[1] = new Image(450, 600);
 italianImgArray[1].src = 'https://d3d00swyhr67nd.cloudfront.net/w1200h1200/NTIII/NTIII_BLI_355512.jpg';
 
 italianImgArray[2] = new Image(214, 317); //boccaccio
@@ -816,6 +911,9 @@ italianImgArray[3].src = 'https://m.media-amazon.com/images/M/MV5BMjMyOTk0NjU3OF
 
 italianImgArray[4] = new Image(450, 275); //ungaretti
 italianImgArray[4].src = 'https://www.libriantichionline.com/typo3temp/pics/fe33cff6b2.jpeg';
+
+italianImgArray[5] = new Image(335, 400);
+italianImgArray[5].src = 'https://mypoeticside.com/wp-content/uploads/gallery-images/374ddf7.jpeg';
 //Portuguese poems array:
 const Poemas = [
   {
@@ -912,8 +1010,7 @@ os adolescentes nas escolas bufam como cadelas<br>\
 asfixiadas<br>\
 arcanjos de enxofre bombardeiam o horizonte através<br>\
 dos meus sonhos.'
-  },
-  { //number five:
+  }, { //number five:
   	name: '<strong>Dirceu Villa</strong>',
   	poem: '<strong>Pontos-de-fuga do século XX</strong><br><br>\
 Era Yeltsin<br>Em 1995, parecendo uma caricatura<br>\
@@ -922,7 +1019,22 @@ Que dá o Comunismo".<br><br>\
 O que Hobsbawn chamou<br>"Capitalismo de Estado": onde<br>\
 Deus & Mammon dão lugar<br>Aos Canalhas do Partido: tudo<br>\
 Em maiúsculas, ou uniforme militar.'
-  }
+  }, { //number six. Add Sousandrade, Fernando Pessoa, Caetano Veloso, Camões, João Cabral de Melo Neto, Gonçalves Dias, Alda do Espirito Santo
+    name: '<strong>Hilda Hilst</strong>',
+    poem: '<strong>I - Do Desejo</strong><br><br>\
+Porque há desejo em mim, é tudo cintilância.<br>\
+Antes, o cotidiano era um pensar alturas<br>\
+Buscando Aquele Outro decantado<br>\
+Surdo à minha humana ladradura.<br>\
+Visgo e suor, pois nunca se faziam.<br>\
+Hoje, de carne e osso, laborioso, lascivo<br>\
+Tomas-me o corpo. E que descanso me dás<br>\
+Depois das lidas. Sonhei penhascos<br>\
+Quando havia o jardim aqui ao lado.<br>\
+Pensei subidas onde não havia rastros.<br>\
+Extasiada, fodo contigo<br>\
+Ao invés de ganir diante do Nada.'
+  },
 ]
 const portugueseImgArray = new Array ();
 portugueseImgArray[0] = new Image(240, 285); //drummond
@@ -939,3 +1051,7 @@ portugueseImgArray[3].src = 'https://abrilveja.files.wordpress.com/2016/12/piva-
 
 portugueseImgArray[4] = new Image(375, 375); //dirceu villa
 portugueseImgArray[4].src = 'http://www.atelierpoesia.it/portal/images/FOTO_POETI/VILLA_DIRCEU.jpg';
+
+portugueseImgArray[5] = new Image(310, 359);
+portugueseImgArray[5].src = 'http://4.bp.blogspot.com/-HxnBvUOnIdw/UuW8U2FURcI/AAAAAAAAFcQ/zlbiJ48DZek/s1600/hilda+hilst+1.jpg';
+
