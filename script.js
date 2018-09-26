@@ -267,7 +267,7 @@ this isn\'t a Russian poem, this is not somewhere else but here,<br>\
 our country moving closer to its own truth and dread,<br>\
 its own ways of making people disappear<br>'
   },
-  { //number six. Add Robert Frost, John Keats, William Wordsworth, Emily Dickinson,
+  { 
     name: '<strong>W.B. Yeats</strong>',
     poem: '<strong>Before The World Was Made</strong><br><br>\
     If I make the lashes dark<br>And the eyes more bright\
@@ -278,6 +278,83 @@ What if I look upon a man<br>As though on my beloved,<br>\
 And my blood be cold the while<br>And my heart unmoved?<br>\
 Why should he think me cruel<br>Or that he is betrayed?<br>\
 I\'d have him love the thing that was<br>Before the world was made'
+  },
+  {
+    name: '<strong>Robert Frost</strong>',
+    poem: '<strong>The Road not Taken</strong><br><br>\
+Two roads diverged in a yellow wood,<br>\
+And sorry I could not travel both<br>\
+And be one traveler, long I stood<br>\
+And looked down one as far as I could<br>\
+To where it bent in the undergrowth;<br><br>\
+Then took the other, as just as fair,<br>\
+And having perhaps the better claim,<br>\
+Because it was grassy and wanted wear;<br>\
+Though as for that the passing there<br>\
+Had worn them really about the same,<br><br>\
+And both that morning equally lay<br>\
+In leaves no step had trodden black.<br>\
+Oh, I kept the first for another day!<br>\
+Yet knowing how way leads on to way,<br>\
+I doubted if I should ever come back.<br><br>\
+I shall be telling this with a sigh<br>\
+Somewhere ages and ages hence:<br>\
+Two roads diverged in a wood, and I—<br>\
+I took the one less traveled by,<br>\
+And that has made all the difference.'
+  },
+  {//number eight. Add William Wordsworth, Emily Dickinson,
+    name: '<strong>John Keats</strong>',
+    poem: '<strong>To Autumn</strong><br><br>\
+    Season of mists and mellow fruitfulness,<br>\
+   Close bosom-friend of the maturing sun;<br>\
+Conspiring with him how to load and bless<br>\
+   With fruit the vines that round the thatch-eves run;<br>\
+To bend with apples the moss\'d cottage-trees,<br>\
+   And fill all fruit with ripeness to the core;<br>\
+      To swell the gourd, and plump the hazel shells<br>\
+   With a sweet kernel; to set budding more,<br>\
+And still more, later flowers for the bees,<br>\
+Until they think warm days will never cease,<br>\
+      For summer has o\'er-brimm\'d their clammy cells.<br><br>\
+Who hath not seen thee oft amid thy store?<br>\
+   Sometimes whoever seeks abroad may find<br>\
+Thee sitting careless on a granary floor,<br>\
+   Thy hair soft-lifted by the winnowing wind;<br>\
+Or on a half-reap\'d furrow sound asleep,<br>\
+   Drows\'d with the fume of poppies, while thy hook<br>\
+      Spares the next swath and all its twined flowers:<br>\
+And sometimes like a gleaner thou dost keep<br>\
+   Steady thy laden head across a brook;<br>\
+   Or by a cyder-press, with patient look,<br>\
+      Thou watchest the last oozings hours by hours.<br><br>\
+Where are the songs of spring? Ay, Where are they?<br>\
+   Think not of them, thou hast thy music too,—<br>\
+While barred clouds bloom the soft-dying day,<br>\
+   And touch the stubble-plains with rosy hue;<br>\
+Then in a wailful choir the small gnats mourn<br>\
+   Among the river sallows, borne aloft<br>\
+      Or sinking as the light wind lives or dies;<br>\
+And full-grown lambs loud bleat from hilly bourn;<br>\
+   Hedge-crickets sing; and now with treble soft<br>\
+   The red-breast whistles from a garden-croft;<br>\
+      And gathering swallows twitter in the skies.'
+  },
+  {
+    name: '<strong>Emily Dickinson</strong>',
+    poem: '<strong>"Hope" is the thing with feathers</strong><br><br>\
+“Hope” is the thing with feathers -<br>\
+That perches in the soul -<br>\
+And sings the tune without the words -<br>\
+And never stops - at all -<br><br>\
+And sweetest - in the Gale - is heard -<br>\
+And sore must be the storm -<br>\
+That could abash the little Bird<br>\
+That kept so many warm -<br><br>\
+I’ve heard it in the chillest land -<br>\
+And on the strangest Sea -<br>\
+Yet - never - in Extremity,<br>\
+It asked a crumb - of me.'
   },
 ] //sorting the Images:
 const englishImgArray = new Array ();
@@ -298,6 +375,15 @@ englishImgArray[4].src = 'http://static.poetryfoundation.org/o/harriet/2012/04/a
 
 englishImgArray[5] = new Image(220, 300);
 englishImgArray[5].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/William_Butler_Yeats_by_George_Charles_Beresford.jpg/220px-William_Butler_Yeats_by_George_Charles_Beresford.jpg';
+
+englishImgArray[6] = new Image(324, 216);
+englishImgArray[6].src = 'https://media.poetryfoundation.org/m/image/15024/robert-frost-hires-cropped.jpg';
+
+englishImgArray[7] = new Image(324, 216);
+englishImgArray[7].src = 'https://media.poetryfoundation.org/m/image/17209/John_Keats_by_William_Hilton.jpg';
+
+englishImgArray[8] = new Image(324, 216);
+englishImgArray[8].src = 'https://media.poetryfoundation.org/m/image/15913/emily-dickinson-hires-cropped.jpg';
 //French poems array:
 const Poesie = [
   {
