@@ -140,9 +140,11 @@ function portugueseSite (){
 Poetry Foundation
 poets.org
 poesie-francaise.fr
+unjourunpoeme.fr
 poesi.as
 Modo de usar e co
 Escamandro
+
 */
 //English poems array:
 const englishPoems = [
@@ -487,7 +489,7 @@ de passer, d’être passé, traversé sur-le-<br>champ. D’un besoin d’enten
 que de parler. Tout part d’un cri<br>éclair venu d’en bas, babil ou diable,<br>\
 dense aux entrailles.'
   },
-  { //number six. Add Paul Valery, Victor hugo, Mallarmé, Christine de Pizan, Anne Marie Albiach, Jean Cocteau
+  { 
     name: '<strong>Charles Baudelaire</strong>',
     poem: '<strong>À une passante</strong><br><br>\
 La rue assourdissante autour de moi hurlait.<br>\
@@ -504,6 +506,68 @@ Ne te verrai-je plus que dans l\'éternité?<br><br>\
 Ailleurs, bien loin d\'ici! trop tard! jamais peut-être!<br>\
 Car j\'ignore où tu fuis, tu ne sais où je vais,<br>\
 Ô toi que j\'eusse aimée, ô toi qui le savais!'
+  },
+  { 
+    name: '<strong>Paul Valery</strong>',
+    poem: '<strong>Intérieur</strong><br><br>\
+Une esclave aux longs yeux chargés de molles chaînes<br>\
+Change l’eau de mes fleurs, plonge aux glaces prochaines,<br>\
+Au lit mystérieux prodigue ses doigts purs;<br>\
+Elle met une femme au milieu de ces murs<br>\
+Qui, dans ma rêverie errant avec décence,<br>\
+Passe entre mes regards sans briser leur absence,<br>\
+Comme passe le verre au travers du soleil,<br>\
+Et de la raison pure épargne l’appareil.'
+  },
+  {
+    name: '<strong>Victor Hugo</strong>',
+    poem: '<strong>Fable ou Histoire</strong><br><br>\
+Un jour, maigre et sentant un royal appétit,<br>\
+Un singe d’une peau de tigre se vêtit.<br>\
+Le tigre avait été méchant ; lui, fut atroce.<br>\
+Il avait endossé le droit d’être féroce.<br>\
+Il se mit à grincer des dents, criant : Je suis<br>\
+Le vainqueur des halliers, le roi sombre des nuits!<br>\
+Il s’embusqua, brigand des bois, dans les épines<br>\
+Il entassa l’horreur, le meurtre, les rapines,<br>\
+Egorgea les passants, dévasta la forêt,<br>\
+Fit tout ce qu’avait fait la peau qui le couvrait.<br>\
+Il vivait dans un antre, entouré de carnage.<br>\
+Chacun, voyant la peau, croyait au personnage.<br>\
+Il s’écriait, poussant d’affreux rugissements:<br>\
+Regardez, ma caverne est pleine d’ossements;<br>\
+Devant moi tout recule et frémit, tout émigre,<br>\
+Tout tremble ; admirez-moi, voyez, je suis un tigre!<br>\
+Les bêtes l’admiraient, et fuyaient à grands pas.<br>\
+Un belluaire vint, le saisit dans ses bras,<br>\
+Déchira cette peau comme on déchire un linge,<br>\
+Mit à nu ce vainqueur, et dit : Tu n’es qu’un singe!'
+  },
+  {//number nine. Add Mallarmé, Christine de Pizan, Jean Cocteau, Antonin Artaud
+    name: '<strong>Anne Marie Albiach</strong>',
+    poem: '<strong>Flammigère [I]</strong><br><br>\
+La taille du sexe<br>dans l’indécision du genre<br>\
+et les singularités du pluriel<br>nous demeure<br>\
+à nous étrangers<br>assignés à cette blessure<br><br>\
+cette quête rigide<br><br>\
+quelle que soit l’équation<br>résultante inhérée à<br>\
+l’énigme<br>la chair rejoint le sang<br>\
+et s’y confond<br>à la chaleur<br>\
+existe<br>dans la précision de l’absence<br>\
+Espace alourdit à noir<br>lenteur de caresse<br>\
+simultanéité charnelle<br>au point d’espace où se confrontent<br>\
+nos futurs assimilables<br>et la jointure mâle qui nous unit<br>\
+l’un à l’autre<br>dans “l’énigme chaleureuse de la langue”<br>\
+cet envers du réel<br>où<br>\
+Ortie femelle<br><br>\
+la stérilité pince l’entraille verte<br>à immobile<br>\
+à impavide<br>à netteté des cicatrices<br>\
+et mort renouvelée des lames<br>couteaux inhérents dans leur lumière<br><br>\
+il se lève     il se rabaisse<br>\
+il se lève     il se replie    en noir     tel en l’œuf d’une<br>\
+plage chatoyante de chaleur<br>\
+et lové au sable il renaît dans les fibres stériles de<br>\
+l’androgyne trinitaire'
   },
 ]
 const frenchImgArray = new Array ();
@@ -524,6 +588,15 @@ frenchImgArray[4].src = 'http://www.literaturenights.eu/uploads/304/a70265ce208e
 
 frenchImgArray[5] = new Image(231, 300);
 frenchImgArray[5].src = 'https://almabooks.com/wp-content/uploads/2016/10/Baudelaire-231x300.jpg';
+
+frenchImgArray[6] = new Image(220, 322);
+frenchImgArray[6].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Paul_Val%C3%A9ry_-_photo_Henri_Manuel.jpg/220px-Paul_Val%C3%A9ry_-_photo_Henri_Manuel.jpg';
+
+frenchImgArray[7] = new Image(260, 340);
+frenchImgArray[7].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Victor_Hugo_by_%C3%89tienne_Carjat_1876.jpg/260px-Victor_Hugo_by_%C3%89tienne_Carjat_1876.jpg';
+
+frenchImgArray[8] = new Image(224, 300);
+frenchImgArray[8].src = 'https://jacket2.org/sites/jacket2.org/files/commentary-images/Albiach-Jan-71.jpg';
 //Spanish poems array:
 const Poesias = [
   {
