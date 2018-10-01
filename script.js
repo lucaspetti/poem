@@ -142,6 +142,8 @@ poets.org
 poesie-francaise.fr
 unjourunpoeme.fr
 poesi.as
+poemas-del-alma.com
+culturacolectiva.com
 Modo de usar e co
 Escamandro
 
@@ -342,7 +344,7 @@ And full-grown lambs loud bleat from hilly bourn;<br>\
    The red-breast whistles from a garden-croft;<br>\
       And gathering swallows twitter in the skies.'
   },
-  {
+  { //number nine:
     name: '<strong>Emily Dickinson</strong>',
     poem: '<strong>"Hope" is the thing with feathers</strong><br><br>\
 “Hope” is the thing with feathers -<br>\
@@ -774,7 +776,7 @@ Lo dulce y lo pendenciero<br>Le pongo mi maldición<br>\
 En griego y español<br>Por culpa de un traicionero<br>\
 Cuánto será mi dolor.'
   },
-  { //number six. Add Garcia Lorca, Octavio Paz, Antonio Machado, Lope de Vega, Juana Inés de la Cruz, Rosario Castellanos
+  { 
     name: '<strong>Jorge Luis Borges</strong>',
     poem: 'Ese alto caballero americano<br>\
 cierra el volumen de Montaigne y sale<br>\
@@ -790,6 +792,109 @@ no ha de borrar. Un dios me ha concedido<br><br>\
 lo que es dado saber a los mortales.<br>\
 Por todo el continente anda mi nombre;<br>\
 no he vivido. Quisiera ser otro hombre.'
+  },
+  {
+  	name: '<strong>Federico Garcia Lorca</strong>',
+  	poem: '<strong>El poeta habla por teléfono con el amor</strong><br><br>\
+Tu voz regó la duna de mi pecho<br>\
+en la dulce cabina de madera.<br>\
+Por el sur de mis pies fue primavera<br>\
+y al norte de mi frente flor de helecho.<br><br>\
+Pino de luz por el espacio estrecho<br>\
+cantó sin alborada y sementera<br>\
+y mi llanto prendió por vez primera<br>\
+coronas de esperanza por el techo.<br><br>\
+Dulce y lejana voz por mí vertida.<br>\
+Dulce y lejana voz por mí gustada.<br>\
+Lejana y dulce voz amortecida.<br><br>\
+Lejana como oscura corza herida.<br>\
+Dulce como un sollozo en la nevada.<br>\
+¡Lejana y dulce en tuétano metida!'
+  },
+  {
+  	name: '<strong>Octavio Paz</strong>',
+  	poem: '<strong>La Calle</strong><br><br>\
+Es una calle larga y silenciosa.<br>\
+Ando en tinieblas y tropiezo y caigo<br>\
+y me levanto y piso con pies ciegos<br>\
+las piedras mudas y las hojas secas<br>\
+y alguien detrás de mí también las pisa:<br>\
+si me detengo, se detiene;<br>\
+si corro, corre. Vuelvo el rostro: nadie.<br>\
+Todo está oscuro y sin salida,<br>\
+y doy vueltas en esquinas<br>\
+que dan siempre a la calle<br>\
+donde nadie me espera ni me sigue,<br>\
+donde yo sigo a un hombre que tropieza<br>\
+y se levanta y dice al verme: nadie.'
+  },
+  { //number nine. Add Antonio Machado, Lope de Vega, Rosario Castellanos
+  	name: '<strong>Juana Inés de la Cruz</strong>',
+  	poem: '<strong>Redondillas</strong><br><br>\
+Hombres necios que acusáis<br>\
+a la mujer sin razón,<br>\
+sin ver que sois la ocasión<br>\
+de lo mismo que culpáis:<br><br>\
+si con ansia sin igual<br>\
+solicitáis su desdén,<br>\
+¿por qué queréis que obren bien<br>\
+si las incitáis al mal?<br><br>\
+Cambatís su resistencia<br>\
+y luego, con gravedad,<br>\
+decís que fue liviandad<br>\
+lo que hizo la diligencia.<br><br>\
+Parecer quiere el denuedo<br>\
+de vuestro parecer loco<br>\
+el niño que pone el coco<br>\
+y luego le tiene miedo.<br><br>\
+Queréis, con presunción necia,<br>\
+hallar a la que buscáis,<br>\
+para pretendida, Thais,<br>\
+y en la posesión, Lucrecia.<br><br>\
+¿Qué humor puede ser más raro<br>\
+que el que, falto de consejo,<br>\
+él mismo empaña el espejo,<br>\
+y siente que no esté claro?<br><br>\
+Con el favor y desdén<br>\
+tenéis condición igual,<br>\
+quejándoos, si os tratan mal,<br>\
+burlándoos, si os quieren bien.<br><br>\
+Siempre tan necios andáis<br>\
+que, con desigual nivel,<br>\
+a una culpáis por crüel<br>\
+y a otra por fácil culpáis.<br><br>\
+¿Pues como ha de estar templada<br>\
+la que vuestro amor pretende,<br>\
+si la que es ingrata, ofende,<br>\
+y la que es fácil, enfada?<br><br>\
+Mas, entre el enfado y pena<br>\
+que vuestro gusto refiere,<br>\
+bien haya la que no os quiere<br>\
+y quejaos en hora buena.<br><br>\
+Dan vuestras amantes penas<br>\
+a sus libertades alas,<br>\
+y después de hacerlas malas<br>\
+las queréis hallar muy buenas.<br><br>\
+¿Cuál mayor culpa ha tenido<br>\
+en una pasión errada:<br>\
+la que cae de rogada,<br>\
+o el que ruega de caído?<br><br>\
+¿O cuál es más de culpar,<br>\
+aunque cualquiera mal haga:<br>\
+la que peca por la paga,<br>\
+o el que paga por pecar?<br><br>\
+Pues ¿para qué os espantáis<br>\
+de la culpa que tenéis?<br>\
+Queredlas cual las hacéis<br>\
+o hacedlas cual las buscáis.<br><br>\
+Dejad de solicitar,<br>\
+y después, con más razón,<br>\
+acusaréis la afición<br>\
+de la que os fuere a rogar.<br><br>\
+Bien con muchas armas fundo<br>\
+que lidia vuestra arrogancia,<br>\
+pues en promesa e instancia<br>\
+juntáis diablo, carne y mundo.'
   },
 ]
 const spanishImgArray = new Array ();
@@ -810,6 +915,15 @@ spanishImgArray[4].src = 'http://www.eldesconcierto.cl/wp-content/uploads/2017/1
 
 spanishImgArray[5] = new Image(200, 202);
 spanishImgArray[5].src = 'https://images.gr-assets.com/authors/1537559279p5/500.jpg';
+
+spanishImgArray[6] = new Image(220, 242); //Garcia Lorca
+spanishImgArray[6].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Lorca_%281914%29.jpg/220px-Lorca_%281914%29.jpg';
+
+spanishImgArray[7] = new Image(250, 250); //Octavio Paz
+spanishImgArray[7].src = 'https://res.cloudinary.com/ndbooks/image/upload/w_500,f_auto,q_80,dpr_auto/Paz_Octavio600.jpg';
+
+spanishImgArray[8] = new Image(220, 347); //Juana Ines de la Cruz
+spanishImgArray[8].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Sor_Juana_In%C3%A9s_de_la_Cruz_%28Juan_de_Miranda%29.jpg/220px-Sor_Juana_In%C3%A9s_de_la_Cruz_%28Juan_de_Miranda%29.jpg';
 //German poems array:
 const Gedichte = [
   {
