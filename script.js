@@ -144,6 +144,7 @@ unjourunpoeme.fr
 poesi.as
 poemas-del-alma.com
 culturacolectiva.com
+deutschelyrik.de
 Modo de usar e co
 Escamandro
 
@@ -1020,7 +1021,7 @@ Ich allein bin fern und fortgegeben,<br>und ich zittere wie eine Bitte;<br>\
 denn die schöne Göttin in der Mitte<br>\
 ihrer Mythen glüht und lebt mein Leben.'
   },
-  { //number six. Add Herman Hesse, Friedrich Schiller, Erich Kästner, Günter Grass, Nelly Sachs, Novalis
+  { 
     name: '<strong>Rose Ausländer</strong>',
     poem: '<strong>Noch bist du da</strong><br><br>\
 Wirf deine Angst<br>in die Luft<br><br>\
@@ -1032,6 +1033,34 @@ Noch<br>duftet die Nelke<br>\
 singt die Drossel<br>noch darfst du lieben<br>\
 Worte verschenken<br>noch bist du da<br><br>\
 Sei was du bist<br>Gib was du hast'
+  },
+  { 
+    name: '<strong>Herman Hesse</strong>',
+    poem: '<strong>Kopflos</strong><br><br>\
+Man nehm den Deckel nur vom Topfe<br>\
+Und sieh, wie froh der Dampf entweicht!<br>\
+Wie lebt nach abgeschnittnem Kopfe<br>\
+Das schwere Leben sich so leicht!<br>\
+Kein Schnupfen mehr, kein Nasentropfen,<br>\
+ein Zahnweh und kein Augenbrand<br>\
+Noch Stirnkatarrh noch Schläfenklopfen,<br>\
+Es ist wie im Schlaraffenland.<br>\
+Zwar gibt es ohne Kopf kein Denken,<br>\
+Doch ist es darum nicht so schad,<br>\
+Man kann mit Wein die Kehle tränken,<br>\
+Es ist das beste Gurgelbad.<br>\
+Und ach, wie lebt es sich so stille:<br>\
+Kein Wort, kein Lärm, kein grelles Licht!<br>\
+Und nie mehr sucht man seine Brille<br>\
+Und nie mehr macht man ein Gedicht.'
+  },
+  {
+    name: '<strong>Friedrich Schiller</strong>',
+    poem: '<strong></strong>'
+  },
+  { //number nine. Add Günter Grass, Nelly Sachs, Novalis
+    name: '<strong>Erich Kästner</strong>',
+    poem: '<strong></strong>'
   },
 ]
 const germanImgArray = new Array ();
@@ -1052,6 +1081,15 @@ germanImgArray[4].src = 'https://images.gr-assets.com/authors/1493785350p5/7906.
 
 germanImgArray[5] = new Image(220, 320);
 germanImgArray[5].src = 'http://1.bp.blogspot.com/_5wUPFCGo68w/Sl0mqSrElJI/AAAAAAAAA90/BF09_M8eFf0/s320/rose_auslander.jpg2.jpg';
+
+germanImgArray[6] = new Image();
+germanImgArray[6].src = '';
+
+germanImgArray[7] = new Image();
+germanImgArray[7].src = '';
+
+germanImgArray[8] = new Image();
+germanImgArray[8].src = '';
 //Italian poems array:
 const Poesia = [
   {
