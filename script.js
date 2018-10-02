@@ -1056,11 +1056,66 @@ Und nie mehr macht man ein Gedicht.'
   },
   {
     name: '<strong>Friedrich Schiller</strong>',
-    poem: '<strong></strong>'
+    poem: '<strong>Mädchen aus der Fremde</strong><br><br>\
+In einem Tal bei armen Hirten<br>\
+Erschien mit jedem jungen Jahr,<br>\
+Sobald die ersten Lerchen schwirrten,<br>\
+Ein Mädchen, schön und wunderbar.<br><br>\
+Sie war nicht in dem Tal geboren,<br>\
+Man wußte nicht, woher sie kam,<br>\
+Und schnell war ihre Spur verloren,<br>\
+Sobald das Mädchen Abschied nahm.<br><br>\
+Beseligend war ihre Nähe,<br>\
+Und alle Herzen wurden weit,<br>\
+Doch eine Würde, eine Höhe<br>\
+Entfernte die Vertraulichkeit.<br><br>\
+Sie brachte Blumen mit und Früchte,<br>\
+Gereift auf einer andern Flur,<br>\
+In einem andern Sonnenlichte,<br>\
+In einer glücklichern Natur.<br><br>\
+Und teilte jedem eine Gabe,<br>\
+Dem Früchte, jenem Blumen aus,<br>\
+Der Jüngling und der Greis am Stabe,<br>\
+Ein jeder ging beschenkt nach Haus.<br><br>\
+Willkommen waren alle Gäste,<br>\
+Doch nahte sich ein liebend Paar,<br>\
+Dem reichte sie der Gaben beste,<br>\
+Der Blumen allerschönste dar.'
   },
   { //number nine. Add Günter Grass, Nelly Sachs, Novalis
     name: '<strong>Erich Kästner</strong>',
-    poem: '<strong></strong>'
+    poem: '<strong>Dem revolutionär Jesus zum Geburtstag</strong><br><br>\
+Zweitausend Jahre sind es fast,<br>\
+seit du die Welt verlassen hast,<br>\
+du Opferlamm des Lebens!<br>\
+Du gabst den Armen ihren Gott.<br>\
+Du littest durch der Reichen Spott.<br>\
+Du tatest es vergebens!<br><br>\
+Du sahst Gewalt und Polizei.<br>\
+Du wolltest alle Menschen frei<br>\
+und Frieden auf der Erde.<br>\
+Du wusstest, wie das Elend tut<br>\
+und wolltest allen Menschen gut,<br>\
+damit es schöner werde!<br><br>\
+Du warst ein Revolutionär<br>\
+und machtest dir das Leben schwer<br>\
+mit Schiebern und Gelehrten.<br>\
+Du hast die Freiheit stets beschützt<br>\
+und doch den Menschen nichts genützt.<br>\
+Du kamst an die Verkehrten!<br><br>\
+Du kämpftest tapfer gegen sie<br>\
+und gegen Staat und Industrie<br>\
+und die gesamte Meute.<br>\
+Bis man an dir, weil nichts verfing,<br>\
+Justizmord, kurzerhand, beging.<br>\
+Es war genau wie heute.<br><br>\
+Die Menschen wurden nicht gescheit.<br>\
+Am wenigsten die Christenheit,<br>\
+trotz allem Händefalten.<br>\
+Du hattest sie vergeblich lieb.<br>\
+Du starbst umsonst.<br>\
+Und alles blieb<br>\
+beim alten.'
   },
 ]
 const germanImgArray = new Array ();
@@ -1082,14 +1137,14 @@ germanImgArray[4].src = 'https://images.gr-assets.com/authors/1493785350p5/7906.
 germanImgArray[5] = new Image(220, 320);
 germanImgArray[5].src = 'http://1.bp.blogspot.com/_5wUPFCGo68w/Sl0mqSrElJI/AAAAAAAAA90/BF09_M8eFf0/s320/rose_auslander.jpg2.jpg';
 
-germanImgArray[6] = new Image();
-germanImgArray[6].src = '';
+germanImgArray[6] = new Image(220, 263);
+germanImgArray[6].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hermann_Hesse_2.jpg/220px-Hermann_Hesse_2.jpg';
 
-germanImgArray[7] = new Image();
-germanImgArray[7].src = '';
+germanImgArray[7] = new Image(220, 300);
+germanImgArray[7].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Friedrich_Schiller_by_Ludovike_Simanowiz.jpg/439px-Friedrich_Schiller_by_Ludovike_Simanowiz.jpg';
 
-germanImgArray[8] = new Image();
-germanImgArray[8].src = '';
+germanImgArray[8] = new Image(159, 217);
+germanImgArray[8].src = 'https://upload.wikimedia.org/wikipedia/commons/5/52/Erich_K%C3%A4stner_1961.jpg';
 //Italian poems array:
 const Poesia = [
   {
