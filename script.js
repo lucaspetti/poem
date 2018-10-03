@@ -1261,15 +1261,26 @@ Bonacce non vi son, perché dal die<br>\
 che voi, conte, da me lontan vi feste,<br>\
 partîr con voi l\'ore serene mie.'
   },
-  {//number seven. Add Ludovico Ariosto, Michelangelo, Moderata Fonte,
+  {
     name: '<strong>Alda Merini</strong>',
-    poem: '<strong></strong>'
+    poem: '<strong>L’uccello di fuoco</strong><br><br>\
+della mia mente malata,<br>\
+questo passero grigio<br>\
+che abita nel profondo<br>\
+e col suo pigolio<br>\
+sempre mi fa tremare<br>\
+perché pare indifeso,<br>\
+bisognoso d’amore,<br>\
+qualche volta ha una voce<br>\
+così tenera e nuova<br>\
+che sotto il suo trionfo<br>\
+detto la poesia.'
   },
   {
     name: '<strong>Gabriele D\'Annunzio</strong>',
     poem: '<strong></strong>'
   },
-  {
+  {//number nine. Add Ludovico Ariosto, Michelangelo, Moderata Fonte,
     name: '<strong>Amelia Rosselli</strong>',
     poem: '<strong></strong>'
   },
@@ -1293,8 +1304,8 @@ italianImgArray[4].src = 'https://www.libriantichionline.com/typo3temp/pics/fe33
 italianImgArray[5] = new Image(335, 400);
 italianImgArray[5].src = 'https://mypoeticside.com/wp-content/uploads/gallery-images/374ddf7.jpeg';
 
-italianImgArray[6] = new Image();
-italianImgArray[6].src = '';
+italianImgArray[6] = new Image(220, 331);
+italianImgArray[6].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Alda_Merini.jpg/220px-Alda_Merini.jpg';
 
 italianImgArray[7] = new Image();
 italianImgArray[7].src = '';
