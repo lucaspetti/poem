@@ -1278,11 +1278,34 @@ detto la poesia.'
   },
   {
     name: '<strong>Gabriele D\'Annunzio</strong>',
-    poem: '<strong></strong>'
+    poem: '<strong>O falce di luna calante</strong><br><br>\
+O falce di luna calante<br>\
+che brilli su l’acque deserte,<br>\
+o falce d’argento, qual mèsse di sogni<br>\
+ondeggia al tuo mite chiarore qua giù!<br><br>\
+Aneliti brevi di foglie,<br>\
+sospiri di fiori dal bosco<br>\
+esalano al mare: non canto non grido<br>\
+non suono pe ’l vasto silenzio va.<br><br>\
+Oppresso d’amor, di piacere,<br>\
+il popol de’ vivi s’addorme...<br>\
+O falce calante, qual mèsse di sogni<br>\
+ondeggia al tuo mite chiarore qua giù!'
   },
   {//number nine. Add Ludovico Ariosto, Michelangelo, Moderata Fonte,
     name: '<strong>Amelia Rosselli</strong>',
-    poem: '<strong></strong>'
+    poem: '<strong>Tutto il mondo è vedovo</strong><br><br>\
+Tutto il mondo è vedovo se è vero che tu cammini ancora<br>\
+tutto il mondo è vedovo se è vero! Tutto il mondo<br>\
+è vero se è vero che tu cammini ancora, tutto il<br>\
+mondo è vedovo se tu non muori! Tutto il mondo<br>\
+è mio se è vero che tu non sei vivo ma solo<br>\
+una lanterna per i miei occhi obliqui. Cieca rimasi<br>\
+dalla tua nascita e l’importanza del nuovo giorno<br>\
+non è che notte per la tua distanza. Cieca sono<br>\
+chè tu cammini ancora! Cieca sono che tu cammini<br>\
+e il mondo è vedovo e il mondo è cieco se tu cammini<br>\
+ancora aggrappato ai miei occhi celestiali.'
   },
 ]
 const italianImgArray = new Array ();
@@ -1307,11 +1330,11 @@ italianImgArray[5].src = 'https://mypoeticside.com/wp-content/uploads/gallery-im
 italianImgArray[6] = new Image(220, 331);
 italianImgArray[6].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Alda_Merini.jpg/220px-Alda_Merini.jpg';
 
-italianImgArray[7] = new Image();
-italianImgArray[7].src = '';
+italianImgArray[7] = new Image(220, 312);
+italianImgArray[7].src = 'https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Gabriele_D%27Anunnzio.png/220px-Gabriele_D%27Anunnzio.png';
 
-italianImgArray[8] = new Image();
-italianImgArray[8].src = '';
+italianImgArray[8] = new Image(286, 289);
+italianImgArray[8].src = 'https://www.poets.org/sites/default/files/styles/286x289/public/images/biographies/AmeliaRosselli_NewBioImage.png?itok=lcF4-klX';
 //Portuguese poems array:
 const Poemas = [
   {
