@@ -1214,7 +1214,7 @@ E tremo a mèzza state, ardemdo il verno.<br>\
 <br>\
 Soneto XXII, “Il Canzonieri”'
   }, {
-    name: 'Giovanni Boccaccio',
+    name: '<strong>Giovanni Boccaccio</strong>',
     poem: '<strong>Oh come son talora</strong><br><br>\
     Oh come son talora<br>maravigliosi in noi,<br>\
 Amor, gl\'incendii tuoi!<br>Con accorciato crin, succinta in gonna,<br>\
@@ -1223,7 +1223,7 @@ fra bellicose squadre.<br>Ma così gran valore<br>\
 nelle donne moderne or non si vede,<br>\
 che, s\'han maggior bellezza, han minor fede.'
   }, {
-    name: 'Pier Paolo Pasolini',
+    name: '<strong>Pier Paolo Pasolini</strong>',
     poem: '<strong>Alla bandiera rossa</strong><br><br>\
 Per chi conosce solo il tuo colore, bandiera rossa,<br>\
 tu devi realmente esistere, perché lui esista:<br>chi era coperto di croste è coperto di piaghe,<br>\
@@ -1232,7 +1232,7 @@ l\'analfabeta una bufala o un cane.<br>Chi conosceva appena il tuo colore, bandi
 sta per non conoscerti più, neanche coi sensi:<br>tu che già vanti tante glorie borghesi e operaie,<br>\
 ridiventa straccio, e il più povero ti sventoli.'
   }, { //number five:
-    name: 'Giuseppe Ungaretti',
+    name: '<strong>Giuseppe Ungaretti</strong>',
     poem: '<strong>VEGLIA</strong><br><br>\
 Un’intera nottata<br>buttato vicino<br>\
 a un compagno<br>massacrato<br>\
@@ -1243,8 +1243,8 @@ nel mio silenzio<br>ho scritto<br>\
 lettere piene d’amore.<br>Non sono mai stato<br>\
 tanto<br>attaccato alla vita.'
   },
-  { //number six. Add Alda Merini, Gabriele D'Annunzio, Ludovico Ariosto, Amelia Rosselli, Michelangelo, Moderata Fonte,
-    name: 'Gaspara Stampa',
+  { 
+    name: '<strong>Gaspara Stampa</strong>',
     poem: '<strong>La mia vita è un mar</strong><br><br>\
 La mia vita è un mar: l\'acqua è \'l mio pianto,<br>\
 i venti sono l\'aure de\' sospiri,<br>\
@@ -1260,6 +1260,18 @@ al dipartirsi tarde, al venir preste.<br><br>\
 Bonacce non vi son, perché dal die<br>\
 che voi, conte, da me lontan vi feste,<br>\
 partîr con voi l\'ore serene mie.'
+  },
+  {//number seven. Add Ludovico Ariosto, Michelangelo, Moderata Fonte,
+    name: '<strong>Alda Merini</strong>',
+    poem: '<strong></strong>'
+  },
+  {
+    name: '<strong>Gabriele D\'Annunzio</strong>',
+    poem: '<strong></strong>'
+  },
+  {
+    name: '<strong>Amelia Rosselli</strong>',
+    poem: '<strong></strong>'
   },
 ]
 const italianImgArray = new Array ();
@@ -1280,6 +1292,15 @@ italianImgArray[4].src = 'https://www.libriantichionline.com/typo3temp/pics/fe33
 
 italianImgArray[5] = new Image(335, 400);
 italianImgArray[5].src = 'https://mypoeticside.com/wp-content/uploads/gallery-images/374ddf7.jpeg';
+
+italianImgArray[6] = new Image();
+italianImgArray[6].src = '';
+
+italianImgArray[7] = new Image();
+italianImgArray[7].src = '';
+
+italianImgArray[8] = new Image();
+italianImgArray[8].src = '';
 //Portuguese poems array:
 const Poemas = [
   {
