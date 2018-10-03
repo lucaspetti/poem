@@ -361,6 +361,12 @@ And on the strangest Sea -<br>\
 Yet - never - in Extremity,<br>\
 It asked a crumb - of me.'
   },
+  /*
+  {
+    name: '',
+    poem: ''
+  },  
+  */
 ] //sorting the Images:
 const englishImgArray = new Array ();
 englishImgArray[0] = new Image(250, 250);
@@ -389,6 +395,9 @@ englishImgArray[7].src = 'https://media.poetryfoundation.org/m/image/17209/John_
 
 englishImgArray[8] = new Image(324, 216);
 englishImgArray[8].src = 'https://media.poetryfoundation.org/m/image/15913/emily-dickinson-hires-cropped.jpg';
+
+//englishImgArray[9] = new Image();
+//englishImgArray[9].src = '';
 //French poems array:
 const Poesie = [
   {
