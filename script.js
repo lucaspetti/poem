@@ -1440,7 +1440,7 @@ Que dá o Comunismo".<br><br>\
 O que Hobsbawn chamou<br>"Capitalismo de Estado": onde<br>\
 Deus & Mammon dão lugar<br>Aos Canalhas do Partido: tudo<br>\
 Em maiúsculas, ou uniforme militar.'
-  }, { //number six. Add Sousandrade, Fernando Pessoa, Caetano Veloso, Camões, João Cabral de Melo Neto, Gonçalves Dias, Alda do Espirito Santo
+  }, { 
     name: '<strong>Hilda Hilst</strong>',
     poem: '<strong>I - Do Desejo</strong><br><br>\
 Porque há desejo em mim, é tudo cintilância.<br>\
@@ -1455,6 +1455,91 @@ Quando havia o jardim aqui ao lado.<br>\
 Pensei subidas onde não havia rastros.<br>\
 Extasiada, fodo contigo<br>\
 Ao invés de ganir diante do Nada.'
+  },
+  {
+    name: '<strong>Sousândrade</strong>',
+    poem: '<strong>Harpas Selvagens</strong><br>\
+Harpa XXXII<br><br>\
+Dos rubros flancos do redondo oceano<br>\
+Com suas asas de luz prendendo a terra<br>\
+O sol eu vi nascer, jovem formoso<br>\
+Desordenando pelos ombros de ouro<br>\
+A perfumada luminosa coma,<br>\
+Nas faces de um calor que amor acende<br>\
+Sorriso de coral deixava errante.<br>\
+Em torno de mim não tragas os teus raios,<br>\
+Suspende, sol de fogo! tu, que outrora<br>\
+Em cândidas canções eu te saudava<br>\
+Nesta hora d’esperança, ergue-te e passa<br>\
+Sem ouvir minha lira. Quando infante<br>\
+Nos pés do laranjal adormecido,<br>\
+Orvalhado das flores que choviam<br>\
+Cheirosas dentre o ramo e a bela fruta,<br>\
+Na terra de meus pais eu despertava,<br>\
+Minhas irmãs sorrindo, e o canto e aromas,<br>\
+E o sussurrar da rúbida mangueira<br>\
+Eram teus raios que primeiro vinham<br>\
+Roçar-me as cordas do alaúde brando<br>\
+Nos meus joelhos tímidos vagindo.'
+  },
+  {
+    name: '<strong>Fernando Pessoa</strong>',
+    poem: '<strong>Poema em linha reta</strong><br><br>\
+Nunca conheci quem tivesse levado porrada.<br>\
+Todos os meus conhecidos têm sido campeões em tudo.<br><br>\
+E eu, tantas vezes reles, tantas vezes porco, tantas vezes vil,<br>\
+Eu tantas vezes irrespondivelmente parasita,<br>\
+Indesculpavelmente sujo.<br>\
+Eu, que tantas vezes não tenho tido paciência para tomar banho,<br>\
+Eu, que tantas vezes tenho sido ridículo, absurdo,<br>\
+Que tenho enrolado os pés publicamente nos tapetes das etiquetas,<br>\
+Que tenho sido grotesco, mesquinho, submisso e arrogante,<br>\
+Que tenho sofrido enxovalhos e calado,<br>\
+Que quando não tenho calado, tenho sido mais ridículo ainda;<br>\
+Eu, que tenho sido cômico às criadas de hotel,<br>\
+Eu, que tenho sentido o piscar de olhos dos moços de fretes,<br>\
+Eu, que tenho feito vergonhas financeiras, pedido emprestado<br>\
+[sem pagar,<br>\
+Eu, que, quando a hora do soco surgiu, me tenho agachado<br>\
+Para fora da possibilidade do soco;<br>\
+Eu, que tenho sofrido a angústia das pequenas coisas ridículas,<br>\
+Eu verifico que não tenho par nisto tudo neste mundo.<br><br>\
+Toda a gente que eu conheço e que fala comigo<br>\
+Nunca teve um ato ridículo, nunca sofreu enxovalho,<br>\
+Nunca foi senão príncipe — todos eles príncipes — na vida...<br><br>\
+Quem me dera ouvir de alguém a voz humana<br>\
+Que confessasse não um pecado, mas uma infâmia;<br>\
+Que contasse, não uma violência, mas uma cobardia!<br>\
+Não, são todos o Ideal, se os oiço e me falam.<br>\
+Quem há neste largo mundo que me confesse que uma vez foi vil?<br>\
+Ó príncipes, meus irmãos,<br><br>\
+Arre, estou farto de semideuses!<br>\
+Onde é que há gente no mundo?<br><br>\
+Então sou só eu que é vil e errôneo nesta terra?<br><br>\
+Poderão as mulheres não os terem amado,<br>\
+Podem ter sido traídos — mas ridículos nunca!<br>\
+E eu, que tenho sido ridículo sem ter sido traído,<br>\
+Como posso eu falar com os meus superiores sem titubear?<br>\
+Eu, que venho sido vil, literalmente vil,<br>\
+Vil no sentido mesquinho e infame da vileza.'
+  },
+  { //number nine. Add Caetano Veloso, João Cabral de Melo Neto, Gonçalves Dias, Alda do Espirito Santo
+    name: '<strong>Luís de Camões</strong>',
+    poem: '<strong>Se tanta pena tenho merecida</strong><br><br>\
+Se tanta pena tenho merecida<br>\
+Em pago de sofrer tantas durezas,<br>\
+Provai, Senhora, em mim vossas cruezas,<br>\
+Que aqui tendes u~a alma oferecida.<br><br>\
+Nela experimentai, se sois servida,<br>\
+Desprezos, desfavores e asperezas,<br>\
+Que mores sofrimentos e firmezas<br>\
+Sustentarei na guerra desta vida.<br><br>\
+Mas contra vosso olhos quais serão?<br>\
+Forçado é que tudo se lhe renda,<br>\
+Mas porei por escudo o coração.<br><br>\
+Porque, em tão dura e áspera contenda,<br>\
+Fé bem que, pois não acho defensão,<br>\
+Com me meter nas lanças me defenda.'
   },
 ]
 const portugueseImgArray = new Array ();
@@ -1475,4 +1560,13 @@ portugueseImgArray[4].src = 'http://www.atelierpoesia.it/portal/images/FOTO_POET
 
 portugueseImgArray[5] = new Image(310, 359);
 portugueseImgArray[5].src = 'http://4.bp.blogspot.com/-HxnBvUOnIdw/UuW8U2FURcI/AAAAAAAAFcQ/zlbiJ48DZek/s1600/hilda+hilst+1.jpg';
+
+portugueseImgArray[6] = new Image(220, 239);
+portugueseImgArray[6].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Souza_Andrade.jpg/200px-Souza_Andrade.jpg';
+
+portugueseImgArray[7] = new Image(220, 307);
+portugueseImgArray[7].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Pessoa_chapeu.jpg/220px-Pessoa_chapeu.jpg';
+
+portugueseImgArray[8] = new Image(220, 298);
+portugueseImgArray[8].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Lu%C3%ADs_de_Cam%C3%B5es_por_Fran%C3%A7ois_G%C3%A9rard.jpg/220px-Lu%C3%ADs_de_Cam%C3%B5es_por_Fran%C3%A7ois_G%C3%A9rard.jpg';
 
