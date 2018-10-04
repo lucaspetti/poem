@@ -361,6 +361,18 @@ And on the strangest Sea -<br>\
 Yet - never - in Extremity,<br>\
 It asked a crumb - of me.'
   },
+  {
+    name: '<strong>Bernadette Mayer</strong>',
+    poem: '<strong>Windrowing</strong><br><br>\
+abide with me<br>\
+don’t ever abide<br>\
+gimme anytime a pile<br>\
+of leaf-hay across<br>\
+the field underneath<br>\
+the bright new blue<br>\
+tractor pulling the tedder<br>\
+which is the waffler or fluffer'
+  },
   /*
   {
     name: '',
@@ -396,8 +408,12 @@ englishImgArray[7].src = 'https://media.poetryfoundation.org/m/image/17209/John_
 englishImgArray[8] = new Image(324, 216);
 englishImgArray[8].src = 'https://media.poetryfoundation.org/m/image/15913/emily-dickinson-hires-cropped.jpg';
 
-//englishImgArray[9] = new Image();
-//englishImgArray[9].src = '';
+englishImgArray[9] = new Image(198, 250);
+englishImgArray[9].src = 'http://writing.upenn.edu/epc/authors/mayer/hunger.jpg';
+
+//englishImgArray[10] = new Image();
+//englishImgArray[10].src = '';
+
 //French poems array:
 const Poesie = [
   {
@@ -581,6 +597,12 @@ plage chatoyante de chaleur<br>\
 et lové au sable il renaît dans les fibres stériles de<br>\
 l’androgyne trinitaire'
   },
+  /*
+  {
+    name: '',
+    poem: ''
+  },  
+  */
 ]
 const frenchImgArray = new Array ();
 frenchImgArray[0] = new Image(250, 250);
