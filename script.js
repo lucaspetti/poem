@@ -911,7 +911,7 @@ donde nadie me espera ni me sigue,<br>\
 donde yo sigo a un hombre que tropieza<br>\
 y se levanta y dice al verme: nadie.'
   },
-  { //number nine. Add Antonio Machado, Lope de Vega, Rosario Castellanos
+  { 
   	name: '<strong>Juana Inés de la Cruz</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Sor_Juana_In%C3%A9s_de_la_Cruz_%28Juan_de_Miranda%29.jpg/220px-Sor_Juana_In%C3%A9s_de_la_Cruz_%28Juan_de_Miranda%29.jpg',
     imgWidth: 220,
@@ -982,13 +982,18 @@ que lidia vuestra arrogancia,<br>\
 pues en promesa e instancia<br>\
 juntáis diablo, carne y mundo.'
   },
-  /*{
-    name: '<strong></strong>',
-    imgSource: '',
-    imgWidth: ,
-    imgHeight: ,
-    poem: '<strong></strong>'
-  },*/ 
+  { //number ten. Add Antonio Machado, Lope de Vega
+    name: '<strong>Rosario Castellanos</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Rosario_Castellanos.jpg/220px-Rosario_Castellanos.jpg',
+    imgWidth: 220,
+    imgHeight: 336,
+    poem: '<strong>Canción de Cuna</strong><br><br>\
+    ¿Es grande el mundo? Es grande. Del tamaño del miedo.<br>\
+¿Es largo el tiempo? Es largo. Largo como el olvido.<br>\
+¿Es profunda la mar? Pregúntaselo al náufrago.<br><br>\
+(El Tentador sonríe. Me acaricia el cabello<br>\
+y me dice que duerma.)'
+  },
 ]
 
 //German poems array:
