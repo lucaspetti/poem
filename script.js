@@ -15,9 +15,9 @@ function displayPoem (){
     let number = Math.floor(Math.random()*englishPoems.length);
     poemAuthor.innerHTML = englishPoems[number].name;
     poem.innerHTML = englishPoems[number].poem;
-    poemImage.src = englishImgArray[number].src;
-    poemImage.height = englishImgArray[number].height;
-    poemImage.width = englishImgArray[number].width;
+    poemImage.src = englishPoems[number].imgSource;
+    poemImage.height = englishPoems[number].imgHeight;
+    poemImage.width = englishPoems[number].imgWidth;
   }
 //sort poems in French
   else if (sortBtn.innerHTML === 'Trier') {
@@ -153,6 +153,9 @@ Escamandro
 const englishPoems = [
   {
     name: '<strong>William Shakespeare</strong>',
+    imgSource: 'https://cdn.pensador.com/img/authors/wi/ll/william-shakespeare-2-l.jpg',
+    imgWidth: 250,
+    imgHeight: 250,
     poem: 'Come away, come away, death, <br>And in sad cypress let me be laid.<br>\
 Fly away, fly away, breath\; <br>I am slain by a fair cruel maid. <br>\
 My shroud of white, stuck all with yew, <br>O, prepare it! <br>\
@@ -164,6 +167,9 @@ Sad true lover never find my grave, <br>To weep there!'
   },
   {
     name: '<strong>bp Nichol</strong>',
+    imgSource: 'https://www.poetryinvoice.com/sites/default/files/images/authors/bp-nichol.jpg',
+    imgWidth: 250,
+    imgHeight: 250,
     poem: 'of those saints we know the listing follows<br>saint orm married saint rain<br>\
 gave birth to saint iff and saint ave<br>this is the oldest family<br>\
 saint iff married saint rive<br>gave birth to saint reat<br>\
@@ -179,6 +185,9 @@ dying in the fire reat had set<br><br>(from Martyrology 1)<br>'
   },
   {
     name: '<strong>E.E. Cummings</strong>',
+    imgSource: 'https://2.bp.blogspot.com/--af-ZtkuKOQ/Wq-20a3gTZI/AAAAAAAATeI/LZhHTJAuz3EXGMooR8bAs_fFKzi8z2t8wCLcBGAs/s1600/eecummings.jpg',
+    imgWidth: 240,
+    imgHeight: 150,
     poem: 'i carry your heart with me (i carry it in<br>\
 my heart) i am never without it (anywhere<br>\
 i go you go, my dear; and whatever is done<br>\
@@ -199,6 +208,9 @@ i carry your heart (i carry it in my heart)<br>'
   },
   {
     name: '<strong>Edgar Allan Poe</strong>',
+    imgSource: 'https://www.telegraph.co.uk/content/dam/books/2016/04/19/edgardallanpoe_trans_NvBQzQNjv4Bqeo_i_u9APj8RuoebjoAHt0k9u7HhRJvuo-ZLenGRumA.jpg?imwidth=450',
+    imgWidth: 270,
+    imgHeight: 175,
     poem: '<strong>Dream-Land</strong><br><br>By a route obscure and lonely,<br />\
   Haunted by ill angels only,<br /> \
   Where an Eidolon, named NIGHT,<br />\
@@ -262,6 +274,9 @@ i carry your heart (i carry it in my heart)<br>'
   },
   {
     name: '<strong>Adrienne Rich</strong>',
+    imgSource: 'http://static.poetryfoundation.org/o/harriet/2012/04/adrienne-rich.jpg',
+    imgWidth: 324,
+    imgHeight: 216,
     poem: '<strong>What kinds of times are these?</strong><br><br>\
 There\'s a place between two stands of trees where the grass grows uphill<br>\
 and the old revolutionary road breaks off into shadows<br>\
@@ -274,6 +289,9 @@ its own ways of making people disappear<br>'
   },
   { 
     name: '<strong>W.B. Yeats</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/William_Butler_Yeats_by_George_Charles_Beresford.jpg/220px-William_Butler_Yeats_by_George_Charles_Beresford.jpg',
+    imgWidth: 220,
+    imgHeight: 308,
     poem: '<strong>Before The World Was Made</strong><br><br>\
     If I make the lashes dark<br>And the eyes more bright\
 And the lips more scarlet,<br>Or ask if all be right<br>\
@@ -286,6 +304,9 @@ I\'d have him love the thing that was<br>Before the world was made'
   },
   {
     name: '<strong>Robert Frost</strong>',
+    imgSource: 'https://media.poetryfoundation.org/m/image/15024/robert-frost-hires-cropped.jpg',
+    imgWidth: 294,
+    imgHeight: 199,
     poem: '<strong>The Road not Taken</strong><br><br>\
 Two roads diverged in a yellow wood,<br>\
 And sorry I could not travel both<br>\
@@ -310,6 +331,9 @@ And that has made all the difference.'
   },
   {//number eight. Add William Wordsworth, Emily Dickinson,
     name: '<strong>John Keats</strong>',
+    imgSource: 'https://media.poetryfoundation.org/m/image/17209/John_Keats_by_William_Hilton.jpg',
+    imgWidth: 324,
+    imgHeight: 216,
     poem: '<strong>To Autumn</strong><br><br>\
     Season of mists and mellow fruitfulness,<br>\
    Close bosom-friend of the maturing sun;<br>\
@@ -345,8 +369,11 @@ And full-grown lambs loud bleat from hilly bourn;<br>\
    The red-breast whistles from a garden-croft;<br>\
       And gathering swallows twitter in the skies.'
   },
-  { //number nine:
+  {
     name: '<strong>Emily Dickinson</strong>',
+    imgSource: 'https://media.poetryfoundation.org/m/image/15913/emily-dickinson-hires-cropped.jpg',
+    imgWidth: 324,
+    imgHeight: 216,
     poem: '<strong>"Hope" is the thing with feathers</strong><br><br>\
 “Hope” is the thing with feathers -<br>\
 That perches in the soul -<br>\
@@ -363,6 +390,9 @@ It asked a crumb - of me.'
   },
   {
     name: '<strong>Bernadette Mayer</strong>',
+    imgSource: 'http://writing.upenn.edu/epc/authors/mayer/hunger.jpg',
+    imgWidth: 198,
+    imgHeight: 250,
     poem: '<strong>Windrowing</strong><br><br>\
 abide with me<br>\
 don’t ever abide<br>\
@@ -375,44 +405,14 @@ which is the waffler or fluffer'
   },
   /*
   {
-    name: '',
-    poem: ''
+    name: '<strong></strong>',
+    imgSource: '',
+    imgWidth: ,
+    imgHeight: ,
+    poem: '<strong></strong>'
   },  
   */
-] //sorting the Images:
-const englishImgArray = new Array ();
-englishImgArray[0] = new Image(250, 250);
-englishImgArray[0].src = 'https://cdn.pensador.com/img/authors/wi/ll/william-shakespeare-2-l.jpg';
-
-englishImgArray[1] = new Image(250, 250);
-englishImgArray[1].src = 'https://www.poetryinvoice.com/sites/default/files/images/authors/bp-nichol.jpg';
-
-englishImgArray[2] = new Image(250, 250);
-englishImgArray[2].src = 'https://2.bp.blogspot.com/--af-ZtkuKOQ/Wq-20a3gTZI/AAAAAAAATeI/LZhHTJAuz3EXGMooR8bAs_fFKzi8z2t8wCLcBGAs/s1600/eecummings.jpg';
-
-englishImgArray[3] = new Image(240, 150);
-englishImgArray[3].src = 'https://www.telegraph.co.uk/content/dam/books/2016/04/19/edgardallanpoe_trans_NvBQzQNjv4Bqeo_i_u9APj8RuoebjoAHt0k9u7HhRJvuo-ZLenGRumA.jpg?imwidth=450';
-
-englishImgArray[4] = new Image(200, 125);
-englishImgArray[4].src = 'http://static.poetryfoundation.org/o/harriet/2012/04/adrienne-rich.jpg';
-
-englishImgArray[5] = new Image(220, 300);
-englishImgArray[5].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/William_Butler_Yeats_by_George_Charles_Beresford.jpg/220px-William_Butler_Yeats_by_George_Charles_Beresford.jpg';
-
-englishImgArray[6] = new Image(324, 216);
-englishImgArray[6].src = 'https://media.poetryfoundation.org/m/image/15024/robert-frost-hires-cropped.jpg';
-
-englishImgArray[7] = new Image(324, 216);
-englishImgArray[7].src = 'https://media.poetryfoundation.org/m/image/17209/John_Keats_by_William_Hilton.jpg';
-
-englishImgArray[8] = new Image(324, 216);
-englishImgArray[8].src = 'https://media.poetryfoundation.org/m/image/15913/emily-dickinson-hires-cropped.jpg';
-
-englishImgArray[9] = new Image(198, 250);
-englishImgArray[9].src = 'http://writing.upenn.edu/epc/authors/mayer/hunger.jpg';
-
-//englishImgArray[10] = new Image();
-//englishImgArray[10].src = '';
+]
 
 //French poems array:
 const Poesie = [
