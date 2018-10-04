@@ -24,45 +24,48 @@ function displayPoem (){
     let number = Math.floor(Math.random()*Poesie.length);
     poemAuthor.innerHTML = Poesie[number].name;
     poem.innerHTML = Poesie[number].poem;
-    poemImage.src = frenchImgArray[number].src;
-    poemImage.height = frenchImgArray[number].height;
-    poemImage.width = frenchImgArray[number].width;
+    poemImage.src = Poesie[number].imgSource;
+    poemImage.height = Poesie[number].height;
+    poemImage.width = Poesie[number].width;
   }
 //sort poems in Spanish
   else if (instruction.innerHTML === 'Clica al botón para sortear un poema:') {
     let number = Math.floor(Math.random()*Poesias.length);
     poemAuthor.innerHTML = Poesias[number].name;
     poem.innerHTML = Poesias[number].poem;
-    poemImage.src = spanishImgArray[number].src;
-    poemImage.height = spanishImgArray[number].height;
-    poemImage.width = spanishImgArray[number].width;
+    poemImage.src = Poesias[number].imgSource;
+    poemImage.height = Poesias[number].height;
+    poemImage.width = Poesias[number].width;
   }
 //sort poems in German
   else if (sortBtn.innerHTML === 'Sortieren') {
     let number = Math.floor(Math.random()*Gedichte.length);
     poemAuthor.innerHTML = Gedichte[number].name;
     poem.innerHTML = Gedichte[number].poem;
-    poemImage.src = germanImgArray[number].src;
-    poemImage.height = germanImgArray[number].height;
-    poemImage.width = germanImgArray[number].width;
+    poemImage.src = Gedichte[number].imgSource;
+    poemImage.height = Gedichte[number].height;
+    poemImage.width = Gedichte[number].width;
   }
 //sort poems in Italian
   else if (sortBtn.innerHTML === 'Assortire') {
     let number = Math.floor(Math.random()*Poesia.length);
     poemAuthor.innerHTML = Poesia[number].name;
     poem.innerHTML = Poesia[number].poem;
-    poemImage.src = italianImgArray[number].src;
-    poemImage.height = italianImgArray[number].height;
-    poemImage.width = italianImgArray[number].width;
+    poemImage.src = Poesia[number].imgSource;
+    poemImage.height = Poesia[number].height;
+    poemImage.width = Poesia[number].width;
   }
 //sort poems in Portuguese
   else if (instruction.innerHTML === 'Clique abaixo para sortear um poema:') {
     let number = Math.floor(Math.random()*Poemas.length);
     poemAuthor.innerHTML = Poemas[number].name;
     poem.innerHTML = Poemas[number].poem;
-    poemImage.src = portugueseImgArray[number].src;
-    poemImage.height = portugueseImgArray[number].height;
-    poemImage.width = portugueseImgArray[number].width;
+    poemImage.src = Poemas[number].imgSource;
+    poemImage.height = Poemas[number].height;
+    poemImage.width = Poemas[number].width;
+    //poemImage.src = portugueseImgArray[number].src;
+    //poemImage.height = portugueseImgArray[number].height;
+    //poemImage.width = portugueseImgArray[number].width;
   }
 }
 //access instructions:
@@ -137,6 +140,9 @@ function portugueseSite (){
   poemImage.width = 675;
 }
 /*
+
+SOURCES:
+
 Poetry Foundation
 poets.org
 poesie-francaise.fr
@@ -415,9 +421,13 @@ which is the waffler or fluffer'
 ]
 
 //French poems array:
+
 const Poesie = [
   {
     name: '<strong>François Villon</strong>',
+    imgSource: 'https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxMzA0OTEyMzk3/francois-villon-38551-1-402.jpg',
+    imgHeight: 250,
+    imgWidth: 250,
     poem: 'Frères humains qui après nous vivez<br>\
 N\'ayez les cœurs contre nous endurcis,<br>\
 Car, se pitié de nous pauvres avez,<br>\
@@ -431,6 +441,9 @@ Mais priez Dieu que tous nous vueille absouldre!<br>'
   },
   {
     name: '<strong>Jacques Brel</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jacques_Brel_1963.jpg/220px-Jacques_Brel_1963.jpg',
+    imgWidth: 220,
+    imgHeight: 323,
     poem: '<strong>A mon dernier repas</strong><br>\
 <br>\
 Je veux voir mes voisins<br>\
@@ -443,6 +456,9 @@ Qu\'on buvait en Arbois<br>'
   },
   {
     name: '<strong>Aimé Césaire</strong>',
+    imgSource: 'https://images.gr-assets.com/authors/1288990863p5/49591.jpg',
+    imgWidth: 250,
+    imgHeight: 250,
     poem: '<strong>entre autres massacres</strong><br>\
 <br>\
 de toutes leurs forces \
@@ -458,6 +474,9 @@ toutes les îles/il ne reste plus rien que les quelques mauvais chicots/de l’i
   },
   {
     name: '<strong>Arthur Rimbaud</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Rimbaud.PNG/226px-Rimbaud.PNG',
+    imgWidth: 250,
+    imgHeight: 250,
     poem: '<strong>Ophélie</strong><br><br>\
 I<br>\
 <br>\
@@ -512,6 +531,9 @@ La blanche Ophélia flotter, comme un grand lys.'
   },
   {
     name: '<strong>Antoine Wauters</strong>',
+    imgSource: 'http://www.literaturenights.eu/uploads/304/a70265ce208eff1ef497ca85903831c5.jpg',
+    imgWidth: 220,
+    imgHeight: 270,
     poem: 'Tout part d’un coup de sang, d’un<br>appel rouge au corps. D’un besoin<br>\
 de passer, d’être passé, traversé sur-le-<br>champ. D’un besoin d’entendre plus<br>\
 que de parler. Tout part d’un cri<br>éclair venu d’en bas, babil ou diable,<br>\
@@ -519,6 +541,9 @@ dense aux entrailles.'
   },
   { 
     name: '<strong>Charles Baudelaire</strong>',
+    imgSource: 'https://almabooks.com/wp-content/uploads/2016/10/Baudelaire-231x300.jpg',
+    imgWidth: 231,
+    imgHeight: 300,
     poem: '<strong>À une passante</strong><br><br>\
 La rue assourdissante autour de moi hurlait.<br>\
 Longue, mince, en grand deuil, douleur majestueuse,<br>\
@@ -537,6 +562,9 @@ Car j\'ignore où tu fuis, tu ne sais où je vais,<br>\
   },
   { 
     name: '<strong>Paul Valery</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Paul_Val%C3%A9ry_-_photo_Henri_Manuel.jpg/220px-Paul_Val%C3%A9ry_-_photo_Henri_Manuel.jpg',
+    imgWidth: 220,
+    imgHeight: 322,
     poem: '<strong>Intérieur</strong><br><br>\
 Une esclave aux longs yeux chargés de molles chaînes<br>\
 Change l’eau de mes fleurs, plonge aux glaces prochaines,<br>\
@@ -549,6 +577,9 @@ Et de la raison pure épargne l’appareil.'
   },
   {
     name: '<strong>Victor Hugo</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Victor_Hugo_by_%C3%89tienne_Carjat_1876.jpg/260px-Victor_Hugo_by_%C3%89tienne_Carjat_1876.jpg',
+    imgWidth: 260,
+    imgHeight: 340,
     poem: '<strong>Fable ou Histoire</strong><br><br>\
 Un jour, maigre et sentant un royal appétit,<br>\
 Un singe d’une peau de tigre se vêtit.<br>\
@@ -573,6 +604,9 @@ Mit à nu ce vainqueur, et dit : Tu n’es qu’un singe!'
   },
   {//number nine. Add Mallarmé, Christine de Pizan, Jean Cocteau, Antonin Artaud
     name: '<strong>Anne Marie Albiach</strong>',
+    imgSource: 'https://jacket2.org/sites/jacket2.org/files/commentary-images/Albiach-Jan-71.jpg',
+    imgWidth: 224,
+    imgHeight: 300,
     poem: '<strong>Flammigère [I]</strong><br><br>\
 La taille du sexe<br>dans l’indécision du genre<br>\
 et les singularités du pluriel<br>nous demeure<br>\
@@ -599,6 +633,9 @@ l’androgyne trinitaire'
   },
   {
     name: '<strong>Christine de Pizan</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Christine_de_Pisan_-_cathedra.jpg/220px-Christine_de_Pisan_-_cathedra.jpg',
+    imgWidth: 220,
+    imgHeight: 237,
     poem: '<strong>Mon vrai amour</strong><br><br>\
 Je vous prie,<br>\
 mon doux amour,<br>\
@@ -619,40 +656,15 @@ Où ont refuge<br>\
 Tout ceux qui sont oppressés.'
   },
 ]
-const frenchImgArray = new Array ();
-frenchImgArray[0] = new Image(250, 250);
-frenchImgArray[0].src = 'https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxMzA0OTEyMzk3/francois-villon-38551-1-402.jpg';
 
-frenchImgArray[1] = new Image(220, 323);
-frenchImgArray[1].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jacques_Brel_1963.jpg/220px-Jacques_Brel_1963.jpg';
-
-frenchImgArray[2] = new Image(250, 250);
-frenchImgArray[2].src = 'https://images.gr-assets.com/authors/1288990863p5/49591.jpg';
-
-frenchImgArray[3] = new Image(250, 250);
-frenchImgArray[3].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Rimbaud.PNG/226px-Rimbaud.PNG';
-
-frenchImgArray[4] = new Image(220, 270);
-frenchImgArray[4].src = 'http://www.literaturenights.eu/uploads/304/a70265ce208eff1ef497ca85903831c5.jpg';
-
-frenchImgArray[5] = new Image(231, 300);
-frenchImgArray[5].src = 'https://almabooks.com/wp-content/uploads/2016/10/Baudelaire-231x300.jpg';
-
-frenchImgArray[6] = new Image(220, 322);
-frenchImgArray[6].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Paul_Val%C3%A9ry_-_photo_Henri_Manuel.jpg/220px-Paul_Val%C3%A9ry_-_photo_Henri_Manuel.jpg';
-
-frenchImgArray[7] = new Image(260, 340);
-frenchImgArray[7].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Victor_Hugo_by_%C3%89tienne_Carjat_1876.jpg/260px-Victor_Hugo_by_%C3%89tienne_Carjat_1876.jpg';
-
-frenchImgArray[8] = new Image(224, 300);
-frenchImgArray[8].src = 'https://jacket2.org/sites/jacket2.org/files/commentary-images/Albiach-Jan-71.jpg';
-
-frenchImgArray[9] = new Image(220, 237);
-frenchImgArray[9].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Christine_de_Pisan_-_cathedra.jpg/220px-Christine_de_Pisan_-_cathedra.jpg';
 //Spanish poems array:
+
 const Poesias = [
   {
     name: '<strong>Pablo Neruda</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: 'NECESITO del mar porque me enseña:<br>\
 no sé si aprendo música o conciencia:<br>\
 no sé si es ola sola o ser profundo<br>\
@@ -688,6 +700,9 @@ di mi adhesión al puro movimiento.<br>'
   },
   {
     name: '<strong>Ajo</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Pseudobiografía</strong><br><br>\
 Si quiero que nieve pongo<br>\
 una lavadora de ropa blanca,<br>\
@@ -700,6 +715,9 @@ Fumo mucho para olvidarlo todo,<br>\
 no consigo toser siquiera.'
   },{
     name: '<strong>Blanca Varela</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Nadie nos dice cómo</strong><br>\
 <br>\
 Nadie nos dice cómo<br>\
@@ -713,6 +731,9 @@ cambiar el paso<br>acercarse<br>y oler lo ya vivido<br>\
 y dar la vuelta<br>sencillamente<br>dar la vuelta'
   },{
   name: '<strong>Cecilia Pavón</strong>',
+  imgSource: '',
+  imgHeight: ,
+  imgWidth: ,
   poem: '<strong>Bicicleta robada secuestrada</strong><br><br>\
 Quizás la revolución está en sus cuerpos y yo no la vea<br><br>\
 Esta es la historia de una bicicleta robada<br>\
@@ -788,6 +809,9 @@ nada<br>puede compararse<br>\
 con ella.'
 },{
   name: '<strong>Violeta Parra</strong>',
+  imgSource: '',
+  imgHeight: ,
+  imgWidth: ,
   poem: '<strong>Maldigo del alto cielo</strong><br><br>\
 Maldigo del alto cielo<br>La estrella con su reflejo<br>\
 Maldigo los azulejos<br>Destellos del arroyuelo<br>\
@@ -828,6 +852,9 @@ Cuánto será mi dolor.'
   },
   { 
     name: '<strong>Jorge Luis Borges</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: 'Ese alto caballero americano<br>\
 cierra el volumen de Montaigne y sale<br>\
 en busca de otro goce que no vale<br>\
@@ -845,6 +872,9 @@ no he vivido. Quisiera ser otro hombre.'
   },
   {
   	name: '<strong>Federico Garcia Lorca</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
   	poem: '<strong>El poeta habla por teléfono con el amor</strong><br><br>\
 Tu voz regó la duna de mi pecho<br>\
 en la dulce cabina de madera.<br>\
@@ -863,6 +893,9 @@ Dulce como un sollozo en la nevada.<br>\
   },
   {
   	name: '<strong>Octavio Paz</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
   	poem: '<strong>La Calle</strong><br><br>\
 Es una calle larga y silenciosa.<br>\
 Ando en tinieblas y tropiezo y caigo<br>\
@@ -880,6 +913,9 @@ y se levanta y dice al verme: nadie.'
   },
   { //number nine. Add Antonio Machado, Lope de Vega, Rosario Castellanos
   	name: '<strong>Juana Inés de la Cruz</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
   	poem: '<strong>Redondillas</strong><br><br>\
 Hombres necios que acusáis<br>\
 a la mujer sin razón,<br>\
@@ -978,6 +1014,9 @@ spanishImgArray[8].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/c
 const Gedichte = [
   {
     name: '<strong>Goethe</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Glückliche Fahrt</strong><br><br>\
 Die Nebel zerreißen, <br>Der Himmel ist helle, <br>\
 Und Äolus löset <br>Das ängstliche Band. <br>\
@@ -987,6 +1026,9 @@ Es naht sich die Ferne; <br>Schon seh ich das Land!<br>'
   },
   {
     name: '<strong>Bertolt Brecht</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Die neuen Zeitalter</strong><br>\
 <br>\
 Die neuen Zeitalter beginnen nicht auf einmal.<br>\
@@ -1005,6 +1047,9 @@ Die Weisheit wurde von Mund zu Mund weitergegeben.<br>'
   },
   {
     name: '<strong>Heinrich Heine</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Vermächtniß</strong><br>\
 <br>\
 Nun mein Leben geht zu End’,<br>\
@@ -1036,6 +1081,9 @@ Er vertilge Eu’r Gedächtniß.<br>\
   },
   {
     name: '<strong>Matthias Claudius</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Abendlied</strong><br><br>\
     Der Mond ist aufgegangen,<br>Die goldnen Sternlein prangen<br>\
 Am Himmel hell und klar;<br>Der Wald steht schwarz und schweiget,<br>\
@@ -1061,6 +1109,9 @@ Und laß uns ruhig schlafen!<br>\
 Und unsern kranken Nachbar auch!'
   }, { //number five:
     name: '<strong>Rainer Maria Rilke</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Eranna an Sappho</strong><br><br>\
 O du wilde weite Werferin:<br>Wie ein Speer bei andern Dingen<br>\
 lag ich bei den Meinen. Dein Erklingen<br>warf mich weit. Ich weiß nicht, wo ich bin.<br>\
@@ -1072,6 +1123,9 @@ ihrer Mythen glüht und lebt mein Leben.'
   },
   { 
     name: '<strong>Rose Ausländer</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Noch bist du da</strong><br><br>\
 Wirf deine Angst<br>in die Luft<br><br>\
 Bald<br>ist deine Zeit um<br>\
@@ -1085,6 +1139,9 @@ Sei was du bist<br>Gib was du hast'
   },
   { 
     name: '<strong>Herman Hesse</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Kopflos</strong><br><br>\
 Man nehm den Deckel nur vom Topfe<br>\
 Und sieh, wie froh der Dampf entweicht!<br>\
@@ -1105,6 +1162,9 @@ Und nie mehr macht man ein Gedicht.'
   },
   {
     name: '<strong>Friedrich Schiller</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Mädchen aus der Fremde</strong><br><br>\
 In einem Tal bei armen Hirten<br>\
 Erschien mit jedem jungen Jahr,<br>\
@@ -1133,6 +1193,9 @@ Der Blumen allerschönste dar.'
   },
   { //number nine. Add Günter Grass, Nelly Sachs, Novalis
     name: '<strong>Erich Kästner</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Dem revolutionär Jesus zum Geburtstag</strong><br><br>\
 Zweitausend Jahre sind es fast,<br>\
 seit du die Welt verlassen hast,<br>\
@@ -1198,6 +1261,9 @@ germanImgArray[8].src = 'https://upload.wikimedia.org/wikipedia/commons/5/52/Eri
 const Poesia = [
   {
     name: '<strong>Dante Alighieri</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>INFERNO</strong><br>\
 <br>\
 \         <strong>Dal CANTO I</strong><br>\
@@ -1243,6 +1309,9 @@ che non lasciò già mai persona viva.<br>\
   },
   {
     name: '<strong>Francesco Petrarca</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: 'S’ amor non è, che dunque è quel ch’ io sento?<br>\
 Ma s’egli è amor, per Dio, che cosa e quale?<br>\
 Se buona, ond è effetto aspro mortale?<br>\
@@ -1264,6 +1333,9 @@ E tremo a mèzza state, ardemdo il verno.<br>\
 Soneto XXII, “Il Canzonieri”'
   }, {
     name: '<strong>Giovanni Boccaccio</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Oh come son talora</strong><br><br>\
     Oh come son talora<br>maravigliosi in noi,<br>\
 Amor, gl\'incendii tuoi!<br>Con accorciato crin, succinta in gonna,<br>\
@@ -1273,6 +1345,9 @@ nelle donne moderne or non si vede,<br>\
 che, s\'han maggior bellezza, han minor fede.'
   }, {
     name: '<strong>Pier Paolo Pasolini</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Alla bandiera rossa</strong><br><br>\
 Per chi conosce solo il tuo colore, bandiera rossa,<br>\
 tu devi realmente esistere, perché lui esista:<br>chi era coperto di croste è coperto di piaghe,<br>\
@@ -1282,6 +1357,9 @@ sta per non conoscerti più, neanche coi sensi:<br>tu che già vanti tante glori
 ridiventa straccio, e il più povero ti sventoli.'
   }, { //number five:
     name: '<strong>Giuseppe Ungaretti</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>VEGLIA</strong><br><br>\
 Un’intera nottata<br>buttato vicino<br>\
 a un compagno<br>massacrato<br>\
@@ -1294,6 +1372,9 @@ tanto<br>attaccato alla vita.'
   },
   { 
     name: '<strong>Gaspara Stampa</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>La mia vita è un mar</strong><br><br>\
 La mia vita è un mar: l\'acqua è \'l mio pianto,<br>\
 i venti sono l\'aure de\' sospiri,<br>\
@@ -1312,6 +1393,9 @@ partîr con voi l\'ore serene mie.'
   },
   {
     name: '<strong>Alda Merini</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>L’uccello di fuoco</strong><br><br>\
 della mia mente malata,<br>\
 questo passero grigio<br>\
@@ -1327,6 +1411,9 @@ detto la poesia.'
   },
   {
     name: '<strong>Gabriele D\'Annunzio</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>O falce di luna calante</strong><br><br>\
 O falce di luna calante<br>\
 che brilli su l’acque deserte,<br>\
@@ -1343,6 +1430,9 @@ ondeggia al tuo mite chiarore qua giù!'
   },
   {//number nine. Add Ludovico Ariosto, Michelangelo, Moderata Fonte,
     name: '<strong>Amelia Rosselli</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Tutto il mondo è vedovo</strong><br><br>\
 Tutto il mondo è vedovo se è vero che tu cammini ancora<br>\
 tutto il mondo è vedovo se è vero! Tutto il mondo<br>\
@@ -1388,6 +1478,9 @@ italianImgArray[8].src = 'https://www.poets.org/sites/default/files/styles/286x2
 const Poemas = [
   {
     name: '<strong>Carlos Drummond de Andrade</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Congresso Internacional do Medo</strong><br>\
 <br>\
 Provisoriamente não cantaremos o amor,<br>\
@@ -1404,6 +1497,9 @@ e sobre nossos túmulos nascerão flores amarelas e medrosas<br>'
   },
   {
     name: '<strong>Mário de Andrade</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Cantam Passaros Exoticos no Teu Pubis</strong><br>\
 <br>\
 Cantam pássaros exóticos no teu púbis.<br>\
@@ -1440,6 +1536,9 @@ E só ouvindo-os nos amamos como sonhamos.<br>'
   },
   {
     name: '<strong>Torquato Neto</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Cogito</strong><br><br>\
 eu sou como eu sou<br>pronome<br>\pessoal intransferível<br>do homem que iniciei<br>\
 na medida do impossível<br><br>eu sou como eu sou<br>agora<br>\
@@ -1450,6 +1549,9 @@ eu sou como eu sou<br>vidente<br>e vivo tranqüilamente<br>todas as horas do fim
   },
   {
     name: '<strong>Roberto Piva</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>A piedade</strong><br>\
 <br>\
 Eu urrava nos poliedros da Justiça meu momento<br>\
@@ -1482,6 +1584,9 @@ arcanjos de enxofre bombardeiam o horizonte através<br>\
 dos meus sonhos.'
   }, { //number five:
   	name: '<strong>Dirceu Villa</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
   	poem: '<strong>Pontos-de-fuga do século XX</strong><br><br>\
 Era Yeltsin<br>Em 1995, parecendo uma caricatura<br>\
 De Russo frente às câmeras do Western<br>\Americano, que pensava: "É nisso<br>\
@@ -1491,6 +1596,9 @@ Deus & Mammon dão lugar<br>Aos Canalhas do Partido: tudo<br>\
 Em maiúsculas, ou uniforme militar.'
   }, { 
     name: '<strong>Hilda Hilst</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>I - Do Desejo</strong><br><br>\
 Porque há desejo em mim, é tudo cintilância.<br>\
 Antes, o cotidiano era um pensar alturas<br>\
@@ -1507,6 +1615,9 @@ Ao invés de ganir diante do Nada.'
   },
   {
     name: '<strong>Sousândrade</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Harpas Selvagens</strong><br>\
 Harpa XXXII<br><br>\
 Dos rubros flancos do redondo oceano<br>\
@@ -1533,6 +1644,9 @@ Nos meus joelhos tímidos vagindo.'
   },
   {
     name: '<strong>Fernando Pessoa</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Poema em linha reta</strong><br><br>\
 Nunca conheci quem tivesse levado porrada.<br>\
 Todos os meus conhecidos têm sido campeões em tudo.<br><br>\
@@ -1574,6 +1688,9 @@ Vil no sentido mesquinho e infame da vileza.'
   },
   { //number nine. Add Caetano Veloso, João Cabral de Melo Neto, Gonçalves Dias, Alda do Espirito Santo
     name: '<strong>Luís de Camões</strong>',
+    imgSource: '',
+    imgHeight: ,
+    imgWidth: ,
     poem: '<strong>Se tanta pena tenho merecida</strong><br><br>\
 Se tanta pena tenho merecida<br>\
 Em pago de sofrer tantas durezas,<br>\
