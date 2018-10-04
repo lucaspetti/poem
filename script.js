@@ -597,12 +597,27 @@ plage chatoyante de chaleur<br>\
 et lové au sable il renaît dans les fibres stériles de<br>\
 l’androgyne trinitaire'
   },
-  /*
   {
-    name: '',
-    poem: ''
-  },  
-  */
+    name: '<strong>Christine de Pizan</strong>',
+    poem: '<strong>Mon vrai amour</strong><br><br>\
+Je vous prie,<br>\
+mon doux amour,<br>\
+Mon bien, ma paix, ma vigueur,<br>\
+Ma ressource,<br>\
+Ce que j\'aime le mieux,<br>\
+Qu\'en tous lieux<br>\
+Gai, joli, joyeux toujours,<br>\
+Sans réserve,<br>\
+Soyez et plein d\'allégresse.<br><br>\
+Ami, médecin de mes maux,<br>\
+Me faites vivre et sans déplaisir,<br>\
+Dont on ne pourrait<br>\
+Estimer ni penser les grands biens<br>\
+Car sans cesse<br>\
+Votre bon coeur les attire,<br>\
+Où ont refuge<br>\
+Tout ceux qui sont oppressés.'
+  },
 ]
 const frenchImgArray = new Array ();
 frenchImgArray[0] = new Image(250, 250);
@@ -631,6 +646,9 @@ frenchImgArray[7].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/
 
 frenchImgArray[8] = new Image(224, 300);
 frenchImgArray[8].src = 'https://jacket2.org/sites/jacket2.org/files/commentary-images/Albiach-Jan-71.jpg';
+
+frenchImgArray[9] = new Image(220, 237);
+frenchImgArray[9].src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Christine_de_Pisan_-_cathedra.jpg/220px-Christine_de_Pisan_-_cathedra.jpg';
 //Spanish poems array:
 const Poesias = [
   {
