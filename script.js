@@ -154,7 +154,7 @@ Escamandro
 */
 //English poems array:
 const englishPoems = [
-  {
+  { //1
     name: '<strong>William Shakespeare</strong>',
     imgSource: 'https://cdn.pensador.com/img/authors/wi/ll/william-shakespeare-2-l.jpg',
     imgWidth: 250,
@@ -168,7 +168,7 @@ Not a friend, not a friend greet <br>My poor corpse, where my bones shall be thr
 A thousand thousand sighs to save, <br>Lay me, O, where <br>\
 Sad true lover never find my grave, <br>To weep there!'
   },
-  {
+  { //2
     name: '<strong>bp Nichol</strong>',
     imgSource: 'https://www.poetryinvoice.com/sites/default/files/images/authors/bp-nichol.jpg',
     imgWidth: 250,
@@ -186,7 +186,7 @@ the nameless one<br>saint aggers wife is now forgotten<br>\
 gave birth to saint ump & saint rap<br>gave birth to noone<br>\
 dying in the fire reat had set<br><br>(from Martyrology 1)<br>'
   },
-  {
+  { //3
     name: '<strong>E.E. Cummings</strong>',
     imgSource: 'https://2.bp.blogspot.com/--af-ZtkuKOQ/Wq-20a3gTZI/AAAAAAAATeI/LZhHTJAuz3EXGMooR8bAs_fFKzi8z2t8wCLcBGAs/s1600/eecummings.jpg',
     imgWidth: 240,
@@ -209,7 +209,7 @@ and this is the wonder that\'s keeping the stars apart<br>\
 <br>\
 i carry your heart (i carry it in my heart)<br>'
   },
-  {
+  { //4
     name: '<strong>Edgar Allan Poe</strong>',
     imgSource: 'https://www.telegraph.co.uk/content/dam/books/2016/04/19/edgardallanpoe_trans_NvBQzQNjv4Bqeo_i_u9APj8RuoebjoAHt0k9u7HhRJvuo-ZLenGRumA.jpg?imwidth=450',
     imgWidth: 270,
@@ -275,7 +275,7 @@ i carry your heart (i carry it in my heart)<br>'
   I have wandered home but newly<br />\
   From this ultimate dim Thule.<br />'
   },
-  {
+  { //5
     name: '<strong>Adrienne Rich</strong>',
     imgSource: 'http://static.poetryfoundation.org/o/harriet/2012/04/adrienne-rich.jpg',
     imgWidth: 324,
@@ -290,7 +290,7 @@ this isn\'t a Russian poem, this is not somewhere else but here,<br>\
 our country moving closer to its own truth and dread,<br>\
 its own ways of making people disappear<br>'
   },
-  { 
+  { //6
     name: '<strong>W.B. Yeats</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/William_Butler_Yeats_by_George_Charles_Beresford.jpg/220px-William_Butler_Yeats_by_George_Charles_Beresford.jpg',
     imgWidth: 220,
@@ -305,7 +305,7 @@ And my blood be cold the while<br>And my heart unmoved?<br>\
 Why should he think me cruel<br>Or that he is betrayed?<br>\
 I\'d have him love the thing that was<br>Before the world was made'
   },
-  {
+  { //7
     name: '<strong>Robert Frost</strong>',
     imgSource: 'https://media.poetryfoundation.org/m/image/15024/robert-frost-hires-cropped.jpg',
     imgWidth: 294,
@@ -332,7 +332,7 @@ Two roads diverged in a wood, and I—<br>\
 I took the one less traveled by,<br>\
 And that has made all the difference.'
   },
-  {//number eight. Add William Wordsworth, Emily Dickinson,
+  {//8
     name: '<strong>John Keats</strong>',
     imgSource: 'https://media.poetryfoundation.org/m/image/17209/John_Keats_by_William_Hilton.jpg',
     imgWidth: 324,
@@ -372,7 +372,7 @@ And full-grown lambs loud bleat from hilly bourn;<br>\
    The red-breast whistles from a garden-croft;<br>\
       And gathering swallows twitter in the skies.'
   },
-  {
+  { //9
     name: '<strong>Emily Dickinson</strong>',
     imgSource: 'https://media.poetryfoundation.org/m/image/15913/emily-dickinson-hires-cropped.jpg',
     imgWidth: 324,
@@ -391,7 +391,7 @@ And on the strangest Sea -<br>\
 Yet - never - in Extremity,<br>\
 It asked a crumb - of me.'
   },
-  {
+  { //10
     name: '<strong>Bernadette Mayer</strong>',
     imgSource: 'http://writing.upenn.edu/epc/authors/mayer/hunger.jpg',
     imgWidth: 198,
@@ -405,6 +405,63 @@ the field underneath<br>\
 the bright new blue<br>\
 tractor pulling the tedder<br>\
 which is the waffler or fluffer'
+  },
+  { //11  Add William Wordsworth, Maya Angelou
+    name: '<strong>Ezra Pound</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Lustra_%28private_print%29_-_Ezra_Pound_-_Frontispiece.jpg/220px-Lustra_%28private_print%29_-_Ezra_Pound_-_Frontispiece.jpg',
+    imgWidth: 220,
+    imgHeight: 285,
+    poem: '<strong>Canto XIV</strong><br><br>\
+    With Usura<br><br>\
+With usura hath no man a house of good stone<br>\
+each block cut smooth and well fitting<br>\
+that design might cover their face,<br>\
+with usura<br>\
+hath no man a painted paradise on his church wall<br>\
+harpes et luz<br>\
+or where virgin receiveth message<br>\
+and halo projects from incision,<br>\
+with usura<br>\
+seeth no man Gonzaga his heirs and his concubines<br>\
+no picture is made to endure nor to live with<br>\
+but it is made to sell and sell quickly<br>\
+with usura, sin against nature,<br>\
+is thy bread ever more of stale rags<br>\
+is thy bread dry as paper,<br>\
+with no mountain wheat, no strong flour<br>\
+with usura the line grows thick<br>\
+with usura is no clear demarcation<br>\
+and no man can find site for his dwelling.<br>\
+Stonecutter is kept from his tone<br>\
+weaver is kept from his loom<br><br>\
+WITH USURA<br>\
+wool comes not to market<br>\
+sheep bringeth no gain with usura<br>\
+Usura is a murrain, usura<br>\
+blunteth the needle in the maid\'s hand<br>\
+and stoppeth the spinner\'s cunning. Pietro Lombardo<br>\
+came not by usura<br>\
+Duccio came not by usura<br>\
+nor Pier della Francesca; Zuan Bellin\' not by usura<br>\
+nor was ‘La Calunnia\' painted.<br>\
+Came not by usura Angelico; came not Ambrogio Praedis,<br>\
+Came no church of cut stone signed: Adamo me fecit.<br>\
+Not by usura St. Trophime<br>\
+Not by usura Saint Hilaire,<br>\
+Usura rusteth the chisel<br>\
+It rusteth the craft and the craftsman<br>\
+It gnaweth the thread in the loom<br>\
+None learneth to weave gold in her pattern;<br>\
+Azure hath a canker by usura; cramoisi is unbroidered<br>\
+Emerald findeth no Memling<br>\
+Usura slayeth the child in the womb<br>\
+It stayeth the young man\'s courting<br>\
+It hath brought palsey to bed, lyeth<br>\
+between the young bride and her bridegroom<br><br>\
+CONTRA NATURAM<br>\
+They have brought whores for Eleusis<br>\
+Corpses are set to banquet<br>\
+at behest of usura.'
   },
   /*
   {
