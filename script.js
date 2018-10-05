@@ -713,7 +713,8 @@ los yogures de fresa<br>\
 caduquen en mi cumpleaños.<br>\
 Fumo mucho para olvidarlo todo,<br>\
 no consigo toser siquiera.'
-  },{
+  },
+  {
     name: '<strong>Blanca Varela</strong>',
     imgSource: 'https://deadorkicking.com/wp-content/uploads/featured-img/b/blanca-varela-300x224.jpg',
     imgWidth: 300,
@@ -729,7 +730,8 @@ al compás<br>del cadencioso resuello<br>de su trompa<br>\
 sólo en el reino animal<br>hay ejemplares de tal<br>comportamiento<br>\
 cambiar el paso<br>acercarse<br>y oler lo ya vivido<br>\
 y dar la vuelta<br>sencillamente<br>dar la vuelta'
-  },{
+  },
+  {
   name: '<strong>Cecilia Pavón</strong>',
   imgSource: 'http://2.bp.blogspot.com/_5wUPFCGo68w/TTWbRV-RVzI/AAAAAAAABSU/_6ObuHfL_n4/s1600/pavon.jpg',
   imgWidth: 280,
@@ -807,7 +809,8 @@ Sí,<br>están los Cafés Revolucionarios<br>\
 donde se discute el futuro del mundo<br>Pero nada,<br>\
 nada<br>puede compararse<br>\
 con ella.'
-},{
+},
+{
   name: '<strong>Violeta Parra</strong>',
   imgSource: 'http://www.eldesconcierto.cl/wp-content/uploads/2017/10/violeta-parra-810x540.jpg',
   imgWidth: 405,
