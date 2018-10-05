@@ -479,7 +479,7 @@ at behest of usura.'
 /////////////
 
 const frenchPoems = [
-  {
+  { //1
     name: '<strong>François Villon</strong>',
     imgSource: 'https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxMzA0OTEyMzk3/francois-villon-38551-1-402.jpg',
     imgWidth: 250,
@@ -495,7 +495,7 @@ Et nous les os, devenons cendre et pouldre.<br>\
 De nostre mal personne ne s\'en rie :<br>\
 Mais priez Dieu que tous nous vueille absouldre!<br>'
   },
-  {
+  { //2
     name: '<strong>Jacques Brel</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jacques_Brel_1963.jpg/220px-Jacques_Brel_1963.jpg',
     imgWidth: 220,
@@ -510,7 +510,7 @@ En plus du vin de messe<br>\
 De ce vin si joli<br>\
 Qu\'on buvait en Arbois<br>'
   },
-  {
+  { //3
     name: '<strong>Aimé Césaire</strong>',
     imgSource: 'https://images.gr-assets.com/authors/1288990863p5/49591.jpg',
     imgWidth: 250,
@@ -528,7 +528,7 @@ toutes les îles/il ne reste plus rien que les quelques mauvais chicots/de l’i
 <br>\
 <br>"Soleil cou coupé" (1948)'
   },
-  {
+  {//4
     name: '<strong>Arthur Rimbaud</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Rimbaud.PNG/226px-Rimbaud.PNG',
     imgWidth: 250,
@@ -585,7 +585,7 @@ Tu viens chercher, la nuit, les fleurs que tu cueillis ;<br>\
 Et qu\'il a vu sur l\'eau, couchée en ses longs voiles,<br>\
 La blanche Ophélia flotter, comme un grand lys.'
   },
-  {
+  {//5
     name: '<strong>Antoine Wauters</strong>',
     imgSource: 'http://www.literaturenights.eu/uploads/304/a70265ce208eff1ef497ca85903831c5.jpg',
     imgWidth: 220,
@@ -595,7 +595,7 @@ de passer, d’être passé, traversé sur-le-<br>champ. D’un besoin d’enten
 que de parler. Tout part d’un cri<br>éclair venu d’en bas, babil ou diable,<br>\
 dense aux entrailles.'
   },
-  { 
+  {//6
     name: '<strong>Charles Baudelaire</strong>',
     imgSource: 'https://almabooks.com/wp-content/uploads/2016/10/Baudelaire-231x300.jpg',
     imgWidth: 231,
@@ -616,7 +616,7 @@ Ailleurs, bien loin d\'ici! trop tard! jamais peut-être!<br>\
 Car j\'ignore où tu fuis, tu ne sais où je vais,<br>\
 Ô toi que j\'eusse aimée, ô toi qui le savais!'
   },
-  { 
+  {//7
     name: '<strong>Paul Valery</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Paul_Val%C3%A9ry_-_photo_Henri_Manuel.jpg/220px-Paul_Val%C3%A9ry_-_photo_Henri_Manuel.jpg',
     imgWidth: 220,
@@ -631,7 +631,7 @@ Passe entre mes regards sans briser leur absence,<br>\
 Comme passe le verre au travers du soleil,<br>\
 Et de la raison pure épargne l’appareil.'
   },
-  {
+  { //8
     name: '<strong>Victor Hugo</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Victor_Hugo_by_%C3%89tienne_Carjat_1876.jpg/260px-Victor_Hugo_by_%C3%89tienne_Carjat_1876.jpg',
     imgWidth: 260,
@@ -658,7 +658,7 @@ Un belluaire vint, le saisit dans ses bras,<br>\
 Déchira cette peau comme on déchire un linge,<br>\
 Mit à nu ce vainqueur, et dit : Tu n’es qu’un singe!'
   },
-  {
+  {//9
     name: '<strong>Anne Marie Albiach</strong>',
     imgSource: 'https://jacket2.org/sites/jacket2.org/files/commentary-images/Albiach-Jan-71.jpg',
     imgWidth: 224,
@@ -687,7 +687,7 @@ plage chatoyante de chaleur<br>\
 et lové au sable il renaît dans les fibres stériles de<br>\
 l’androgyne trinitaire'
   },
-  {//number ten. Add Mallarmé, Jean Cocteau, Antonin Artaud
+  {//10 
     name: '<strong>Christine de Pizan</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Christine_de_Pisan_-_cathedra.jpg/220px-Christine_de_Pisan_-_cathedra.jpg',
     imgWidth: 220,
@@ -711,6 +711,53 @@ Votre bon coeur les attire,<br>\
 Où ont refuge<br>\
 Tout ceux qui sont oppressés.'
   },
+  {//11 Add Jean Cocteau, Antonin Artaud
+    name: '<strong>Stéphane Mallarmé</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Portrait_of_St%C3%A9phane_Mallarm%C3%A9.jpg/220px-Portrait_of_St%C3%A9phane_Mallarm%C3%A9.jpg',
+    imgWidth: 220,
+    imgHeight: 302,
+    poem: '<strong>Les Fenêtres</strong><br><br>\
+    Las du triste hôpital, et de l\'encens fétide<br>\
+Qui monte en la blancheur banale des rideaux<br>\
+Vers le grand crucifix ennuyé du mur vide,<br>\
+Le moribond sournois y redresse un vieux dos,<br><br>\
+Se traîne et va, moins pour chauffer sa pourriture<br>\
+Que pour voir du soleil sur les pierres, coller<br>\
+Les poils blancs et les os de la maigre figure<br>\
+Aux fenêtres qu\'un beau rayon clair veut hâler,<br><br>\
+Et la bouche, fiévreuse et d\'azur bleu vorace,<br>\
+Telle, jeune, elle alla respirer son trésor,<br>\
+Une peau virginale et de jadis ! encrasse<br>\
+D\'un long baiser amer les tièdes carreaux d\'or.<br><br>\
+Ivre, il vit, oubliant l\'horreur des saintes huiles,<br>\
+Les tisanes, l\'horloge et le lit infligé,<br>\
+La toux ; et quand le soir saigne parmi les tuiles,<br>\
+Son œil, à l\'horizon de lumière gorgé,<br><br>\
+Voit des galères d\'or, belles comme des cygnes,<br>\
+Sur un fleuve de pourpre et de parfums dormir<br>\
+En berçant l\'éclair fauve et riche de leurs lignes<br>\
+Dans un grand nonchaloir chargé de souvenir!<br><br>\
+Ainsi, pris du dégoût de l\'homme à l\'âme dure<br>\
+Vautré dans le bonheur, où ses seuls appétits<br>\
+Mangent, et qui s\'entête à chercher cette ordure<br>\
+Pour l\'offrir à la femme allaitant ses petits,<br><br>\
+Je fuis et je m\'accroche à toutes les croisées<br>\
+D\'où l\'on tourne l\'épaule à la vie, et, béni,<br>\
+Dans leur verre, lavé d\'éternelles rosées,<br>\
+Que dore le matin chaste de l\'Infini<br><br>\
+Je me mire et me vois ange ! et je meurs, et j\'aime<br>\
+— Que la vitre soit l\'art, soit la mysticité —<br>\
+À renaître, portant mon rêve en diadème,<br>\
+Au ciel antérieur où fleurit la Beauté !<br><br>\
+Mais, hélas ! Ici-bas est maître : sa hantise<br>\
+Vient m\'écœurer parfois jusqu\'en cet abri sûr,<br>\
+Et le vomissement impur de la Bêtise<br>\
+Me force à me boucher le nez devant l\'azur.<br><br>\
+Est-il moyen, ô Moi qui connais l\'amertume,<br>\
+D\'enfoncer le cristal par le monstre insulté<br>\
+Et de m\'enfuir, avec mes deux ailes sans plume<br>\
+— Au risque de tomber pendant l\'éternité?'
+  }
 ]
 //Spanish poems array:
 //////////////
