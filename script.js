@@ -764,7 +764,7 @@ Et de m\'enfuir, avec mes deux ailes sans plume<br>\
 /////////////
 
 const Poesias = [
-  {
+  {//1
     name: '<strong>Pablo Neruda</strong>',
     imgSource: 'http://www.agenciabalcells.com/fileadmin/_processed_/csm_Neruda__Pablo_cd1395ffd0.jpg',
     imgWidth: 300,
@@ -802,7 +802,7 @@ tristeza terca, amontonando olvido,<br>\
 y cambió bruscamente mi existencia:<br>\
 di mi adhesión al puro movimiento.<br>'
   },
-  {
+  {//2
     name: '<strong>Ajo</strong>',
     imgSource: 'http://www.culturasur.com/typo3temp/pics/e12e321467.jpg',
     imgWidth: 425,
@@ -818,7 +818,7 @@ caduquen en mi cumpleaños.<br>\
 Fumo mucho para olvidarlo todo,<br>\
 no consigo toser siquiera.'
   },
-  {
+  {//3
     name: '<strong>Blanca Varela</strong>',
     imgSource: 'https://deadorkicking.com/wp-content/uploads/featured-img/b/blanca-varela-300x224.jpg',
     imgWidth: 300,
@@ -835,7 +835,7 @@ sólo en el reino animal<br>hay ejemplares de tal<br>comportamiento<br>\
 cambiar el paso<br>acercarse<br>y oler lo ya vivido<br>\
 y dar la vuelta<br>sencillamente<br>dar la vuelta'
   },
-  {
+  {//4
   name: '<strong>Cecilia Pavón</strong>',
   imgSource: 'http://2.bp.blogspot.com/_5wUPFCGo68w/TTWbRV-RVzI/AAAAAAAABSU/_6ObuHfL_n4/s1600/pavon.jpg',
   imgWidth: 280,
@@ -914,7 +914,7 @@ donde se discute el futuro del mundo<br>Pero nada,<br>\
 nada<br>puede compararse<br>\
 con ella.'
 },
-{
+{//5
   name: '<strong>Violeta Parra</strong>',
   imgSource: 'http://www.eldesconcierto.cl/wp-content/uploads/2017/10/violeta-parra-810x540.jpg',
   imgWidth: 405,
@@ -957,7 +957,7 @@ Lo dulce y lo pendenciero<br>Le pongo mi maldición<br>\
 En griego y español<br>Por culpa de un traicionero<br>\
 Cuánto será mi dolor.'
   },
-  { 
+  { //6
     name: '<strong>Jorge Luis Borges</strong>',
     imgSource: 'https://images.gr-assets.com/authors/1537559279p5/500.jpg',
     imgWidth: 200,
@@ -977,7 +977,7 @@ lo que es dado saber a los mortales.<br>\
 Por todo el continente anda mi nombre;<br>\
 no he vivido. Quisiera ser otro hombre.'
   },
-  {
+  {//7
   	name: '<strong>Federico Garcia Lorca</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Lorca_%281914%29.jpg/220px-Lorca_%281914%29.jpg',
     imgWidth: 220,
@@ -998,7 +998,7 @@ Lejana como oscura corza herida.<br>\
 Dulce como un sollozo en la nevada.<br>\
 ¡Lejana y dulce en tuétano metida!'
   },
-  {
+  {//8
   	name: '<strong>Octavio Paz</strong>',
     imgSource: 'https://res.cloudinary.com/ndbooks/image/upload/w_500,f_auto,q_80,dpr_auto/Paz_Octavio600.jpg',
     imgWidth: 250,
@@ -1018,7 +1018,7 @@ donde nadie me espera ni me sigue,<br>\
 donde yo sigo a un hombre que tropieza<br>\
 y se levanta y dice al verme: nadie.'
   },
-  { 
+  { //9
   	name: '<strong>Juana Inés de la Cruz</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Sor_Juana_In%C3%A9s_de_la_Cruz_%28Juan_de_Miranda%29.jpg/220px-Sor_Juana_In%C3%A9s_de_la_Cruz_%28Juan_de_Miranda%29.jpg',
     imgWidth: 220,
@@ -1089,7 +1089,7 @@ que lidia vuestra arrogancia,<br>\
 pues en promesa e instancia<br>\
 juntáis diablo, carne y mundo.'
   },
-  { //number ten. Add Antonio Machado, Lope de Vega
+  { //10 Add Antonio Machado, Lope de Vega
     name: '<strong>Rosario Castellanos</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Rosario_Castellanos.jpg/220px-Rosario_Castellanos.jpg',
     imgWidth: 220,
@@ -1101,6 +1101,10 @@ juntáis diablo, carne y mundo.'
 (El Tentador sonríe. Me acaricia el cabello<br>\
 y me dice que duerma.)'
   },
+  /*{
+  name: '<strong></strong>',
+  imgSource: '',
+  }*/
 ]
 
 //German poems array:
