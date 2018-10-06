@@ -1101,10 +1101,27 @@ juntáis diablo, carne y mundo.'
 (El Tentador sonríe. Me acaricia el cabello<br>\
 y me dice que duerma.)'
   },
-  /*{
-  name: '<strong></strong>',
-  imgSource: '',
-  }*/
+  {//11 Add Antonio Machado
+  name: '<strong>Lope de Vega</strong>',
+  imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LopedeVega.jpg/220px-LopedeVega.jpg',
+  imgWidth: 220,
+  imgHeight: 282,
+  poem: '<strong>A una dama que salió revuelta una mañana</strong><br><br>\
+Hermoso desaliño, en quien se fía<br>\
+cuanto después abrasa y enamora,<br>\
+cual suele amanecer turbada aurora,<br>\
+para matar de sol al mediodía.<br><br>\
+Solimán natural, que desconfía<br>\
+el resplandor con que los cielos dora;<br>\
+dajad la arquilla, no os toquéis, señora,<br>\
+tóquese la vejez de vuestra tía.<br><br>\
+Mejor luce el jazmín, mejor la rosa<br>\
+por el revuelto pelo en la nevada<br>\
+columna de marfil, garganta hermosa.<br><br>\
+Para la noche estáis mejor tocada;<br>\
+que no anocheceréis tan aliñosa<br>\
+como hoy amanecéis desaliñada.'
+  }
 ]
 
 //German poems array:
@@ -1112,7 +1129,7 @@ y me dice que duerma.)'
 /////////////
 
 const Gedichte = [
-  {
+  {//1
     name: '<strong>Goethe</strong>',
     imgSource: 'https://images.gr-assets.com/authors/1532614109p5/285217.jpg',
     imgWidth: 200,
@@ -1124,7 +1141,7 @@ Es säuseln die Winde, <br>Es rührt sich der Schiffer. <br>\
 Geschwinde! Geschwinde! <br>Es teilt sich die Welle, <br>\
 Es naht sich die Ferne; <br>Schon seh ich das Land!<br>'
   },
-  {
+  {//2
     name: '<strong>Bertolt Brecht</strong>',
     imgSource: 'https://usefulstooges.com/wp-content/uploads/2016/10/bertolt-brecht-pic.jpg',
     imgWidth: 353,
@@ -1145,7 +1162,7 @@ Noch die Bomber.<br>\
 Von den neuen Antennen kamen die alten Dummheiten.<br>\
 Die Weisheit wurde von Mund zu Mund weitergegeben.<br>'
   },
-  {
+  {//3
     name: '<strong>Heinrich Heine</strong>',
     imgSource: 'https://www.kunstkopie.de/kunst/e_palm/heinrich-heine_palm.jpg',
     imgWidth: 327,
@@ -1179,7 +1196,7 @@ Er vertilge Eu’r Gedächtniß.<br>\
 <br>\
 [1851]'
   },
-  {
+  {//4
     name: '<strong>Matthias Claudius</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/MatthiasClaudius.jpg/170px-MatthiasClaudius.jpg',
     imgWidth: 170,
@@ -1207,7 +1224,7 @@ So legt euch denn, ihr Brüder,<br>In Gottes Namen nieder;<br>\
 Kalt ist der Abendhauch.<br>Verschon uns, Gott! mit Strafen,<br>\
 Und laß uns ruhig schlafen!<br>\
 Und unsern kranken Nachbar auch!'
-  }, { //number five:
+  }, { //5
     name: '<strong>Rainer Maria Rilke</strong>',
     imgSource: 'https://images.gr-assets.com/authors/1493785350p5/7906.jpg',
     imgWidth: 200,
@@ -1221,7 +1238,7 @@ Ich allein bin fern und fortgegeben,<br>und ich zittere wie eine Bitte;<br>\
 denn die schöne Göttin in der Mitte<br>\
 ihrer Mythen glüht und lebt mein Leben.'
   },
-  { 
+  { //6
     name: '<strong>Rose Ausländer</strong>',
     imgSource: 'http://1.bp.blogspot.com/_5wUPFCGo68w/Sl0mqSrElJI/AAAAAAAAA90/BF09_M8eFf0/s320/rose_auslander.jpg2.jpg',
     imgWidth: 220,
@@ -1237,7 +1254,7 @@ singt die Drossel<br>noch darfst du lieben<br>\
 Worte verschenken<br>noch bist du da<br><br>\
 Sei was du bist<br>Gib was du hast'
   },
-  { 
+  { //7
     name: '<strong>Herman Hesse</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hermann_Hesse_2.jpg/220px-Hermann_Hesse_2.jpg',
     imgWidth: 220,
@@ -1260,7 +1277,7 @@ Kein Wort, kein Lärm, kein grelles Licht!<br>\
 Und nie mehr sucht man seine Brille<br>\
 Und nie mehr macht man ein Gedicht.'
   },
-  {
+  {//8
     name: '<strong>Friedrich Schiller</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Friedrich_Schiller_by_Ludovike_Simanowiz.jpg/439px-Friedrich_Schiller_by_Ludovike_Simanowiz.jpg',
     imgWidth: 220,
@@ -1291,7 +1308,7 @@ Doch nahte sich ein liebend Paar,<br>\
 Dem reichte sie der Gaben beste,<br>\
 Der Blumen allerschönste dar.'
   },
-  { //number nine. Add Günter Grass, Nelly Sachs, Novalis
+  { //9 Add Günter Grass, Nelly Sachs, Novalis
     name: '<strong>Erich Kästner</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Erich_K%C3%A4stner_1961.jpg',
     imgWidth: 159,
@@ -1336,7 +1353,7 @@ beim alten.'
 /////////////
 
 const Poesia = [
-  {
+  {//1
     name: '<strong>Dante Alighieri</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Portrait_de_Dante.jpg/220px-Portrait_de_Dante.jpg',
     imgWidth: 220,
@@ -1384,7 +1401,7 @@ che non lasciò già mai persona viva.<br>\
 <br>\
 (...)'
   },
-  {
+  {//2
     name: '<strong>Francesco Petrarca</strong>',
     imgSource: 'https://d3d00swyhr67nd.cloudfront.net/w1200h1200/NTIII/NTIII_BLI_355512.jpg',
     imgWidth: 450,
@@ -1408,7 +1425,7 @@ Ch’ i i’ medesmo non so quel ch’ io mi voglio,<br>\
 E tremo a mèzza state, ardemdo il verno.<br>\
 <br>\
 Soneto XXII, “Il Canzonieri”'
-  }, {
+  }, {//3
     name: '<strong>Giovanni Boccaccio</strong>',
     imgSource: 'https://m.media-amazon.com/images/M/MV5BZjdlZmQwNDItZDVhZi00MzU1LTlhMGMtMDBhZDdlOGZmZWUyXkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_UY317_CR20,0,214,317_AL_.jpg',
     imgWidth: 214,
@@ -1420,7 +1437,7 @@ innamorata donna<br>seguì del suo fedel l\'orme leggiadre<br>\
 fra bellicose squadre.<br>Ma così gran valore<br>\
 nelle donne moderne or non si vede,<br>\
 che, s\'han maggior bellezza, han minor fede.'
-  }, {
+  }, {//4
     name: '<strong>Pier Paolo Pasolini</strong>',
     imgSource: 'https://m.media-amazon.com/images/M/MV5BMjMyOTk0NjU3OF5BMl5BanBnXkFtZTcwNzMwMDgxOA@@._V1_.jpg',
     imgWidth: 370,
@@ -1432,7 +1449,7 @@ il bracciante diventa mendicante,<br>il napoletano calabrese, il calabrese afric
 l\'analfabeta una bufala o un cane.<br>Chi conosceva appena il tuo colore, bandiera rossa,<br>\
 sta per non conoscerti più, neanche coi sensi:<br>tu che già vanti tante glorie borghesi e operaie,<br>\
 ridiventa straccio, e il più povero ti sventoli.'
-  }, { //number five:
+  }, { //5
     name: '<strong>Giuseppe Ungaretti</strong>',
     imgSource: 'https://www.libriantichionline.com/typo3temp/pics/fe33cff6b2.jpeg',
     imgWidth: 450,
@@ -1447,7 +1464,7 @@ nel mio silenzio<br>ho scritto<br>\
 lettere piene d’amore.<br>Non sono mai stato<br>\
 tanto<br>attaccato alla vita.'
   },
-  { 
+  { //6
     name: '<strong>Gaspara Stampa</strong>',
     imgSource: 'https://mypoeticside.com/wp-content/uploads/gallery-images/374ddf7.jpeg',
     imgWidth: 335,
@@ -1468,7 +1485,7 @@ Bonacce non vi son, perché dal die<br>\
 che voi, conte, da me lontan vi feste,<br>\
 partîr con voi l\'ore serene mie.'
   },
-  {
+  {//7
     name: '<strong>Alda Merini</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Alda_Merini.jpg/220px-Alda_Merini.jpg',
     imgWidth: 220,
@@ -1486,7 +1503,7 @@ così tenera e nuova<br>\
 che sotto il suo trionfo<br>\
 detto la poesia.'
   },
-  {
+  {//8
     name: '<strong>Gabriele D\'Annunzio</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Gabriele_D%27Anunnzio.png/220px-Gabriele_D%27Anunnzio.png',
     imgWidth: 220,
@@ -1505,7 +1522,7 @@ il popol de’ vivi s’addorme...<br>\
 O falce calante, qual mèsse di sogni<br>\
 ondeggia al tuo mite chiarore qua giù!'
   },
-  {//number nine. Add Ludovico Ariosto, Michelangelo, Moderata Fonte,
+  {//9 Add Ludovico Ariosto, Michelangelo, Moderata Fonte,
     name: '<strong>Amelia Rosselli</strong>',
     imgSource: 'https://www.poets.org/sites/default/files/styles/286x289/public/images/biographies/AmeliaRosselli_NewBioImage.png?itok=lcF4-klX',
     imgWidth: 286,
@@ -1530,7 +1547,7 @@ ancora aggrappato ai miei occhi celestiali.'
 /////////////
 
 const Poemas = [
-  {
+  {//1
     name: '<strong>Carlos Drummond de Andrade</strong>',
     imgSource: 'https://assets.mubi.com/images/cast_member/74538/image-w240.jpg?1506559121',
     imgWidth: 240,
@@ -1549,7 +1566,7 @@ cantaremos o medo da morte e o medo de depois da morte.<br>\
 Depois morreremos de medo<br>\
 e sobre nossos túmulos nascerão flores amarelas e medrosas<br>'
   },
-  {
+  {//2
     name: '<strong>Mário de Andrade</strong>',
     imgSource: 'https://blackwomenofbrazil.co/wp-content/uploads/2017/06/mc3a1rio-de-andrade.jpg',
     imgWidth: 400,
@@ -1588,7 +1605,7 @@ dos rostos de mármore esbraseados<br>\
 Cantam pássaros exóticos no teu púbis.<br>\
 E só ouvindo-os nos amamos como sonhamos.<br>'
   },
-  {
+  {//3
     name: '<strong>Torquato Neto</strong>',
     imgSource: 'https://i.ytimg.com/vi/BVK9LZLmwMY/0.jpg',
     imgWidth: 480,
@@ -1601,7 +1618,7 @@ nesta hora<br><br>eu sou como eu sou<br>presente<br>\
 desferrolhado indecente<br>feito um pedaço de mim<br><br>\
 eu sou como eu sou<br>vidente<br>e vivo tranqüilamente<br>todas as horas do fim'
   },
-  {
+  {//4
     name: '<strong>Roberto Piva</strong>',
     imgSource: 'https://abrilveja.files.wordpress.com/2016/12/piva-31-460x301.jpg',
     imgWidth: 460,
@@ -1636,7 +1653,7 @@ os adolescentes nas escolas bufam como cadelas<br>\
 asfixiadas<br>\
 arcanjos de enxofre bombardeiam o horizonte através<br>\
 dos meus sonhos.'
-  }, { //number five:
+  }, { //5
   	name: '<strong>Dirceu Villa</strong>',
     imgSource: 'http://www.atelierpoesia.it/portal/images/FOTO_POETI/VILLA_DIRCEU.jpg',
     imgWidth: 375,
@@ -1648,7 +1665,7 @@ Que dá o Comunismo".<br><br>\
 O que Hobsbawn chamou<br>"Capitalismo de Estado": onde<br>\
 Deus & Mammon dão lugar<br>Aos Canalhas do Partido: tudo<br>\
 Em maiúsculas, ou uniforme militar.'
-  }, { 
+  }, { //6
     name: '<strong>Hilda Hilst</strong>',
     imgSource: 'http://4.bp.blogspot.com/-HxnBvUOnIdw/UuW8U2FURcI/AAAAAAAAFcQ/zlbiJ48DZek/s1600/hilda+hilst+1.jpg',
     imgWidth: 310,
@@ -1667,7 +1684,7 @@ Pensei subidas onde não havia rastros.<br>\
 Extasiada, fodo contigo<br>\
 Ao invés de ganir diante do Nada.'
   },
-  {
+  {//7
     name: '<strong>Sousândrade</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Souza_Andrade.jpg/200px-Souza_Andrade.jpg',
     imgWidth: 220,
@@ -1696,7 +1713,7 @@ Eram teus raios que primeiro vinham<br>\
 Roçar-me as cordas do alaúde brando<br>\
 Nos meus joelhos tímidos vagindo.'
   },
-  {
+  {//8
     name: '<strong>Fernando Pessoa</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Pessoa_chapeu.jpg/220px-Pessoa_chapeu.jpg',
     imgWidth: 220,
@@ -1740,7 +1757,7 @@ Como posso eu falar com os meus superiores sem titubear?<br>\
 Eu, que venho sido vil, literalmente vil,<br>\
 Vil no sentido mesquinho e infame da vileza.'
   },
-  { //number nine. Add Caetano Veloso, João Cabral de Melo Neto, Gonçalves Dias, Alda do Espirito Santo, Angélica Freitas, Ricardo Domeneck
+  { //9 Add Caetano Veloso, João Cabral de Melo Neto, Gonçalves Dias, Alda do Espirito Santo, Angélica Freitas, Ricardo Domeneck
     name: '<strong>Luís de Camões</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Lu%C3%ADs_de_Cam%C3%B5es_por_Fran%C3%A7ois_G%C3%A9rard.jpg/220px-Lu%C3%ADs_de_Cam%C3%B5es_por_Fran%C3%A7ois_G%C3%A9rard.jpg',
     imgWidth: 220,
