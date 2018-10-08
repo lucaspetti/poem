@@ -1377,10 +1377,26 @@ das Verdikt \'Antisemitismus\' ist geläufig.'
   }
   {//11 Add Novalis
     name: '<strong>Nelly Sachs</strong>',
-    imgSource: '',
-    imgWidth: ,
-    imgHeight: ,
-    poem: '<strong></strong>'
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Nelly_Sachs_1966.jpg/220px-Nelly_Sachs_1966.jpg',
+    imgWidth: 220,
+    imgHeight: 311,
+    poem: '<strong>Diese Kette von Rätseln</strong><br><br>\
+Diese Kette von Rätseln<br>\
+um den Hals der Nacht gelegt<br>\
+Königswort weit fort geschrieben<br>\
+unlesbar<br>\
+vielleicht in Kometenfahrt<br>\
+wenn die aufgerissene Wunde des Himmels<br>\
+schmerzt<br><br>\
+da<br>\
+in dem Bettler der Raum hat<br>\
+und auf Knieen gehend<br>\
+ausgemessen hat alle Landstraßen<br>\
+mit seinem Leib<br><br>\
+denn es muß ausgelitten werden<br>\
+das Lesbare<br>\
+und Sterben gelernt<br>\
+im Geduldigsein'
   }
 ]
 
