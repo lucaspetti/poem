@@ -470,7 +470,7 @@ at behest of usura.'
     imgWidth: ,
     imgHeight: ,
     poem: '<strong></strong>'
-  },  
+  },
   */
 ]
 
@@ -687,7 +687,7 @@ plage chatoyante de chaleur<br>\
 et lové au sable il renaît dans les fibres stériles de<br>\
 l’androgyne trinitaire'
   },
-  {//10 
+  {//10
     name: '<strong>Christine de Pizan</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Christine_de_Pisan_-_cathedra.jpg/220px-Christine_de_Pisan_-_cathedra.jpg',
     imgWidth: 220,
@@ -1308,7 +1308,7 @@ Doch nahte sich ein liebend Paar,<br>\
 Dem reichte sie der Gaben beste,<br>\
 Der Blumen allerschönste dar.'
   },
-  { //9 Add Günter Grass, Nelly Sachs, Novalis
+  { //9
     name: '<strong>Erich Kästner</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Erich_K%C3%A4stner_1961.jpg',
     imgWidth: 159,
@@ -1346,6 +1346,42 @@ Du starbst umsonst.<br>\
 Und alles blieb<br>\
 beim alten.'
   },
+  {//10
+    name: '<strong>Günter Grass</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/G%C3%BCnter_Grass_auf_dem_Blauen_Sofa.jpg/220px-G%C3%BCnter_Grass_auf_dem_Blauen_Sofa.jpg',
+    imgWidth: 220,
+    imgHeight: 330,
+    poem: '<strong>Was gesagt werden muss</strong><br><br>\
+    Warum schweige ich, verschweige zu lange,<br>\
+was offensichtlich ist und in Planspielen<br>\
+geübt wurde, an deren Ende als Überlebende<br>\
+wir allenfalls Fußnoten sind.<br><br>\
+Es ist das behauptete Recht auf den Erstschlag,<br>\
+der das von einem Maulhelden unterjochte<br>\
+und zum organisierten Jubel gelenkte<br>\
+iranische Volk auslöschen könnte,<br>\
+weil in dessen Machtbereich der Bau<br>\
+einer Atombombe vermutet wird.<br><br>\
+Doch warum untersage ich mir,<br>\
+jenes andere Land beim Namen zu nennen,<br>\
+in dem seit Jahren - wenn auch geheimgehalten -<br>\
+ein wachsend nukleares Potential verfügbar<br>\
+aber außer Kontrolle, weil keiner Prüfung<br>\
+zugänglich ist?<br><br>\
+Das allgemeine Verschweigen dieses Tatbestandes,<br>\
+dem sich mein Schweigen untergeordnet hat,<br>\
+empfinde ich als belastende Lüge<br>\
+und Zwang, der Strafe in Aussicht stellt,<br>\
+sobald er missachtet wird;<br>\
+das Verdikt \'Antisemitismus\' ist geläufig.'
+  }
+  {//11 Add Novalis
+    name: '<strong>Nelly Sachs</strong>',
+    imgSource: '',
+    imgWidth: ,
+    imgHeight: ,
+    poem: '<strong></strong>'
+  }
 ]
 
 //Italian poems array:
