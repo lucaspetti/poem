@@ -1374,7 +1374,7 @@ empfinde ich als belastende Lüge<br>\
 und Zwang, der Strafe in Aussicht stellt,<br>\
 sobald er missachtet wird;<br>\
 das Verdikt \'Antisemitismus\' ist geläufig.'
-  }
+  },
   {//11 Add Novalis
     name: '<strong>Nelly Sachs</strong>',
     imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Nelly_Sachs_1966.jpg/220px-Nelly_Sachs_1966.jpg',
