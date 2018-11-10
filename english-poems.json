@@ -1,11 +1,18 @@
-{
+[
+    {
     "name": "<strong>William Shakespeare</strong>",
     "imgSource": "https://cdn.pensador.com/img/authors/wi/ll/william-shakespeare-2-l.jpg",
     "imgWidth": 250,
     "imgHeight": 250,
+<<<<<<< HEAD
     "poem": "Come away, come away, death, <br>And in sad cypress let me be laid.<br />\
     Fly away, fly away, breath; <br>I am slain by a fair cruel maid. <br>\\
     My shroud of white, stuck all with yew, <br>O, prepare it! <br>\\
+=======
+    "poem": "Come away, come away, death, <br>And in sad cypress let me be laid.<br>\
+    Fly away, fly away, breath; <br>I am slain by a fair cruel maid. <br>\
+    My shroud of white, stuck all with yew, <br>O, prepare it! <br>\
+>>>>>>> 4a0dc50947e60aaec9918f1e109b5b6b9b91b769
     My part of death, no one so true <br>Did share it. <br><br>\
     Not a flower, not a flower sweet, <br>On my black coffin let there be strown. <br>\
     Not a friend, not a friend greet <br>My poor corpse, where my bones shall be thrown. <br>\
@@ -29,6 +36,7 @@
     the nameless one<br>saint aggers wife is now forgotten<br>\
     gave birth to saint ump & saint rap<br>gave birth to noone<br>\
     dying in the fire reat had set<br><br>(from Martyrology 1)<br>"
+<<<<<<< HEAD
   },
   {
     "name": "<strong>E.E. Cummings</strong>",
@@ -300,4 +308,7 @@ CONTRA NATURAM<br>\
 They have brought whores for Eleusis<br>\
 Corpses are set to banquet<br>\
 at behest of usura."
+=======
+>>>>>>> 4a0dc50947e60aaec9918f1e109b5b6b9b91b769
   }
+]
