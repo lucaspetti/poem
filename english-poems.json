@@ -238,18 +238,15 @@ It asked a crumb - of me."
     "imgSource": "http://writing.upenn.edu/epc/authors/mayer/hunger.jpg",
     "imgWidth": 198,
     "imgHeight": 250,
-    "poem": [
-
-    "<strong>Windrowing</strong><br><br>"
-    "abide with me<br>"
-    "don’t ever abide<br>"
-    "gimme anytime a pile<br>"
-    "of leaf-hay across<br>"
-    "the field underneath<br>"
-    "the bright new blue<br>"
-    "tractor pulling the tedder<br>"
-    "which is the waffler or fluffer"
-    ]
+    "poem": "<strong>Windrowing</strong><br><br>\
+    abide with me<br>\
+    don’t ever abide<br>\
+    gimme anytime a pile<br>\
+    of leaf-hay across<br>\
+    the field underneath<br>\
+    the bright new blue<br>\
+    tractor pulling the tedder<br>\
+    which is the waffler or fluffer"
   },
   {
     "name": "<strong>Ezra Pound</strong>",
