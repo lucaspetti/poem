@@ -12,12 +12,28 @@ sortBtn.addEventListener('click', displayPoem);
 function displayPoem (){
 //sort poems in English
   if (sortBtn.innerHTML === 'Sort') {
-    let number = Math.floor(Math.random()*englishPoems.length);
-    poemAuthor.innerHTML = englishPoems[number].name;
-    poem.innerHTML = englishPoems[number].poem;
-    poemImage.src = englishPoems[number].imgSource;
-    poemImage.height = englishPoems[number].imgHeight;
-    poemImage.width = englishPoems[number].imgWidth;
+    fetch(`english-poems copy.json`, {
+      method: "GET",
+      headers: {
+      "Content-Type": "application/json"
+      }
+    })
+    .then(response => response.json())
+    .then((data) => {
+      console.log(data);
+      poemAuthor.innerHTML = data[0].name;
+      poem.innerHTML = data[0].poem;
+      poemImage.src = data[0].imgSource;
+      poemImage.height = data[0].imgHeight;
+      poemImage.width = data[0].imgWidth;
+    });
+
+    // let number = Math.floor(Math.random()*englishPoems.length);
+    // poemAuthor.innerHTML = englishPoems[number].name;
+    // poem.innerHTML = englishPoems[number].poem;
+    // poemImage.src = englishPoems[number].imgSource;
+    // poemImage.height = englishPoems[number].imgHeight;
+    // poemImage.width = englishPoems[number].imgWidth;
   }
 //sort poems in French
   else if (sortBtn.innerHTML === 'Trier') {

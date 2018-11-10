@@ -1,0 +1,16 @@
+[
+  {
+    "name": "<strong>William Shakespeare</strong>",
+    "imgSource": "https://cdn.pensador.com/img/authors/wi/ll/william-shakespeare-2-l.jpg",
+    "imgWidth": 250,
+    "imgHeight": 250,
+    "poem": "Come away, come away, death, <br>And in sad cypress let me be laid.<br />Fly away, fly away, breath; <br>I am slain by a fair cruel maid. <br>My shroud of white, stuck all with yew, <br>O, prepare it! <br>"
+  },
+  {
+    "name": "<strong>bp Nichol</strong>",
+    "imgSource": "https://www.poetryinvoice.com/sites/default/files/images/authors/bp-nichol.jpg",
+    "imgWidth": 250,
+    "imgHeight": 250,
+    "poem": "of those saints we know the listing follows<br>saint orm married saint rain<br>"
+  }
+]
