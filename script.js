@@ -21,7 +21,8 @@ function sortedPoem (data) {
 function displayPoem (){
 //sort poems in English
   if (sortBtn.innerHTML === 'Sort') {
-    fetch(`data/english-poems.json`)
+    const query = "english";
+    fetch(`data/${query}-poems.json`)
     .then(response => response.json())
     .then((data) => {
       sortedPoem(data);
