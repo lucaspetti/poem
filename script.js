@@ -21,12 +21,7 @@ function sortedPoem (data) {
 function displayPoem (){
 //sort poems in English
   if (sortBtn.innerHTML === 'Sort') {
-    fetch(`data/english-poems.json`, {
-      method: "GET",
-      headers: {
-      "Content-Type": "application/json"
-      }
-    })
+    fetch(`data/english-poems.json`)
     .then(response => response.json())
     .then((data) => {
       sortedPoem(data);
@@ -34,12 +29,7 @@ function displayPoem (){
   }
 //sort poems in French
   else if (sortBtn.innerHTML === 'Trier') {
-    fetch(`data/french-poems.json`, {
-      method: "GET",
-      headers: {
-      "Content-Type": "application/json"
-      }
-    })
+    fetch(`data/french-poems.json`)
     .then(response => response.json())
     .then((data) => {
       sortedPoem(data);
@@ -47,12 +37,7 @@ function displayPoem (){
   }
 //sort poems in Spanish
   else if (instruction.innerHTML === 'Clica al botón para sortear un poema:') {
-    fetch(`data/spanish-poems.json`, {
-      method: "GET",
-      headers: {
-      "Content-Type": "application/json"
-      }
-    })
+    fetch(`data/spanish-poems.json`)
     .then(response => response.json())
     .then((data) => {
       sortedPoem(data);
