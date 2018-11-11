@@ -17,7 +17,7 @@
 "Mais priez Dieu que tous nous vueille absouldre!"
   ]
   },
-  { //2
+  {
     "name": "<strong>Jacques Brel</strong>",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jacques_Brel_1963.jpg/220px-Jacques_Brel_1963.jpg",
     "imgWidth": 220,
@@ -151,7 +151,7 @@
 "Et de la raison pure épargne l’appareil."
   ]
   },
-  { //8
+  {
     "name": "<strong>Victor Hugo</strong>",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Victor_Hugo_by_%C3%89tienne_Carjat_1876.jpg/260px-Victor_Hugo_by_%C3%89tienne_Carjat_1876.jpg",
     "imgWidth": 260,
@@ -211,7 +211,7 @@
 "l’androgyne trinitaire"
   ]
   },
-  {//10
+  {
     "name": "<strong>Christine de Pizan</strong>",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Christine_de_Pisan_-_cathedra.jpg/220px-Christine_de_Pisan_-_cathedra.jpg",
     "imgWidth": 220,
@@ -237,7 +237,7 @@
 "Tout ceux qui sont oppressés."
   ]
   },
-  {//11 Add Jean Cocteau, Antonin Artaud
+  {
     "name": "<strong>Stéphane Mallarmé</strong>",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Portrait_of_St%C3%A9phane_Mallarm%C3%A9.jpg/220px-Portrait_of_St%C3%A9phane_Mallarm%C3%A9.jpg",
     "imgWidth": 220,

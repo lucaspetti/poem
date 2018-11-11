@@ -9,12 +9,19 @@ imageContainer.appendChild(poemImage);
 
 sortBtn.addEventListener('click', displayPoem);
 
+function sortedPoem (data) {
+  let number = Math.floor(Math.random()*data.length);
+  poemImage.src = data[number].imgSource;
+  poemAuthor.innerHTML = data[number].name;
+  poemImage.height = data[number].imgHeight;
+  poemImage.width = data[number].imgWidth;
+  poem.innerHTML = data[number].poem.join('<br />\ ');
+}
+
 function displayPoem (){
-
-
 //sort poems in English
   if (sortBtn.innerHTML === 'Sort') {
-    fetch(`english-poems.json`, {
+    fetch(`data/english-poems.json`, {
       method: "GET",
       headers: {
       "Content-Type": "application/json"
@@ -22,26 +29,25 @@ function displayPoem (){
     })
     .then(response => response.json())
     .then((data) => {
-      console.log(data);
-      let number = Math.floor(Math.random()*data.length);
-      poemImage.src = data[number].imgSource;
-      poemAuthor.innerHTML = data[number].name;
-      poemImage.height = data[number].imgHeight;
-      poemImage.width = data[number].imgWidth;
-      poem.innerHTML = data[number].poem.join('<br />\ ');
+      sortedPoem(data);
     });
   }
 //sort poems in French
   else if (sortBtn.innerHTML === 'Trier') {
-    let number = Math.floor(Math.random()*frenchPoems.length);
-    poemAuthor.innerHTML = frenchPoems[number].name;
-    poem.innerHTML = frenchPoems[number].poem;
-    poemImage.src = frenchPoems[number].imgSource;
-    poemImage.height = frenchPoems[number].imgHeight;
-    poemImage.width = frenchPoems[number].imgWidth;
+    fetch(`data/french-poems.json`, {
+      method: "GET",
+      headers: {
+      "Content-Type": "application/json"
+      }
+    })
+    .then(response => response.json())
+    .then((data) => {
+      sortedPoem(data);
+    });
   }
 //sort poems in Spanish
   else if (instruction.innerHTML === 'Clica al botón para sortear un poema:') {
+    // sortedPoem(Poesias);
     let number = Math.floor(Math.random()*Poesias.length);
     poemAuthor.innerHTML = Poesias[number].name;
     poem.innerHTML = Poesias[number].poem;
@@ -51,6 +57,7 @@ function displayPoem (){
   }
 //sort poems in German
   else if (sortBtn.innerHTML === 'Sortieren') {
+    // sortedPoem(Gedichte);
     let number = Math.floor(Math.random()*Gedichte.length);
     poemAuthor.innerHTML = Gedichte[number].name;
     poem.innerHTML = Gedichte[number].poem;
@@ -148,640 +155,32 @@ function portugueseSite (){
   poemImage.height = 378;
   poemImage.width = 675;
 }
-/*
+// SOURCES:
 
-SOURCES:
+// Poetry Foundation
+// poets.org
+// frenchPoems-francaise.fr
+// unjourunpoeme.fr
+// poesi.as
+// poemas-del-alma.com
+// culturacolectiva.com
+// deutschelyrik.de
+// Modo de usar e co
+// Escamandro
 
-Poetry Foundation
-poets.org
-frenchPoems-francaise.fr
-unjourunpoeme.fr
-poesi.as
-poemas-del-alma.com
-culturacolectiva.com
-deutschelyrik.de
-Modo de usar e co
-Escamandro
+// FRENCH: Add Jean Cocteau, Antonin Artaud
 
-*/
-//English poems array:
-const englishPoems = [
-  { //1
-    name: '<strong>William Shakespeare</strong>',
-    imgSource: 'https://cdn.pensador.com/img/authors/wi/ll/william-shakespeare-2-l.jpg',
-    imgWidth: 250,
-    imgHeight: 250,
-    poem: 'Come away, come away, death, <br>And in sad cypress let me be laid.<br>\
-Fly away, fly away, breath\; <br>I am slain by a fair cruel maid. <br>\
-My shroud of white, stuck all with yew, <br>O, prepare it! <br>\
-My part of death, no one so true <br>Did share it. <br><br>\
-Not a flower, not a flower sweet, <br>On my black coffin let there be strown. <br>\
-Not a friend, not a friend greet <br>My poor corpse, where my bones shall be thrown. <br>\
-A thousand thousand sighs to save, <br>Lay me, O, where <br>\
-Sad true lover never find my grave, <br>To weep there!'
-  },
-  { //2
-    name: '<strong>bp Nichol</strong>',
-    imgSource: 'https://www.poetryinvoice.com/sites/default/files/images/authors/bp-nichol.jpg',
-    imgWidth: 250,
-    imgHeight: 250,
-    poem: 'of those saints we know the listing follows<br>saint orm married saint rain<br>\
-gave birth to saint iff and saint ave<br>this is the oldest family<br>\
-saint iff married saint rive<br>gave birth to saint reat<br>\
-who married saint agnes<br>gave birth to saint rand<br>\
-saint ave married saint raits<br>gave birth to saint ranglehold<br>\
-who did not marry<br>of the other families<br>\
-these we mention<br>saint ill married saint ove<br>\
-gave birth to saint and & saint rike<br>saint and did not marry<br>\
-saint rike married saint ain<br>gave birth to their son<br>\
-the nameless one<br>saint aggers wife is now forgotten<br>\
-gave birth to saint ump & saint rap<br>gave birth to noone<br>\
-dying in the fire reat had set<br><br>(from Martyrology 1)<br>'
-  },
-  { //3
-    name: '<strong>E.E. Cummings</strong>',
-    imgSource: 'https://2.bp.blogspot.com/--af-ZtkuKOQ/Wq-20a3gTZI/AAAAAAAATeI/LZhHTJAuz3EXGMooR8bAs_fFKzi8z2t8wCLcBGAs/s1600/eecummings.jpg',
-    imgWidth: 240,
-    imgHeight: 150,
-    poem: 'i carry your heart with me (i carry it in<br>\
-my heart) i am never without it (anywhere<br>\
-i go you go, my dear; and whatever is done<br>\
-by only me is your doing, my darling)<br>\
-\ i fear<br>\
-no fate (for you are my fate, my sweet) i want<br>\
-no world (for beautiful you are my world, my true)<br>\
-and it’s you are whatever a moon has always meant<br>\
-and whatever a sun will always sing is you<br>\
-<br>\
-here is the deepest secret nobody knows<br>\
-(here is the root of the root and the bud of the bud<br>\
-and the sky of the sky of a tree called life; which grows<br>\
-higher than soul can hope or mind can hide)<br>\
-and this is the wonder that\'s keeping the stars apart<br>\
-<br>\
-i carry your heart (i carry it in my heart)<br>'
-  },
-  { //4
-    name: '<strong>Edgar Allan Poe</strong>',
-    imgSource: 'https://www.telegraph.co.uk/content/dam/books/2016/04/19/edgardallanpoe_trans_NvBQzQNjv4Bqeo_i_u9APj8RuoebjoAHt0k9u7HhRJvuo-ZLenGRumA.jpg?imwidth=450',
-    imgWidth: 270,
-    imgHeight: 175,
-    poem: '<strong>Dream-Land</strong><br><br>By a route obscure and lonely,<br />\
-  Haunted by ill angels only,<br /> \
-  Where an Eidolon, named NIGHT,<br />\
-  On a black throne reigns upright,<br />\
-  I have reached these lands but newly<br />\
-  From an ultimate dim Thule<br />\
-  From a wild weird clime that lieth, sublime,<br />\
-  Out of SPACE -- out of TIME.<br /><br />\
-\
-  Bottomless vales and boundless floods,<br />\
-  And chasms, and caves, and Titan woods,<br />\
-  With forms that no man can discover<br />\
-  For the dews that drip all over;<br />\
-  Mountains toppling evermore<br />\
-  Into seas without a shore;<br />\
-  Seas that restlessly aspire,<br />\
-  Surging, unto skies of fire;<br />\
-  Lakes that endlessly outspread<br />\
-  Their lone waters -- lone and dead, --<br />\
-  Their still waters -- still and chilly<br />\
-  With the snows of the lolling lily.<br /><br />\
-\
-  By the lakes that thus outspread<br />\
-  Their lone waters, lone and dead, --<br />\
-  Their sad waters, sad and chilly<br />\
-  With the snows of the lolling lily, --<br />\
-  By the mountains -- near the river<br />\
-  Murmuring lowly, murmuring ever, --<br />\
-  By the grey woods, -- by the swamp<br />\
-  Where the toad and the newt encamp, --<br />\
-  By the dismal tarns and pools<br />\
-  Where dwell the Ghouls, --<br />\
-  By each spot the most unholy --<br />\
-  In each nook most melancholy, --<br />\
-  There the traveller meets aghast<br />\
-  Sheeted Memories of the Past --<br />\
-  Shrouded forms that start and sigh<br />\
-  As they pass the wanderer by --<br />\
-  White-robed forms of friends long given,<br />\
-  In agony, to the Earth -- and Heaven.<br /><br />\
-  \
-  For the heart whose woes are legion<br />\
-  \'Tis a peaceful, soothing region --<br />\
-  For the spirit that walks in shadow<br />\
-  \'Tis -- oh \'tis an Eldorado!<br />\
-  But the traveller, travelling through it,<br />\
-  May not -- dare not openly view it;<br />\
-  Never its mysteries are exposed<br />\
-  To the weak human eye unclosed;<br />\
-  So wills its King, who hath forbid<br />\
-  The uplifting of the fringed lid;<br />\
-  And thus the sad Soul that here passes<br />\
-  Beholds it but through darkened glasses.<br /><br />\
-  \
-  By a route obscure and lonely,<br />\
-  Haunted by ill angels only, <br />\
-  Where an Eidolon, named NIGHT,<br />\
-  On a black throne reigns upright,<br />\
-  I have wandered home but newly<br />\
-  From this ultimate dim Thule.<br />'
-  },
-  { //5
-    name: '<strong>Adrienne Rich</strong>',
-    imgSource: 'http://static.poetryfoundation.org/o/harriet/2012/04/adrienne-rich.jpg',
-    imgWidth: 324,
-    imgHeight: 216,
-    poem: '<strong>What kinds of times are these?</strong><br><br>\
-There\'s a place between two stands of trees where the grass grows uphill<br>\
-and the old revolutionary road breaks off into shadows<br>\
-near a meeting-house abandoned by the persecuted<br>\
-who disappeared into those shadows<br><br>\
-I\'ve walked there picking mushrooms at the edge of dread, but don\'t be fooled<br>\
-this isn\'t a Russian poem, this is not somewhere else but here,<br>\
-our country moving closer to its own truth and dread,<br>\
-its own ways of making people disappear<br>'
-  },
-  { //6
-    name: '<strong>W.B. Yeats</strong>',
-    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/William_Butler_Yeats_by_George_Charles_Beresford.jpg/220px-William_Butler_Yeats_by_George_Charles_Beresford.jpg',
-    imgWidth: 220,
-    imgHeight: 308,
-    poem: '<strong>Before The World Was Made</strong><br><br>\
-    If I make the lashes dark<br>And the eyes more bright\
-And the lips more scarlet,<br>Or ask if all be right<br>\
-From mirror after mirror,<br>No vanity\'s displayed:<br>\
-I\'m looking for the face I had<br>Before the world was made.<br><br>\
-What if I look upon a man<br>As though on my beloved,<br>\
-And my blood be cold the while<br>And my heart unmoved?<br>\
-Why should he think me cruel<br>Or that he is betrayed?<br>\
-I\'d have him love the thing that was<br>Before the world was made'
-  },
-  { //7
-    name: '<strong>Robert Frost</strong>',
-    imgSource: 'https://media.poetryfoundation.org/m/image/15024/robert-frost-hires-cropped.jpg',
-    imgWidth: 294,
-    imgHeight: 199,
-    poem: '<strong>The Road not Taken</strong><br><br>\
-Two roads diverged in a yellow wood,<br>\
-And sorry I could not travel both<br>\
-And be one traveler, long I stood<br>\
-And looked down one as far as I could<br>\
-To where it bent in the undergrowth;<br><br>\
-Then took the other, as just as fair,<br>\
-And having perhaps the better claim,<br>\
-Because it was grassy and wanted wear;<br>\
-Though as for that the passing there<br>\
-Had worn them really about the same,<br><br>\
-And both that morning equally lay<br>\
-In leaves no step had trodden black.<br>\
-Oh, I kept the first for another day!<br>\
-Yet knowing how way leads on to way,<br>\
-I doubted if I should ever come back.<br><br>\
-I shall be telling this with a sigh<br>\
-Somewhere ages and ages hence:<br>\
-Two roads diverged in a wood, and I—<br>\
-I took the one less traveled by,<br>\
-And that has made all the difference.'
-  },
-  {//8
-    name: '<strong>John Keats</strong>',
-    imgSource: 'https://media.poetryfoundation.org/m/image/17209/John_Keats_by_William_Hilton.jpg',
-    imgWidth: 324,
-    imgHeight: 216,
-    poem: '<strong>To Autumn</strong><br><br>\
-    Season of mists and mellow fruitfulness,<br>\
-   Close bosom-friend of the maturing sun;<br>\
-Conspiring with him how to load and bless<br>\
-   With fruit the vines that round the thatch-eves run;<br>\
-To bend with apples the moss\'d cottage-trees,<br>\
-   And fill all fruit with ripeness to the core;<br>\
-      To swell the gourd, and plump the hazel shells<br>\
-   With a sweet kernel; to set budding more,<br>\
-And still more, later flowers for the bees,<br>\
-Until they think warm days will never cease,<br>\
-      For summer has o\'er-brimm\'d their clammy cells.<br><br>\
-Who hath not seen thee oft amid thy store?<br>\
-   Sometimes whoever seeks abroad may find<br>\
-Thee sitting careless on a granary floor,<br>\
-   Thy hair soft-lifted by the winnowing wind;<br>\
-Or on a half-reap\'d furrow sound asleep,<br>\
-   Drows\'d with the fume of poppies, while thy hook<br>\
-      Spares the next swath and all its twined flowers:<br>\
-And sometimes like a gleaner thou dost keep<br>\
-   Steady thy laden head across a brook;<br>\
-   Or by a cyder-press, with patient look,<br>\
-      Thou watchest the last oozings hours by hours.<br><br>\
-Where are the songs of spring? Ay, Where are they?<br>\
-   Think not of them, thou hast thy music too,—<br>\
-While barred clouds bloom the soft-dying day,<br>\
-   And touch the stubble-plains with rosy hue;<br>\
-Then in a wailful choir the small gnats mourn<br>\
-   Among the river sallows, borne aloft<br>\
-      Or sinking as the light wind lives or dies;<br>\
-And full-grown lambs loud bleat from hilly bourn;<br>\
-   Hedge-crickets sing; and now with treble soft<br>\
-   The red-breast whistles from a garden-croft;<br>\
-      And gathering swallows twitter in the skies.'
-  },
-  { //9
-    name: '<strong>Emily Dickinson</strong>',
-    imgSource: 'https://media.poetryfoundation.org/m/image/15913/emily-dickinson-hires-cropped.jpg',
-    imgWidth: 324,
-    imgHeight: 216,
-    poem: '<strong>"Hope" is the thing with feathers</strong><br><br>\
-“Hope” is the thing with feathers -<br>\
-That perches in the soul -<br>\
-And sings the tune without the words -<br>\
-And never stops - at all -<br><br>\
-And sweetest - in the Gale - is heard -<br>\
-And sore must be the storm -<br>\
-That could abash the little Bird<br>\
-That kept so many warm -<br><br>\
-I’ve heard it in the chillest land -<br>\
-And on the strangest Sea -<br>\
-Yet - never - in Extremity,<br>\
-It asked a crumb - of me.'
-  },
-  { //10
-    name: '<strong>Bernadette Mayer</strong>',
-    imgSource: 'http://writing.upenn.edu/epc/authors/mayer/hunger.jpg',
-    imgWidth: 198,
-    imgHeight: 250,
-    poem: '<strong>Windrowing</strong><br><br>\
-abide with me<br>\
-don’t ever abide<br>\
-gimme anytime a pile<br>\
-of leaf-hay across<br>\
-the field underneath<br>\
-the bright new blue<br>\
-tractor pulling the tedder<br>\
-which is the waffler or fluffer'
-  },
-  { //11  Add William Wordsworth, Maya Angelou
-    name: '<strong>Ezra Pound</strong>',
-    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Lustra_%28private_print%29_-_Ezra_Pound_-_Frontispiece.jpg/220px-Lustra_%28private_print%29_-_Ezra_Pound_-_Frontispiece.jpg',
-    imgWidth: 220,
-    imgHeight: 285,
-    poem: '<strong>Canto XIV</strong><br><br>\
-    With Usura<br><br>\
-With usura hath no man a house of good stone<br>\
-each block cut smooth and well fitting<br>\
-that design might cover their face,<br>\
-with usura<br>\
-hath no man a painted paradise on his church wall<br>\
-harpes et luz<br>\
-or where virgin receiveth message<br>\
-and halo projects from incision,<br>\
-with usura<br>\
-seeth no man Gonzaga his heirs and his concubines<br>\
-no picture is made to endure nor to live with<br>\
-but it is made to sell and sell quickly<br>\
-with usura, sin against nature,<br>\
-is thy bread ever more of stale rags<br>\
-is thy bread dry as paper,<br>\
-with no mountain wheat, no strong flour<br>\
-with usura the line grows thick<br>\
-with usura is no clear demarcation<br>\
-and no man can find site for his dwelling.<br>\
-Stonecutter is kept from his tone<br>\
-weaver is kept from his loom<br><br>\
-WITH USURA<br>\
-wool comes not to market<br>\
-sheep bringeth no gain with usura<br>\
-Usura is a murrain, usura<br>\
-blunteth the needle in the maid\'s hand<br>\
-and stoppeth the spinner\'s cunning. Pietro Lombardo<br>\
-came not by usura<br>\
-Duccio came not by usura<br>\
-nor Pier della Francesca; Zuan Bellin\' not by usura<br>\
-nor was ‘La Calunnia\' painted.<br>\
-Came not by usura Angelico; came not Ambrogio Praedis,<br>\
-Came no church of cut stone signed: Adamo me fecit.<br>\
-Not by usura St. Trophime<br>\
-Not by usura Saint Hilaire,<br>\
-Usura rusteth the chisel<br>\
-It rusteth the craft and the craftsman<br>\
-It gnaweth the thread in the loom<br>\
-None learneth to weave gold in her pattern;<br>\
-Azure hath a canker by usura; cramoisi is unbroidered<br>\
-Emerald findeth no Memling<br>\
-Usura slayeth the child in the womb<br>\
-It stayeth the young man\'s courting<br>\
-It hath brought palsey to bed, lyeth<br>\
-between the young bride and her bridegroom<br><br>\
-CONTRA NATURAM<br>\
-They have brought whores for Eleusis<br>\
-Corpses are set to banquet<br>\
-at behest of usura.'
-  },
-  /*
-  {
-    name: '<strong></strong>',
-    imgSource: '',
-    imgWidth: ,
-    imgHeight: ,
-    poem: '<strong></strong>'
-  },
-  */
-]
+//SPANISH: Add Antonio Machado
 
-//French poems array:
-//////////////
-/////////////
-
-const frenchPoems = [
-  { //1
-    name: '<strong>François Villon</strong>',
-    imgSource: 'https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxMzA0OTEyMzk3/francois-villon-38551-1-402.jpg',
-    imgWidth: 250,
-    imgHeight: 250,
-    poem: 'Frères humains qui après nous vivez<br>\
-N\'ayez les cœurs contre nous endurcis,<br>\
-Car, se pitié de nous pauvres avez,<br>\
-Dieu en aura plus tost de vous merciz.<br>\
-Vous nous voyez cy attachez cinq, six<br>\
-Quant de la chair, que trop avons nourrie,<br>\
-Elle est pieça devoree et pourrie,<br>\
-Et nous les os, devenons cendre et pouldre.<br>\
-De nostre mal personne ne s\'en rie :<br>\
-Mais priez Dieu que tous nous vueille absouldre!<br>'
-  },
-  { //2
-    name: '<strong>Jacques Brel</strong>',
-    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jacques_Brel_1963.jpg/220px-Jacques_Brel_1963.jpg',
-    imgWidth: 220,
-    imgHeight: 323,
-    poem: '<strong>A mon dernier repas</strong><br>\
-<br>\
-Je veux voir mes voisins<br>\
-Et puis quelques Chinois<br>\
-En guise de cousins<br>\
-Et je veux qu\'on y boive<br>\
-En plus du vin de messe<br>\
-De ce vin si joli<br>\
-Qu\'on buvait en Arbois<br>'
-  },
-  { //3
-    name: '<strong>Aimé Césaire</strong>',
-    imgSource: 'https://images.gr-assets.com/authors/1288990863p5/49591.jpg',
-    imgWidth: 250,
-    imgHeight: 250,
-    poem: '<strong>entre autres massacres</strong><br>\
-<br>\
-de toutes leurs forces \
-le soleil et la lune s’entrechoquent/les \
-étoiles tombent comme des témoins trop mûrs/et \
-comme une portée de souris grises//ne crains \
-rien apprête tes grosses eaux/qui si bien emportent \
-la berge des miroirs//ils ont mis de la boue sur mes yeux/et \
-vois je vois terriblement je vois/de toutes les montagnes de \
-toutes les îles/il ne reste plus rien que les quelques mauvais chicots/de l’impenitente salive de la mer\
-<br>\
-<br>"Soleil cou coupé" (1948)'
-  },
-  {//4
-    name: '<strong>Arthur Rimbaud</strong>',
-    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Rimbaud.PNG/226px-Rimbaud.PNG',
-    imgWidth: 250,
-    imgHeight: 250,
-    poem: '<strong>Ophélie</strong><br><br>\
-I<br>\
-<br>\
-Sur l\'onde calme et noire où dorment les étoiles<br>\
-La blanche Ophélia flotte comme un grand lys,<br>\
-Flotte très lentement, couchée en ses longs voiles...<br>\
-- On entend dans les bois lointains des hallalis.<br>\
-<br>\
-Voici plus de mille ans que la triste Ophélie<br>\
-Passe, fantôme blanc, sur le long fleuve noir.<br>\
-Voici plus de mille ans que sa douce folie<br>\
-Murmure sa romance à la brise du soir.<br>\
-<br>\
-Le vent baise ses seins et déploie en corolle<br>\
-Ses grands voiles bercés mollement par les eaux ;<br>\
-Les saules frissonnants pleurent sur son épaule,<br>\
-Sur son grand front rêveur s\'inclinent les roseaux.<br>\
-<br>\
-Les nénuphars froissés soupirent autour d\'elle ;<br>\
-Elle éveille parfois, dans un aune qui dort,<br>\
-Quelque nid, d\'où s\'échappe un petit frisson d\'aile :<br>\
-- Un chant mystérieux tombe des astres d\'or.<br>\
-<br>\
-II<br>\
-<br>\
-Ô pâle Ophélia ! belle comme la neige !<br>\
-Oui tu mourus, enfant, par un fleuve emporté !<br>\
-- C\'est que les vents tombant des grands monts de Norwège<br>\
-T\'avaient parlé tout bas de l\'âpre liberté ;<br>\
-<br>\
-C\'est qu\'un souffle, tordant ta grande chevelure,<br>\
-A ton esprit rêveur portait d\'étranges bruits ;<br>\
-Que ton coeur écoutait le chant de la Nature<br>\
-Dans les plaintes de l\'arbre et les soupirs des nuits ;<br>\
-<br>\
-C\'est que la voix des mers folles, immense râle,<br>\
-Brisait ton sein d\'enfant, trop humain et trop doux ;<br>\
-C\'est qu\'un matin d\'avril, un beau cavalier pâle,<br>\
-Un pauvre fou, s\'assit muet à tes genoux !<br>\
-<br>\
-Ciel ! Amour ! Liberté ! Quel rêve, ô pauvre Folle !<br>\
-Tu te fondais à lui comme une neige au feu :<br>\
-Tes grandes visions étranglaient ta parole<br>\
-- Et l\'Infini terrible effara ton oeil bleu !<br>\
-<br>\
-III<br>\
-<br>\
-- Et le Poète dit qu\'aux rayons des étoiles<br>\
-Tu viens chercher, la nuit, les fleurs que tu cueillis ;<br>\
-Et qu\'il a vu sur l\'eau, couchée en ses longs voiles,<br>\
-La blanche Ophélia flotter, comme un grand lys.'
-  },
-  {//5
-    name: '<strong>Antoine Wauters</strong>',
-    imgSource: 'http://www.literaturenights.eu/uploads/304/a70265ce208eff1ef497ca85903831c5.jpg',
-    imgWidth: 220,
-    imgHeight: 270,
-    poem: 'Tout part d’un coup de sang, d’un<br>appel rouge au corps. D’un besoin<br>\
-de passer, d’être passé, traversé sur-le-<br>champ. D’un besoin d’entendre plus<br>\
-que de parler. Tout part d’un cri<br>éclair venu d’en bas, babil ou diable,<br>\
-dense aux entrailles.'
-  },
-  {//6
-    name: '<strong>Charles Baudelaire</strong>',
-    imgSource: 'https://almabooks.com/wp-content/uploads/2016/10/Baudelaire-231x300.jpg',
-    imgWidth: 231,
-    imgHeight: 300,
-    poem: '<strong>À une passante</strong><br><br>\
-La rue assourdissante autour de moi hurlait.<br>\
-Longue, mince, en grand deuil, douleur majestueuse,<br>\
-Une femme passa, d\'une main fastueuse<br>\
-Soulevant, balançant le feston et l\'ourlet;<br><br>\
-Agile et noble, avec sa jambe de statue.<br>\
-Moi, je buvais, crispé comme un extravagant,<br>\
-Dans son oeil, ciel livide où germe l\'ouragan,<br>\
-La douceur qui fascine et le plaisir qui tue.<br><br>\
-Un éclair... puis la nuit! - Fugitive beauté<br>\
-Dont le regard m\'a fait soudainement renaître,<br>\
-Ne te verrai-je plus que dans l\'éternité?<br><br>\
-Ailleurs, bien loin d\'ici! trop tard! jamais peut-être!<br>\
-Car j\'ignore où tu fuis, tu ne sais où je vais,<br>\
-Ô toi que j\'eusse aimée, ô toi qui le savais!'
-  },
-  {//7
-    name: '<strong>Paul Valery</strong>',
-    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Paul_Val%C3%A9ry_-_photo_Henri_Manuel.jpg/220px-Paul_Val%C3%A9ry_-_photo_Henri_Manuel.jpg',
-    imgWidth: 220,
-    imgHeight: 322,
-    poem: '<strong>Intérieur</strong><br><br>\
-Une esclave aux longs yeux chargés de molles chaînes<br>\
-Change l’eau de mes fleurs, plonge aux glaces prochaines,<br>\
-Au lit mystérieux prodigue ses doigts purs;<br>\
-Elle met une femme au milieu de ces murs<br>\
-Qui, dans ma rêverie errant avec décence,<br>\
-Passe entre mes regards sans briser leur absence,<br>\
-Comme passe le verre au travers du soleil,<br>\
-Et de la raison pure épargne l’appareil.'
-  },
-  { //8
-    name: '<strong>Victor Hugo</strong>',
-    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Victor_Hugo_by_%C3%89tienne_Carjat_1876.jpg/260px-Victor_Hugo_by_%C3%89tienne_Carjat_1876.jpg',
-    imgWidth: 260,
-    imgHeight: 340,
-    poem: '<strong>Fable ou Histoire</strong><br><br>\
-Un jour, maigre et sentant un royal appétit,<br>\
-Un singe d’une peau de tigre se vêtit.<br>\
-Le tigre avait été méchant ; lui, fut atroce.<br>\
-Il avait endossé le droit d’être féroce.<br>\
-Il se mit à grincer des dents, criant : Je suis<br>\
-Le vainqueur des halliers, le roi sombre des nuits!<br>\
-Il s’embusqua, brigand des bois, dans les épines<br>\
-Il entassa l’horreur, le meurtre, les rapines,<br>\
-Egorgea les passants, dévasta la forêt,<br>\
-Fit tout ce qu’avait fait la peau qui le couvrait.<br>\
-Il vivait dans un antre, entouré de carnage.<br>\
-Chacun, voyant la peau, croyait au personnage.<br>\
-Il s’écriait, poussant d’affreux rugissements:<br>\
-Regardez, ma caverne est pleine d’ossements;<br>\
-Devant moi tout recule et frémit, tout émigre,<br>\
-Tout tremble ; admirez-moi, voyez, je suis un tigre!<br>\
-Les bêtes l’admiraient, et fuyaient à grands pas.<br>\
-Un belluaire vint, le saisit dans ses bras,<br>\
-Déchira cette peau comme on déchire un linge,<br>\
-Mit à nu ce vainqueur, et dit : Tu n’es qu’un singe!'
-  },
-  {//9
-    name: '<strong>Anne Marie Albiach</strong>',
-    imgSource: 'https://jacket2.org/sites/jacket2.org/files/commentary-images/Albiach-Jan-71.jpg',
-    imgWidth: 224,
-    imgHeight: 300,
-    poem: '<strong>Flammigère [I]</strong><br><br>\
-La taille du sexe<br>dans l’indécision du genre<br>\
-et les singularités du pluriel<br>nous demeure<br>\
-à nous étrangers<br>assignés à cette blessure<br><br>\
-cette quête rigide<br><br>\
-quelle que soit l’équation<br>résultante inhérée à<br>\
-l’énigme<br>la chair rejoint le sang<br>\
-et s’y confond<br>à la chaleur<br>\
-existe<br>dans la précision de l’absence<br>\
-Espace alourdit à noir<br>lenteur de caresse<br>\
-simultanéité charnelle<br>au point d’espace où se confrontent<br>\
-nos futurs assimilables<br>et la jointure mâle qui nous unit<br>\
-l’un à l’autre<br>dans “l’énigme chaleureuse de la langue”<br>\
-cet envers du réel<br>où<br>\
-Ortie femelle<br><br>\
-la stérilité pince l’entraille verte<br>à immobile<br>\
-à impavide<br>à netteté des cicatrices<br>\
-et mort renouvelée des lames<br>couteaux inhérents dans leur lumière<br><br>\
-il se lève     il se rabaisse<br>\
-il se lève     il se replie    en noir     tel en l’œuf d’une<br>\
-plage chatoyante de chaleur<br>\
-et lové au sable il renaît dans les fibres stériles de<br>\
-l’androgyne trinitaire'
-  },
-  {//10
-    name: '<strong>Christine de Pizan</strong>',
-    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Christine_de_Pisan_-_cathedra.jpg/220px-Christine_de_Pisan_-_cathedra.jpg',
-    imgWidth: 220,
-    imgHeight: 237,
-    poem: '<strong>Mon vrai amour</strong><br><br>\
-Je vous prie,<br>\
-mon doux amour,<br>\
-Mon bien, ma paix, ma vigueur,<br>\
-Ma ressource,<br>\
-Ce que j\'aime le mieux,<br>\
-Qu\'en tous lieux<br>\
-Gai, joli, joyeux toujours,<br>\
-Sans réserve,<br>\
-Soyez et plein d\'allégresse.<br><br>\
-Ami, médecin de mes maux,<br>\
-Me faites vivre et sans déplaisir,<br>\
-Dont on ne pourrait<br>\
-Estimer ni penser les grands biens<br>\
-Car sans cesse<br>\
-Votre bon coeur les attire,<br>\
-Où ont refuge<br>\
-Tout ceux qui sont oppressés.'
-  },
-  {//11 Add Jean Cocteau, Antonin Artaud
-    name: '<strong>Stéphane Mallarmé</strong>',
-    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Portrait_of_St%C3%A9phane_Mallarm%C3%A9.jpg/220px-Portrait_of_St%C3%A9phane_Mallarm%C3%A9.jpg',
-    imgWidth: 220,
-    imgHeight: 302,
-    poem: '<strong>Les Fenêtres</strong><br><br>\
-    Las du triste hôpital, et de l\'encens fétide<br>\
-Qui monte en la blancheur banale des rideaux<br>\
-Vers le grand crucifix ennuyé du mur vide,<br>\
-Le moribond sournois y redresse un vieux dos,<br><br>\
-Se traîne et va, moins pour chauffer sa pourriture<br>\
-Que pour voir du soleil sur les pierres, coller<br>\
-Les poils blancs et les os de la maigre figure<br>\
-Aux fenêtres qu\'un beau rayon clair veut hâler,<br><br>\
-Et la bouche, fiévreuse et d\'azur bleu vorace,<br>\
-Telle, jeune, elle alla respirer son trésor,<br>\
-Une peau virginale et de jadis ! encrasse<br>\
-D\'un long baiser amer les tièdes carreaux d\'or.<br><br>\
-Ivre, il vit, oubliant l\'horreur des saintes huiles,<br>\
-Les tisanes, l\'horloge et le lit infligé,<br>\
-La toux ; et quand le soir saigne parmi les tuiles,<br>\
-Son œil, à l\'horizon de lumière gorgé,<br><br>\
-Voit des galères d\'or, belles comme des cygnes,<br>\
-Sur un fleuve de pourpre et de parfums dormir<br>\
-En berçant l\'éclair fauve et riche de leurs lignes<br>\
-Dans un grand nonchaloir chargé de souvenir!<br><br>\
-Ainsi, pris du dégoût de l\'homme à l\'âme dure<br>\
-Vautré dans le bonheur, où ses seuls appétits<br>\
-Mangent, et qui s\'entête à chercher cette ordure<br>\
-Pour l\'offrir à la femme allaitant ses petits,<br><br>\
-Je fuis et je m\'accroche à toutes les croisées<br>\
-D\'où l\'on tourne l\'épaule à la vie, et, béni,<br>\
-Dans leur verre, lavé d\'éternelles rosées,<br>\
-Que dore le matin chaste de l\'Infini<br><br>\
-Je me mire et me vois ange ! et je meurs, et j\'aime<br>\
-— Que la vitre soit l\'art, soit la mysticité —<br>\
-À renaître, portant mon rêve en diadème,<br>\
-Au ciel antérieur où fleurit la Beauté !<br><br>\
-Mais, hélas ! Ici-bas est maître : sa hantise<br>\
-Vient m\'écœurer parfois jusqu\'en cet abri sûr,<br>\
-Et le vomissement impur de la Bêtise<br>\
-Me force à me boucher le nez devant l\'azur.<br><br>\
-Est-il moyen, ô Moi qui connais l\'amertume,<br>\
-D\'enfoncer le cristal par le monstre insulté<br>\
-Et de m\'enfuir, avec mes deux ailes sans plume<br>\
-— Au risque de tomber pendant l\'éternité?'
-  }
-]
-//Spanish poems array:
-//////////////
-/////////////
+// PORTUGUESE: Add Caetano Veloso, João Cabral de Melo Neto, Gonçalves Dias, Alda do Espirito Santo, Angélica Freitas, Ricardo Domeneck
 
 const Poesias = [
-  {//1
-    name: '<strong>Pablo Neruda</strong>',
-    imgSource: 'http://www.agenciabalcells.com/fileadmin/_processed_/csm_Neruda__Pablo_cd1395ffd0.jpg',
+  {
+    name: "<strong>Pablo Neruda</strong>",
+    imgSource: "http://www.agenciabalcells.com/fileadmin/_processed_/csm_Neruda__Pablo_cd1395ffd0.jpg",
     imgWidth: 300,
     imgHeight: 402,
-    poem: 'NECESITO del mar porque me enseña:<br>\
+    poem: "NECESITO del mar porque me enseña:<br>\
 no sé si aprendo música o conciencia:<br>\
 no sé si es ola sola o ser profundo<br>\
 o sólo ronca voz o deslumbrante<br>\
@@ -812,7 +211,7 @@ como un trono de piedra en lo profundo,<br>\
 substituyó el recinto en que crecían<br>\
 tristeza terca, amontonando olvido,<br>\
 y cambió bruscamente mi existencia:<br>\
-di mi adhesión al puro movimiento.<br>'
+di mi adhesión al puro movimiento.<br>"
   },
   {//2
     name: '<strong>Ajo</strong>',
@@ -1843,3 +1242,22 @@ Fé bem que, pois não acho defensão,<br>\
 Com me meter nas lanças me defenda.'
   },
 ]
+
+// TO INSERT A NEW POEM (EXAMPLE):
+// {
+//   "name": "<strong>Adrienne Rich</strong>",
+//   "imgSource": "http://static.poetryfoundation.org/o/harriet/2012/04/adrienne-rich.jpg",
+//   "imgWidth": 324,
+//   "imgHeight": 216,
+//   "poem": [
+//     "<strong>What kinds of times are these?</strong><br>",
+//     "There's a place between two stands of trees where the grass grows uphill",
+//     "and the old revolutionary road breaks off into shadows",
+//     "near a meeting-house abandoned by the persecuted",
+//     "who disappeared into those shadows<br>",
+//     "I've walked there picking mushrooms at the edge of dread, but don't be fooled",
+//     "this isn't a Russian poem, this is not somewhere else but here,",
+//     "our country moving closer to its own truth and dread,",
+//     "its own ways of making people disappear"
+//   ]
+//   },

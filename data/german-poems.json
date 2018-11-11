@@ -1,1 +1,271 @@
-german-poems.json
+[
+  {//1
+    name: '<strong>Goethe</strong>',
+    imgSource: 'https://images.gr-assets.com/authors/1532614109p5/285217.jpg',
+    imgWidth: 200,
+    imgHeight: 266,
+    poem: '<strong>Glückliche Fahrt</strong><br><br>\
+Die Nebel zerreißen, <br>Der Himmel ist helle, <br>\
+Und Äolus löset <br>Das ängstliche Band. <br>\
+Es säuseln die Winde, <br>Es rührt sich der Schiffer. <br>\
+Geschwinde! Geschwinde! <br>Es teilt sich die Welle, <br>\
+Es naht sich die Ferne; <br>Schon seh ich das Land!<br>'
+  },
+  {//2
+    name: '<strong>Bertolt Brecht</strong>',
+    imgSource: 'https://usefulstooges.com/wp-content/uploads/2016/10/bertolt-brecht-pic.jpg',
+    imgWidth: 353,
+    imgHeight: 500,
+    poem: '<strong>Die neuen Zeitalter</strong><br>\
+<br>\
+Die neuen Zeitalter beginnen nicht auf einmal.<br>\
+Mein Großvater lebte schon in der neuen Zeit.<br>\
+Mein Enkel wird wohl noch in der alten leben.<br>\
+<br>\
+Das neue Fleisch wird mit den alten Gabeln gegessen.<br>\
+<br>\
+Die selbstfahrenden Fahrzeuge waren es nicht<br>\
+Noch die Tanks.<br>\
+Die Flugzeuge über unseren Dächern waren es nicht.<br>\
+Noch die Bomber.<br>\
+<br>\
+Von den neuen Antennen kamen die alten Dummheiten.<br>\
+Die Weisheit wurde von Mund zu Mund weitergegeben.<br>'
+  },
+  {//3
+    name: '<strong>Heinrich Heine</strong>',
+    imgSource: 'https://www.kunstkopie.de/kunst/e_palm/heinrich-heine_palm.jpg',
+    imgWidth: 327,
+    imgHeight: 400,
+    poem: '<strong>Vermächtniß</strong><br>\
+<br>\
+Nun mein Leben geht zu End’,<br>\
+Mach’ ich auch mein Testament;<br>\
+Christlich will ich drin bedenken<br>\
+Meine Feinde mit Geschenken.<br>\
+<br>\
+Diese würd’gen, tugendfesten<br>\
+Widersacher sollen erben<br>\
+All mein Siechthum und Verderben,<br>\
+Meine sämmtlichen Gebresten.<br>\
+<br>\
+Ich vermach’ Euch die Coliken,<br>\
+Die den Bauch wie Zangen zwicken,<br>\
+Harnbeschwerden, die perfiden<br>\
+Preußischen Hämorrhoiden.<br>\
+<br>\
+Meine Krämpfe sollt Ihr haben,<br>\
+Speichelfluß und Gliederzucken,<br>\
+Knochendarre in dem Rucken,<br>\
+Lauter schöne Gottesgaben.<br>\
+<br>\
+Codizill zu dem Vermächtniß:<br>\
+In Vergessenheit versenken<br>\
+Soll der Herr Eu’r Angedenken,<br>\
+Er vertilge Eu’r Gedächtniß.<br>\
+<br>\
+[1851]'
+  },
+  {//4
+    name: '<strong>Matthias Claudius</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/MatthiasClaudius.jpg/170px-MatthiasClaudius.jpg',
+    imgWidth: 170,
+    imgHeight: 237,
+    poem: '<strong>Abendlied</strong><br><br>\
+    Der Mond ist aufgegangen,<br>Die goldnen Sternlein prangen<br>\
+Am Himmel hell und klar;<br>Der Wald steht schwarz und schweiget,<br>\
+Und aus den Wiesen steiget<br>Der weiße Nebel wunderbar.<br><br>\
+Wie ist die Welt so stille,<br>Und in der Dämmrung Hülle<br>\
+So traulich und so hold!<br>Als eine stille Kammer,<br>\
+Wo ihr des Tages Jammer<br>Verschlafen und vergessen sollt.<br><br>\
+Seht ihr den Mond dort stehen?<br>Er ist nur halb zu sehen,<br>\
+Und ist doch rund und schön!<br>So sind wohl manche Sachen,<br>\
+Die wir getrost belachen,<br>Weil unsre Augen sie nicht sehn.<br><br>\
+Wir stolze Menschenkinder<br>Sind eitel arme Sünder<br>\
+Und wissen gar nicht viel;<br>Wir spinnen Luftgespinste<br>\
+Und suchen viele Künste<br>Und kommen weiter von dem Ziel.<br><br>\
+Gott, laß uns dein Heil schauen,<br>Auf nichts Vergänglichs trauen,<br>\
+Nicht Eitelkeit uns freun!<br>Laß uns einfältig werden<br>\
+Und vor dir hier auf Erden<br>Wie Kinder fromm und fröhlich sein!<br><br>\
+Wollst endlich sonder Grämen<br>Aus dieser Welt uns nehmen<br>\
+Durch einen sanften Tod!<br>Und, wenn du uns genommen,<br>\
+Laß uns in Himmel kommen,<br>Du unser Herr und unser Gott!<br><br>\
+So legt euch denn, ihr Brüder,<br>In Gottes Namen nieder;<br>\
+Kalt ist der Abendhauch.<br>Verschon uns, Gott! mit Strafen,<br>\
+Und laß uns ruhig schlafen!<br>\
+Und unsern kranken Nachbar auch!'
+  }, { //5
+    name: '<strong>Rainer Maria Rilke</strong>',
+    imgSource: 'https://images.gr-assets.com/authors/1493785350p5/7906.jpg',
+    imgWidth: 200,
+    imgHeight: 236,
+    poem: '<strong>Eranna an Sappho</strong><br><br>\
+O du wilde weite Werferin:<br>Wie ein Speer bei andern Dingen<br>\
+lag ich bei den Meinen. Dein Erklingen<br>warf mich weit. Ich weiß nicht, wo ich bin.<br>\
+Mich kann keiner wiederbringen.<br><br>\
+Meine Schwestern denken mich und weben,<br>und das Haus ist voll vertrauter Schritte.<br>\
+Ich allein bin fern und fortgegeben,<br>und ich zittere wie eine Bitte;<br>\
+denn die schöne Göttin in der Mitte<br>\
+ihrer Mythen glüht und lebt mein Leben.'
+  },
+  { //6
+    name: '<strong>Rose Ausländer</strong>',
+    imgSource: 'http://1.bp.blogspot.com/_5wUPFCGo68w/Sl0mqSrElJI/AAAAAAAAA90/BF09_M8eFf0/s320/rose_auslander.jpg2.jpg',
+    imgWidth: 220,
+    imgHeight: 320,
+    poem: '<strong>Noch bist du da</strong><br><br>\
+Wirf deine Angst<br>in die Luft<br><br>\
+Bald<br>ist deine Zeit um<br>\
+bald<br>wächst der Himmel<br>\
+unter dem Gras<br>fallen deine Träume<br>\
+ins Nirgends<br><br>\
+Noch<br>duftet die Nelke<br>\
+singt die Drossel<br>noch darfst du lieben<br>\
+Worte verschenken<br>noch bist du da<br><br>\
+Sei was du bist<br>Gib was du hast'
+  },
+  { //7
+    name: '<strong>Herman Hesse</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hermann_Hesse_2.jpg/220px-Hermann_Hesse_2.jpg',
+    imgWidth: 220,
+    imgHeight: 263,
+    poem: '<strong>Kopflos</strong><br><br>\
+Man nehm den Deckel nur vom Topfe<br>\
+Und sieh, wie froh der Dampf entweicht!<br>\
+Wie lebt nach abgeschnittnem Kopfe<br>\
+Das schwere Leben sich so leicht!<br>\
+Kein Schnupfen mehr, kein Nasentropfen,<br>\
+ein Zahnweh und kein Augenbrand<br>\
+Noch Stirnkatarrh noch Schläfenklopfen,<br>\
+Es ist wie im Schlaraffenland.<br>\
+Zwar gibt es ohne Kopf kein Denken,<br>\
+Doch ist es darum nicht so schad,<br>\
+Man kann mit Wein die Kehle tränken,<br>\
+Es ist das beste Gurgelbad.<br>\
+Und ach, wie lebt es sich so stille:<br>\
+Kein Wort, kein Lärm, kein grelles Licht!<br>\
+Und nie mehr sucht man seine Brille<br>\
+Und nie mehr macht man ein Gedicht.'
+  },
+  {//8
+    name: '<strong>Friedrich Schiller</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Friedrich_Schiller_by_Ludovike_Simanowiz.jpg/439px-Friedrich_Schiller_by_Ludovike_Simanowiz.jpg',
+    imgWidth: 220,
+    imgHeight: 300,
+    poem: '<strong>Mädchen aus der Fremde</strong><br><br>\
+In einem Tal bei armen Hirten<br>\
+Erschien mit jedem jungen Jahr,<br>\
+Sobald die ersten Lerchen schwirrten,<br>\
+Ein Mädchen, schön und wunderbar.<br><br>\
+Sie war nicht in dem Tal geboren,<br>\
+Man wußte nicht, woher sie kam,<br>\
+Und schnell war ihre Spur verloren,<br>\
+Sobald das Mädchen Abschied nahm.<br><br>\
+Beseligend war ihre Nähe,<br>\
+Und alle Herzen wurden weit,<br>\
+Doch eine Würde, eine Höhe<br>\
+Entfernte die Vertraulichkeit.<br><br>\
+Sie brachte Blumen mit und Früchte,<br>\
+Gereift auf einer andern Flur,<br>\
+In einem andern Sonnenlichte,<br>\
+In einer glücklichern Natur.<br><br>\
+Und teilte jedem eine Gabe,<br>\
+Dem Früchte, jenem Blumen aus,<br>\
+Der Jüngling und der Greis am Stabe,<br>\
+Ein jeder ging beschenkt nach Haus.<br><br>\
+Willkommen waren alle Gäste,<br>\
+Doch nahte sich ein liebend Paar,<br>\
+Dem reichte sie der Gaben beste,<br>\
+Der Blumen allerschönste dar.'
+  },
+  { //9
+    name: '<strong>Erich Kästner</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Erich_K%C3%A4stner_1961.jpg',
+    imgWidth: 159,
+    imgHeight: 217,
+    poem: '<strong>Dem revolutionär Jesus zum Geburtstag</strong><br><br>\
+Zweitausend Jahre sind es fast,<br>\
+seit du die Welt verlassen hast,<br>\
+du Opferlamm des Lebens!<br>\
+Du gabst den Armen ihren Gott.<br>\
+Du littest durch der Reichen Spott.<br>\
+Du tatest es vergebens!<br><br>\
+Du sahst Gewalt und Polizei.<br>\
+Du wolltest alle Menschen frei<br>\
+und Frieden auf der Erde.<br>\
+Du wusstest, wie das Elend tut<br>\
+und wolltest allen Menschen gut,<br>\
+damit es schöner werde!<br><br>\
+Du warst ein Revolutionär<br>\
+und machtest dir das Leben schwer<br>\
+mit Schiebern und Gelehrten.<br>\
+Du hast die Freiheit stets beschützt<br>\
+und doch den Menschen nichts genützt.<br>\
+Du kamst an die Verkehrten!<br><br>\
+Du kämpftest tapfer gegen sie<br>\
+und gegen Staat und Industrie<br>\
+und die gesamte Meute.<br>\
+Bis man an dir, weil nichts verfing,<br>\
+Justizmord, kurzerhand, beging.<br>\
+Es war genau wie heute.<br><br>\
+Die Menschen wurden nicht gescheit.<br>\
+Am wenigsten die Christenheit,<br>\
+trotz allem Händefalten.<br>\
+Du hattest sie vergeblich lieb.<br>\
+Du starbst umsonst.<br>\
+Und alles blieb<br>\
+beim alten.'
+  },
+  {//10
+    name: '<strong>Günter Grass</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/G%C3%BCnter_Grass_auf_dem_Blauen_Sofa.jpg/220px-G%C3%BCnter_Grass_auf_dem_Blauen_Sofa.jpg',
+    imgWidth: 220,
+    imgHeight: 330,
+    poem: '<strong>Was gesagt werden muss</strong><br><br>\
+    Warum schweige ich, verschweige zu lange,<br>\
+was offensichtlich ist und in Planspielen<br>\
+geübt wurde, an deren Ende als Überlebende<br>\
+wir allenfalls Fußnoten sind.<br><br>\
+Es ist das behauptete Recht auf den Erstschlag,<br>\
+der das von einem Maulhelden unterjochte<br>\
+und zum organisierten Jubel gelenkte<br>\
+iranische Volk auslöschen könnte,<br>\
+weil in dessen Machtbereich der Bau<br>\
+einer Atombombe vermutet wird.<br><br>\
+Doch warum untersage ich mir,<br>\
+jenes andere Land beim Namen zu nennen,<br>\
+in dem seit Jahren - wenn auch geheimgehalten -<br>\
+ein wachsend nukleares Potential verfügbar<br>\
+aber außer Kontrolle, weil keiner Prüfung<br>\
+zugänglich ist?<br><br>\
+Das allgemeine Verschweigen dieses Tatbestandes,<br>\
+dem sich mein Schweigen untergeordnet hat,<br>\
+empfinde ich als belastende Lüge<br>\
+und Zwang, der Strafe in Aussicht stellt,<br>\
+sobald er missachtet wird;<br>\
+das Verdikt \'Antisemitismus\' ist geläufig.'
+  },
+  {//11 Add Novalis
+    name: '<strong>Nelly Sachs</strong>',
+    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Nelly_Sachs_1966.jpg/220px-Nelly_Sachs_1966.jpg',
+    imgWidth: 220,
+    imgHeight: 311,
+    poem: '<strong>Diese Kette von Rätseln</strong><br><br>\
+Diese Kette von Rätseln<br>\
+um den Hals der Nacht gelegt<br>\
+Königswort weit fort geschrieben<br>\
+unlesbar<br>\
+vielleicht in Kometenfahrt<br>\
+wenn die aufgerissene Wunde des Himmels<br>\
+schmerzt<br><br>\
+da<br>\
+in dem Bettler der Raum hat<br>\
+und auf Knieen gehend<br>\
+ausgemessen hat alle Landstraßen<br>\
+mit seinem Leib<br><br>\
+denn es muß ausgelitten werden<br>\
+das Lesbare<br>\
+und Sterben gelernt<br>\
+im Geduldigsein'
+  }
+]
