@@ -1,189 +1,198 @@
 [
   {
-    name: '<strong>Dante Alighieri</strong>',
-    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Portrait_de_Dante.jpg/220px-Portrait_de_Dante.jpg',
-    imgWidth: 220,
-    imgHeight: 336,
-    poem: '<strong>INFERNO</strong><br>\
-<br>\
-\         <strong>Dal CANTO I</strong><br>\
-<br>\
-<br>\
-Nel mezzo del cammin di nostra vita<br>\
-mi ritrovai per una selva oscura<br>\
-ché la diritta via era smarrita. <br>\
-<br>\
-Ah quanto a dir qual era è cosa dura<br>\
-esta selva selvaggia e aspra e forte<br>\
-che nel pensier rinova la paura!<br>\
-<br>\
-Tant\'è amara che poco è più morte;<br>\
-ma per trattar del ben ch\'i\' vi trovai,<br>\
-dirò de l\'altre cose ch\'i\' v\'ho scorte.<br>\
-<br>\
-Io non so ben ridir com\'i\' v\'intrai,<br>\
-tant\'era pien di sonno a quel punto<br>\
-che la verace via abbandonai.<br>\
-<br>\
-Ma poi ch\'i\' fui al piè d\'un colle giunto,<br>\
-là dove terminava quella valle<br>\
-che m\'avea di paura il cor compunto,<br>\
-<br>\
-guardai in alto, e vidi le sue spalle<br>\
-vestite già de\' raggi del pianeta<br>\
-che mena dritto altrui per ogne calle.<br>\
-<br>\
-Allor fu la paura un poco queta<br>\
-che nel lago del cor m\'era durata<br>\
-la notte ch\'i\' passai con tanta pieta.<br>\
-<br>\
-E come quei che con lena affannata<br>\
-uscito fuor del pelago a la riva<br>\
-si volge a l\'acqua perigliosa e guata,<br>\
-<br>\
-così l\'animo mio, ch\'ancor fuggiva,<br>\
-si volse a retro a rimirar lo passo<br>\
-che non lasciò già mai persona viva.<br>\
-<br>\
-(...)'
+    "name": "<strong>Dante Alighieri</strong>",
+    "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Portrait_de_Dante.jpg/220px-Portrait_de_Dante.jpg",
+    "imgWidth": 220,
+    "imgHeight": 336,
+    "poem": [
+      "<strong>INFERNO</strong><br>",
+      "<strong>Dal CANTO I</strong><br><br>",
+"Nel mezzo del cammin di nostra vita",
+"mi ritrovai per una selva oscura",
+"ché la diritta via era smarrita. <br>",
+"Ah quanto a dir qual era è cosa dura",
+"esta selva selvaggia e aspra e forte",
+"che nel pensier rinova la paura!<br>",
+"Tant'è amara che poco è più morte;",
+"ma per trattar del ben ch'i' vi trovai,",
+"dirò de l'altre cose ch'i' v'ho scorte.<br>",
+"Io non so ben ridir com'i' v'intrai,",
+"tant'era pien di sonno a quel punto",
+"che la verace via abbandonai.<br>",
+"Ma poi ch'i' fui al piè d'un colle giunto,",
+"là dove terminava quella valle",
+"che m'avea di paura il cor compunto,<br>",
+"guardai in alto, e vidi le sue spalle",
+"vestite già de' raggi del pianeta",
+"che mena dritto altrui per ogne calle.<br>",
+"Allor fu la paura un poco queta",
+"che nel lago del cor m'era durata",
+"la notte ch'i' passai con tanta pieta.<br>",
+"E come quei che con lena affannata",
+"uscito fuor del pelago a la riva",
+"si volge a l'acqua perigliosa e guata,<br>",
+"così l'animo mio, ch'ancor fuggiva,",
+"si volse a retro a rimirar lo passo",
+"che non lasciò già mai persona viva.<br>",
+"(...)"
+  ]
   },
-  {//2
-    name: '<strong>Francesco Petrarca</strong>',
-    imgSource: 'https://d3d00swyhr67nd.cloudfront.net/w1200h1200/NTIII/NTIII_BLI_355512.jpg',
-    imgWidth: 450,
-    imgHeight: 600,
-    poem: 'S’ amor non è, che dunque è quel ch’ io sento?<br>\
-Ma s’egli è amor, per Dio, che cosa e quale?<br>\
-Se buona, ond è effetto aspro mortale?<br>\
-Se ria, ond’ è si dolce ogni tormento?<br>\
-<br>\
-S’a mia voglia arado, ond’ è ‘I pianto e ‘I lamento?<br>\
-S’a mal mio grado, il lamentar che vale?<br>\
-O viva morte, o dilettoso male,<br>\
-Come puoi tanto in me s’io nol consento?<br>\
-<br>\
-E s’io ‘I consento, a gran torto mi doglio.<br>\
-Fra sì contrari venti, in frale barca<br>\
-Mi trivo in alto mar, senza governo,<br>\
-<br>\
-Sí lieve di saber, d’error sí carca,<br>\
-Ch’ i i’ medesmo non so quel ch’ io mi voglio,<br>\
-E tremo a mèzza state, ardemdo il verno.<br>\
-<br>\
-Soneto XXII, “Il Canzonieri”'
-  }, {//3
-    name: '<strong>Giovanni Boccaccio</strong>',
-    imgSource: 'https://m.media-amazon.com/images/M/MV5BZjdlZmQwNDItZDVhZi00MzU1LTlhMGMtMDBhZDdlOGZmZWUyXkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_UY317_CR20,0,214,317_AL_.jpg',
-    imgWidth: 214,
-    imgHeight: 317,
-    poem: '<strong>Oh come son talora</strong><br><br>\
-    Oh come son talora<br>maravigliosi in noi,<br>\
-Amor, gl\'incendii tuoi!<br>Con accorciato crin, succinta in gonna,<br>\
-innamorata donna<br>seguì del suo fedel l\'orme leggiadre<br>\
-fra bellicose squadre.<br>Ma così gran valore<br>\
-nelle donne moderne or non si vede,<br>\
-che, s\'han maggior bellezza, han minor fede.'
-  }, {//4
-    name: '<strong>Pier Paolo Pasolini</strong>',
-    imgSource: 'https://m.media-amazon.com/images/M/MV5BMjMyOTk0NjU3OF5BMl5BanBnXkFtZTcwNzMwMDgxOA@@._V1_.jpg',
-    imgWidth: 370,
-    imgHeight: 512,
-    poem: '<strong>Alla bandiera rossa</strong><br><br>\
-Per chi conosce solo il tuo colore, bandiera rossa,<br>\
-tu devi realmente esistere, perché lui esista:<br>chi era coperto di croste è coperto di piaghe,<br>\
-il bracciante diventa mendicante,<br>il napoletano calabrese, il calabrese africano,<br>\
-l\'analfabeta una bufala o un cane.<br>Chi conosceva appena il tuo colore, bandiera rossa,<br>\
-sta per non conoscerti più, neanche coi sensi:<br>tu che già vanti tante glorie borghesi e operaie,<br>\
-ridiventa straccio, e il più povero ti sventoli.'
-  }, { //5
-    name: '<strong>Giuseppe Ungaretti</strong>',
-    imgSource: 'https://www.libriantichionline.com/typo3temp/pics/fe33cff6b2.jpeg',
-    imgWidth: 450,
-    imgHeight: 275,
-    poem: '<strong>VEGLIA</strong><br><br>\
-Un’intera nottata<br>buttato vicino<br>\
-a un compagno<br>massacrato<br>\
-con la sua bocca<br>digrignata<br>\
-volta al plenilunio,<br>con la congestione<br>\
-delle sue mani<br>penetrata<br>\
-nel mio silenzio<br>ho scritto<br>\
-lettere piene d’amore.<br>Non sono mai stato<br>\
-tanto<br>attaccato alla vita.'
+  {
+    "name": "<strong>Francesco Petrarca</strong>",
+    "imgSource": "https://d3d00swyhr67nd.cloudfront.net/w1200h1200/NTIII/NTIII_BLI_355512.jpg",
+    "imgWidth": 450,
+    "imgHeight": 600,
+    "poem": [
+      "S’ amor non è, che dunque è quel ch’ io sento?",
+"Ma s’egli è amor, per Dio, che cosa e quale?",
+"Se buona, ond è effetto aspro mortale?",
+"Se ria, ond’ è si dolce ogni tormento?",
+"",
+"S’a mia voglia arado, ond’ è ‘I pianto e ‘I lamento?",
+"S’a mal mio grado, il lamentar che vale?",
+"O viva morte, o dilettoso male,",
+"Come puoi tanto in me s’io nol consento?",
+"",
+"E s’io ‘I consento, a gran torto mi doglio.",
+"Fra sì contrari venti, in frale barca",
+"Mi trivo in alto mar, senza governo,",
+"",
+"Sí lieve di saber, d’error sí carca,",
+"Ch’ i i’ medesmo non so quel ch’ io mi voglio,",
+"E tremo a mèzza state, ardemdo il verno.",
+"",
+"Soneto XXII, “Il Canzonieri”"
+  ]
   },
-  { //6
-    name: '<strong>Gaspara Stampa</strong>',
-    imgSource: 'https://mypoeticside.com/wp-content/uploads/gallery-images/374ddf7.jpeg',
-    imgWidth: 335,
-    imgHeight: 400,
-    poem: '<strong>La mia vita è un mar</strong><br><br>\
-La mia vita è un mar: l\'acqua è \'l mio pianto,<br>\
-i venti sono l\'aure de\' sospiri,<br>\
-la speranza è la nave, i miei desiri<br>\
-la vela e i remi, che la caccian tanto.<br><br>\
-La tramontana mia è il lume santo<br>\
-de\' miei duo chiari, due stellanti iri,<br>\
-a\' quai convien ch\'ancor lontana i\' miri<br>\
-sena timon, senza nocchier a canto.<br><br>\
-Le perigliose e sùbite tempeste<br>\
-son le teme e le fredde gelosie,<br>\
-al dipartirsi tarde, al venir preste.<br><br>\
-Bonacce non vi son, perché dal die<br>\
-che voi, conte, da me lontan vi feste,<br>\
-partîr con voi l\'ore serene mie.'
+  {
+    "name": "<strong>Giovanni Boccaccio</strong>",
+    "imgSource": "https://m.media-amazon.com/images/M/MV5BZjdlZmQwNDItZDVhZi00MzU1LTlhMGMtMDBhZDdlOGZmZWUyXkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_UY317_CR20,0,214,317_AL_.jpg",
+    "imgWidth": 214,
+    "imgHeight": 317,
+    "poem": [
+    "<strong>Oh come son talora</strong><br>",
+"Oh come son talora<br>maravigliosi in noi,",
+"Amor, gl'incendii tuoi!<br>Con accorciato crin, succinta in gonna,",
+"innamorata donna<br>seguì del suo fedel l'orme leggiadre",
+"fra bellicose squadre.<br>Ma così gran valore",
+"nelle donne moderne or non si vede,",
+"che, s'han maggior bellezza, han minor fede."
+  ]
   },
-  {//7
-    name: '<strong>Alda Merini</strong>',
-    imgSource: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Alda_Merini.jpg/220px-Alda_Merini.jpg',
-    imgWidth: 220,
-    imgHeight: 331,
-    poem: '<strong>L’uccello di fuoco</strong><br><br>\
-della mia mente malata,<br>\
-questo passero grigio<br>\
-che abita nel profondo<br>\
-e col suo pigolio<br>\
-sempre mi fa tremare<br>\
-perché pare indifeso,<br>\
-bisognoso d’amore,<br>\
-qualche volta ha una voce<br>\
-così tenera e nuova<br>\
-che sotto il suo trionfo<br>\
-detto la poesia.'
+  {
+    "name": "<strong>Pier Paolo Pasolini</strong>",
+    "imgSource": "https://m.media-amazon.com/images/M/MV5BMjMyOTk0NjU3OF5BMl5BanBnXkFtZTcwNzMwMDgxOA@@._V1_.jpg",
+    "imgWidth": 370,
+    "imgHeight": 512,
+    "poem": [
+    "<strong>Alla bandiera rossa</strong><br>",
+"Per chi conosce solo il tuo colore, bandiera rossa,",
+"tu devi realmente esistere, perché lui esista:<br>chi era coperto di croste è coperto di piaghe,",
+"il bracciante diventa mendicante,<br>il napoletano calabrese, il calabrese africano,",
+"l'analfabeta una bufala o un cane.<br>Chi conosceva appena il tuo colore, bandiera rossa,",
+"sta per non conoscerti più, neanche coi sensi:<br>tu che già vanti tante glorie borghesi e operaie,",
+"ridiventa straccio, e il più povero ti sventoli."
+  ]
   },
-  {//8
-    name: '<strong>Gabriele D\'Annunzio</strong>',
-    imgSource: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Gabriele_D%27Anunnzio.png/220px-Gabriele_D%27Anunnzio.png',
-    imgWidth: 220,
-    imgHeight: 312,
-    poem: '<strong>O falce di luna calante</strong><br><br>\
-O falce di luna calante<br>\
-che brilli su l’acque deserte,<br>\
-o falce d’argento, qual mèsse di sogni<br>\
-ondeggia al tuo mite chiarore qua giù!<br><br>\
-Aneliti brevi di foglie,<br>\
-sospiri di fiori dal bosco<br>\
-esalano al mare: non canto non grido<br>\
-non suono pe ’l vasto silenzio va.<br><br>\
-Oppresso d’amor, di piacere,<br>\
-il popol de’ vivi s’addorme...<br>\
-O falce calante, qual mèsse di sogni<br>\
-ondeggia al tuo mite chiarore qua giù!'
+  {
+    "name": "<strong>Giuseppe Ungaretti</strong>",
+    "imgSource": "https://www.libriantichionline.com/typo3temp/pics/fe33cff6b2.jpeg",
+    "imgWidth": 450,
+    "imgHeight": 275,
+    "poem": [
+    "<strong>VEGLIA</strong><br>",
+"Un’intera nottata<br>buttato vicino",
+"a un compagno<br>massacrato",
+"con la sua bocca<br>digrignata",
+"volta al plenilunio,<br>con la congestione",
+"delle sue mani<br>penetrata",
+"nel mio silenzio<br>ho scritto",
+"lettere piene d’amore.<br>Non sono mai stato",
+"tanto<br>attaccato alla vita."
+  ]
   },
-  {//9 Add Ludovico Ariosto, Michelangelo, Moderata Fonte,
-    name: '<strong>Amelia Rosselli</strong>',
-    imgSource: 'https://www.poets.org/sites/default/files/styles/286x289/public/images/biographies/AmeliaRosselli_NewBioImage.png?itok=lcF4-klX',
-    imgWidth: 286,
-    imgHeight: 289,
-    poem: '<strong>Tutto il mondo è vedovo</strong><br><br>\
-Tutto il mondo è vedovo se è vero che tu cammini ancora<br>\
-tutto il mondo è vedovo se è vero! Tutto il mondo<br>\
-è vero se è vero che tu cammini ancora, tutto il<br>\
-mondo è vedovo se tu non muori! Tutto il mondo<br>\
-è mio se è vero che tu non sei vivo ma solo<br>\
-una lanterna per i miei occhi obliqui. Cieca rimasi<br>\
-dalla tua nascita e l’importanza del nuovo giorno<br>\
-non è che notte per la tua distanza. Cieca sono<br>\
-chè tu cammini ancora! Cieca sono che tu cammini<br>\
-e il mondo è vedovo e il mondo è cieco se tu cammini<br>\
-ancora aggrappato ai miei occhi celestiali.'
+  {
+    "name": "<strong>Gaspara Stampa</strong>",
+    "imgSource": "https://mypoeticside.com/wp-content/uploads/gallery-images/374ddf7.jpeg",
+    "imgWidth": 335,
+    "imgHeight": 400,
+    "poem": [
+    "<strong>La mia vita è un mar</strong><br>",
+"La mia vita è un mar: l'acqua è 'l mio pianto,",
+"i venti sono l'aure de' sospiri,",
+"la speranza è la nave, i miei desiri",
+"la vela e i remi, che la caccian tanto.<br>",
+"La tramontana mia è il lume santo",
+"de' miei duo chiari, due stellanti iri,",
+"a' quai convien ch'ancor lontana i' miri",
+"sena timon, senza nocchier a canto.<br>",
+"Le perigliose e sùbite tempeste",
+"son le teme e le fredde gelosie,",
+"al dipartirsi tarde, al venir preste.<br>",
+"Bonacce non vi son, perché dal die",
+"che voi, conte, da me lontan vi feste,",
+"partîr con voi l'ore serene mie."
+  ]
   },
+  {
+    "name": "<strong>Alda Merini</strong>",
+    "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Alda_Merini.jpg/220px-Alda_Merini.jpg",
+    "imgWidth": 220,
+    "imgHeight": 331,
+    "poem": [
+      "<strong>L’uccello di fuoco</strong><br>",
+"della mia mente malata,",
+"questo passero grigio",
+"che abita nel profondo",
+"e col suo pigolio",
+"sempre mi fa tremare",
+"perché pare indifeso,",
+"bisognoso d’amore,",
+"qualche volta ha una voce",
+"così tenera e nuova",
+"che sotto il suo trionfo",
+"detto la poesia."
+  ]
+  },
+  {
+    "name": "<strong>Gabriele D'Annunzio</strong>",
+    "imgSource": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Gabriele_D%27Anunnzio.png/220px-Gabriele_D%27Anunnzio.png",
+    "imgWidth": 220,
+    "imgHeight": 312,
+    "poem": [
+      "<strong>O falce di luna calante</strong><br>",
+"O falce di luna calante",
+"che brilli su l’acque deserte,",
+"o falce d’argento, qual mèsse di sogni",
+"ondeggia al tuo mite chiarore qua giù!<br>",
+"Aneliti brevi di foglie,",
+"sospiri di fiori dal bosco",
+"esalano al mare: non canto non grido",
+"non suono pe ’l vasto silenzio va.<br>",
+"Oppresso d’amor, di piacere,",
+"il popol de’ vivi s’addorme...",
+"O falce calante, qual mèsse di sogni",
+"ondeggia al tuo mite chiarore qua giù!"
+  ]
+  },
+  {
+    "name": "<strong>Amelia Rosselli</strong>",
+    "imgSource": "https://www.poets.org/sites/default/files/styles/286x289/public/images/biographies/AmeliaRosselli_NewBioImage.png?itok=lcF4-klX",
+    "imgWidth": 286,
+    "imgHeight": 289,
+    "poem": [
+      "<strong>Tutto il mondo è vedovo</strong><br>",
+"Tutto il mondo è vedovo se è vero che tu cammini ancora",
+"tutto il mondo è vedovo se è vero! Tutto il mondo",
+"è vero se è vero che tu cammini ancora, tutto il",
+"mondo è vedovo se tu non muori! Tutto il mondo",
+"è mio se è vero che tu non sei vivo ma solo",
+"una lanterna per i miei occhi obliqui. Cieca rimasi",
+"dalla tua nascita e l’importanza del nuovo giorno",
+"non è che notte per la tua distanza. Cieca sono",
+"chè tu cammini ancora! Cieca sono che tu cammini",
+"e il mondo è vedovo e il mondo è cieco se tu cammini",
+"ancora aggrappato ai miei occhi celestiali."
+  ]
+  }
 ]
