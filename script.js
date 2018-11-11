@@ -46,6 +46,12 @@ function displayPoem (){
 //sort poems in German
   else if (sortBtn.innerHTML === 'Sortieren') {
     // sortedPoem(Gedichte);
+    // fetch(`data/german-poems.json`)
+    // .then(response => response.json())
+    // .then((data) => {
+    //   sortedPoem(data);
+    // });
+
     let number = Math.floor(Math.random()*Gedichte.length);
     poemAuthor.innerHTML = Gedichte[number].name;
     poem.innerHTML = Gedichte[number].poem;
@@ -55,6 +61,11 @@ function displayPoem (){
   }
 //sort poems in Italian
   else if (sortBtn.innerHTML === 'Assortire') {
+    // fetch(`data/italian-poems.json`)
+    // .then(response => response.json())
+    // .then((data) => {
+    //   sortedPoem(data);
+    // });
     let number = Math.floor(Math.random()*Poesia.length);
     poemAuthor.innerHTML = Poesia[number].name;
     poem.innerHTML = Poesia[number].poem;
@@ -64,6 +75,11 @@ function displayPoem (){
   }
 //sort poems in Portuguese
   else if (instruction.innerHTML === 'Clique abaixo para sortear um poema:') {
+    // fetch(`data/spanish-poems.json`)
+    // .then(response => response.json())
+    // .then((data) => {
+    //   sortedPoem(data);
+    // });
     let number = Math.floor(Math.random()*Poemas.length);
     poemAuthor.innerHTML = Poemas[number].name;
     poem.innerHTML = Poemas[number].poem;
