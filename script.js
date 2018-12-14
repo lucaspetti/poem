@@ -109,7 +109,6 @@ function portugueseSite (){
 // deutschelyrik.de
 // Modo de usar e co, Escamandro
 
-// FRENCH: Add Jean Cocteau, Antonin Artaud
 //SPANISH: Add Antonio Machado
 //ITALIAN: Add Ludovico Ariosto, Michelangelo, Moderata Fonte,
 // PORTUGUESE: Add Caetano Veloso, João Cabral de Melo Neto, Gonçalves Dias,
