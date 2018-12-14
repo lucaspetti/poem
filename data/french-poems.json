@@ -339,5 +339,24 @@
     "Un silence qui nous guérit dans la morphine",
     "Sans ordonnances ni décrets."
     ]
+  },
+  {
+    "name": "<strong>Jean Cocteau</strong>",
+    "imgSource": "",
+    "imgWidth": 200,
+    "imgHeight": 297,
+    "poem": [
+      "<strong>Mon Amour et Mes Songes</strong><br>",
+    "Un voile clair, un voile épais",
+    "Recouvre notre destinée",
+    "Mais l’étoile qui nous est née",
+    "Demeure une étoile de paix.<br>",
+    "Peuvent-ils nous mentir, les astres",
+    "Ou se trompent-ils de cent ans ?",
+    "Et confondent-ils les désastres",
+    "Dans la perspective du temps ?<br>",
+    "Étoiles, faites des mensonges !",
+    "Je crois mon amour et mes songes."
+    ]
   }
 ]
