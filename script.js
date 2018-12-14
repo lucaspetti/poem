@@ -40,12 +40,12 @@ function displayPoem (){
 }
 
 function changeLanguage () {
+  event.preventDefault();
   poemAuthor.innerHTML = '';
   poem.innerHTML = '';
 }
 
 function englishSite (){
-  event.preventDefault();
   sortBtn.innerHTML = 'Sort';
   query = "english";
   instruction.innerHTML = 'Click the button to sort a poem:';
@@ -55,7 +55,6 @@ function englishSite (){
   poemImage.width = 672;
 }
 function frenchSite (){
-  event.preventDefault();
   sortBtn.innerHTML = 'Trier';
   query = "french";
   instruction.innerHTML = 'Cliquez sur le bouton pour trier un poème:';
@@ -65,7 +64,6 @@ function frenchSite (){
   poemImage.width = 780;
 }
 function spanishSite (){
-  event.preventDefault();
   sortBtn.innerHTML = 'Sortear';
   query = "spanish";
   instruction.innerHTML = 'Clica al botón para sortear un poema:';
@@ -75,7 +73,6 @@ function spanishSite (){
   poemImage.width = 490;
 }
 function germanSite (){
-  event.preventDefault();
   sortBtn.innerHTML = 'Sortieren';
   query = "german";
   instruction.innerHTML = 'Klicken Sie hier, um ein Gedicht zu sortieren:';
@@ -85,7 +82,6 @@ function germanSite (){
   poemImage.width = 375;
 }
 function italianSite (){
-  event.preventDefault();
   sortBtn.innerHTML = 'Assortire';
   query = "italian";
   instruction.innerHTML = 'Fare clic sul pulsante per ordinare una poesia:';
@@ -95,7 +91,6 @@ function italianSite (){
   poemImage.width = 620;
 }
 function portugueseSite (){
-  event.preventDefault();
   sortBtn.innerHTML = 'Sortear';
   query = "portuguese";
   instruction.innerHTML = 'Clique abaixo para sortear um poema:';
@@ -108,34 +103,14 @@ function portugueseSite (){
 
 // Poetry Foundation
 // poets.org
-// frenchPoems-francaise.fr
-// unjourunpoeme.fr
+// frenchPoems-francaise.fr, unjourunpoeme.fr
 // poesi.as
-// poemas-del-alma.com
-// culturacolectiva.com
+// poemas-del-alma.com, culturacolectiva.com
 // deutschelyrik.de
-// Modo de usar e co
-// Escamandro
+// Modo de usar e co, Escamandro
 
 // FRENCH: Add Jean Cocteau, Antonin Artaud
-
 //SPANISH: Add Antonio Machado
-
-//Italian poems array:
-//Add Ludovico Ariosto, Michelangelo, Moderata Fonte,
-
-// PORTUGUESE: Add Caetano Veloso, João Cabral de Melo Neto, Gonçalves Dias, Alda do Espirito Santo, Angélica Freitas, Ricardo Domeneck
-
-// TO INSERT A NEW POEM (EXAMPLE):
-// {
-//   "name": "<strong>POET NAME</strong>",
-//   "imgSource": "IMG URL",
-//   "imgWidth": int,
-//   "imgHeight": int,
-//   "poem": [
-//     "<strong>POEM TITLE</strong><br>",
-//     "POEM LINE",
-//     "POEM LINE",
-//     "POEM LINE"
-//   ]
-//   },
+//ITALIAN: Add Ludovico Ariosto, Michelangelo, Moderata Fonte,
+// PORTUGUESE: Add Caetano Veloso, João Cabral de Melo Neto, Gonçalves Dias,
+// Alda do Espirito Santo, Angélica Freitas, Ricardo Domeneck
