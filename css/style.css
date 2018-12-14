@@ -1,8 +1,8 @@
 /* set body and h1, h2, h3 */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
 @import url("components/button.css");
-@import url("components/dropdown.css");
 /*
+@import url("components/dropdown.css");
 @import url("components/card.css");
 @import url("components/badge.css");
 @import url("components/banner.css");
@@ -24,6 +24,9 @@ h1 {
 }
 h3, button {
 	margin: 10px;
+}
+p {
+  font-size: 1.1em;
 }
 header {
 	background: #ffffff url(https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg);
