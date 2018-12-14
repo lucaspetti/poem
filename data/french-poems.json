@@ -342,9 +342,9 @@
   },
   {
     "name": "<strong>Jean Cocteau</strong>",
-    "imgSource": "",
+    "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Jean_Cocteau_b_Meurisse_1923.jpg/220px-Jean_Cocteau_b_Meurisse_1923.jpg",
     "imgWidth": 200,
-    "imgHeight": 297,
+    "imgHeight": 307,
     "poem": [
       "<strong>Mon Amour et Mes Songes</strong><br>",
     "Un voile clair, un voile épais",
