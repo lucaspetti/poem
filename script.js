@@ -99,17 +99,3 @@ function portugueseSite (){
   poemImage.height = 378;
   poemImage.width = 675;
 }
-// SOURCES:
-
-// Poetry Foundation
-// poets.org
-// frenchPoems-francaise.fr, unjourunpoeme.fr
-// poesi.as
-// poemas-del-alma.com, culturacolectiva.com
-// deutschelyrik.de
-// Modo de usar e co, Escamandro
-
-//SPANISH: Add Antonio Machado
-//ITALIAN: Add Ludovico Ariosto, Michelangelo, Moderata Fonte,
-// PORTUGUESE: Add Caetano Veloso, João Cabral de Melo Neto, Gonçalves Dias,
-// Alda do Espirito Santo, Angélica Freitas, Ricardo Domeneck
