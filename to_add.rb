@@ -1,8 +1,17 @@
+# Authors to add:
 puts 'English - '
 puts 'French - '
 puts 'German - '
 puts 'Italian - Ludovico Ariosto, Michelangelo, Moderata Fonte'
 puts 'Portuguese - Caetano Veloso, João Cabral de Melo Neto, Gonçalves Dias, Alda do Espirito Santo, Angélica Freitas, Ricardo Domeneck'
 puts 'Spanish - Antonio Machado'
-
-
+puts ' '
+# Sources to use:
+puts 'SOURCES:'
+puts 'Poetry Foundation'
+puts 'poets.org'
+puts 'frenchPoems-francaise.fr, unjourunpoeme.fr'
+puts 'poesi.as'
+puts 'poemas-del-alma.com, culturacolectiva.com'
+puts 'deutschelyrik.de'
+puts 'Modo de usar e co, Escamandro'
