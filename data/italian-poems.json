@@ -194,5 +194,23 @@
 "e il mondo è vedovo e il mondo è cieco se tu cammini",
 "ancora aggrappato ai miei occhi celestiali."
   ]
+  },
+  {
+    "name": "<strong>Ludovico Ariosto</strong>",
+    "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Titian_-_Portrait_of_a_man_with_a_quilted_sleeve.jpg/220px-Titian_-_Portrait_of_a_man_with_a_quilted_sleeve.jpg",
+    "imgWidth": 220,
+    "imgHeight": 268,
+    "poem": [
+      "<strong>La Zucca e il pero</strong><br>",
+    "Ci fu una zucca che in pochi giorni",
+    "crebbe tanto in altezza che coprì",
+    "i rami più alti delsuo vicino, un pero.<br>",
+    "Una mattina, svegliatosi da un lungo sonno,",
+    "il pero aprì gli occhi e vide",
+    "i nuovi frutti che gli pendevano sul capo.<br>",
+    "Le disse: - Chi sei? Come sei salita",
+    "fin quassù? Dov'eri prima, quando io,",
+    "stanco, mi sono addormentato?"
+    ]
   }
 ]
