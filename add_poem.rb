@@ -1,18 +1,19 @@
 require 'json'
+require 'fastimage'
 
-puts "Language:"
+puts 'Language:'
 language = gets.chomp
-puts "Name of the author:"
+puts 'Name of the author:'
 author = gets.chomp
-puts "Image URL:"
+puts 'Image URL:'
 img_url = gets.chomp
-puts "poem:"
+puts 'poem:'
 poem = gets.chomp
 
 poem_hash = { name: author,
               imgSource: img_url,
-              #imgWidth: img_url.width,
-              #imgHeight: img_url.height,
+              imgWidth: FastImage.size(img_url)[0],
+              imgHeight: FastImage.size(img_url)[1],
               poem: poem }
 
 json = File.read("data/#{language}-poems.json")
