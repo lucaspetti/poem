@@ -10,7 +10,7 @@ img_url = gets.chomp
 puts 'poem:'
 poem = gets.chomp
 
-poem_hash = { name: author,
+poem_hash = { name: "<strong>#{author}</strong>",
               imgSource: img_url,
               imgWidth: FastImage.size(img_url)[0],
               imgHeight: FastImage.size(img_url)[1],

@@ -315,13 +315,34 @@
     "imgHeight": 265,
     "poem": [
       "Não chores, meu filho;",
-    "Não chores, que a vida",
-    "É luta renhida:",
-    "Viver é lutar.",
-    "A vida é combate,",
-    "Que os fracos abate,",
-    "Que os fortes, os bravos",
-    "Só pode exaltar."
+      "Não chores, que a vida",
+      "É luta renhida:",
+      "Viver é lutar.",
+      "A vida é combate,",
+      "Que os fracos abate,",
+      "Que os fortes, os bravos",
+      "Só pode exaltar."
+    ]
+  },
+  {
+    "name": "<strong>Carlos Drummond de Andrade</strong>",
+    "imgSource": "https://assets.mubi.com/images/cast_member/74538/image-w240.jpg?1506559121",
+    "imgWidth": 240,
+    "imgHeight": 285,
+    "poem": [
+      "<strong>Memória<br></strong>",
+    "Amar o perdido",
+    "deixa confundido",
+    "este coração.<br>",
+    "Nada pode o olvido",
+    "contra o sem sentido",
+    "apelo do Não.<br>",
+    "As coisas tangíveis",
+    "tornam-se insensíveis",
+    "à palma da mão<br>",
+    "Mas as coisas findas",
+    "muito mais que lindas,",
+    "essas ficarão."
     ]
   }
 ]
