@@ -3,7 +3,7 @@ puts 'English - '
 puts 'French - '
 puts 'German - '
 puts 'Italian - Michelangelo, Moderata Fonte'
-puts 'Portuguese - Caetano Veloso, Gonçalves Dias, Alda do Espirito Santo, Angélica Freitas, Ricardo Domeneck'
+puts 'Portuguese - Caetano Veloso, Alda do Espirito Santo, Angélica Freitas, Ricardo Domeneck'
 puts 'Spanish - Antonio Machado'
 puts ' '
 # Sources to use:
