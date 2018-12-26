@@ -14,7 +14,7 @@ poem_hash = { name: author,
               imgSource: img_url,
               imgWidth: FastImage.size(img_url)[0],
               imgHeight: FastImage.size(img_url)[1],
-              poem: poem }
+              poem: poem.split("\n") }
 
 json = File.read("data/#{language}-poems.json")
 json_array = JSON.parse(json)
