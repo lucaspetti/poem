@@ -26,7 +26,12 @@ portugueseBtn.addEventListener('click', portugueseSite);
 
 sortBtn.addEventListener('click', displayPoem);
 
+function clearImage(){
+  poemImage.src = 'handwriting.jpg';
+}
+
 function displayPoem (){
+  clearImage();
   fetch(`data/${query}-poems.json`)
     .then(response => response.json())
     .then((data) => {
@@ -41,6 +46,7 @@ function displayPoem (){
 
 function changeLanguage () {
   event.preventDefault();
+  clearImage();
   poemAuthor.innerHTML = '';
   poem.innerHTML = '';
 }
