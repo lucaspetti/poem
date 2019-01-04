@@ -33,7 +33,7 @@ p strong {
   font-size: 1.25em;
 }
 header {
-	background: #ffffff url(background.jpeg);
+	background: #ffffff url(background.jpg);
 	background-size: cover;
 	display: flex;
 	width: auto;
@@ -41,7 +41,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #b3aeae;
 }
 header h1 {
 	text-align: center;
