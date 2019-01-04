@@ -26,10 +26,11 @@ h3, button {
 	margin: 10px;
 }
 p {
-  font-size: 1.1em;
+  font-size: 1.2em;
+  line-height: 1.6em;
 }
 p strong {
-  font-size: 1.2em;
+  font-size: 1.25em;
 }
 header {
 	background: #ffffff url(https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg);

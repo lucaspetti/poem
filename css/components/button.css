@@ -1,15 +1,18 @@
 /*Button Design*/
 .sort-btn {
-  color: #c1c1c1;
-  border: 1px solid #999999;
+  color: #332a2a;
+  border: 1.5px solid #999999;
   padding: 10px 15px;
-  border-radius: 25px;
+  border-radius: 50px;
   opacity: 0.8;
+  width: 4em;
+  height: 3em;
+  font-size: 1.4em;
+  font-weight: lighter;
 }
 .sort-btn:hover {
-  opacity: 1;
+  opacity: 0.6;
   text-decoration: none;
-  color: #e0e0e0;
 }
 /*
 .btn-treehouse {
