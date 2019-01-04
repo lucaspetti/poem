@@ -33,7 +33,7 @@ p strong {
   font-size: 1.25em;
 }
 header {
-	background: #ffffff url(https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg);
+	background: #ffffff url(background.jpeg);
 	background-size: cover;
 	display: flex;
 	width: auto;
@@ -66,6 +66,10 @@ header h1 {
 	right: 10px;
 	top: 15px;
 	margin: 10px 0px;*/
+}
+#languages img {
+  height: 4em;
+  width: 4em;
 }
 #h-btn-container{
 	margin: 20px 20px 50px 20px;
