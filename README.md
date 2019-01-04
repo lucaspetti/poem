@@ -1,7 +1,7 @@
 # poem
-This is a short web application that sorts poems in their original language.
+This is a simple web application that sorts poems in their original language.
 
-You can select the language you want and then click on the button "sort" to sort a poem and the picture of the author.
+You can select the language you want and then click on the button "sort" to sort a poem and the picture of the author. The poems are stored in a JSON file.
 
 To access the website <a href="https://lucaspetti.github.io/poem/" target="_blank">click here</a>.
 
