@@ -35,9 +35,10 @@ p strong {
 header {
 	background: #ffffff url(background.jpg);
 	background-size: cover;
+  background-position: center;
 	display: flex;
-	width: auto;
-	height: 400px;
+	width: 100vw;
+	height: 60vh;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
