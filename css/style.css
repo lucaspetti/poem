@@ -45,7 +45,7 @@ header {
 	border-bottom: 1px solid #b3aeae;
   opacity: 0.95;
   filter: brightness(90%);
-  resize: both;
+  /*resize: both;*/
 }
 header h1 {
 	text-align: center;
