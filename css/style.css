@@ -42,7 +42,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	border-bottom: 1px solid #b3aeae;
+  box-shadow: 1px 1px 3px black;
   opacity: 0.95;
   filter: brightness(90%);
   resize: both;
@@ -60,7 +60,7 @@ header h1 {
 	flex-direction: column;
 	align-items: center;
 }
-#main-title{
+#main-title {
 	margin-top: 60px;
 	margin-bottom: 10px;
   color: white;
@@ -76,12 +76,16 @@ header h1 {
   height: 4em;
   width: 4em;
 }
-#h-btn-container{
+#h-btn-container {
 	margin: 20px 20px 50px 20px;
 	padding: 20px;
 }
-#poem-container{
+#poem-container {
 	margin: 50px;
+}
+#poem-container img {
+  border-radius: 10px;
+  border: gray solid 1px;
 }
 #instruction {
 	padding: 40px;
