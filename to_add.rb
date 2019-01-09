@@ -2,7 +2,7 @@
 puts 'English - '
 puts 'French - '
 puts 'German - '
-puts 'Italian - Alfonso Varano, Arnaldo Fusinato'
+puts 'Italian - Arnaldo Fusinato'
 puts 'Portuguese - Caetano Veloso, Alda do Espirito Santo, Angélica Freitas, Ricardo Domeneck'
 puts 'Spanish - Antonio Machado'
 puts ' '
