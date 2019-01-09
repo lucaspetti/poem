@@ -4,7 +4,7 @@ puts 'French - '
 puts 'German - '
 puts 'Italian - Arnaldo Fusinato'
 puts 'Portuguese - Caetano Veloso, Alda do Espirito Santo, Angélica Freitas, Ricardo Domeneck'
-puts 'Spanish - Antonio Machado'
+puts 'Spanish - '
 puts ' '
 # Sources to use:
 puts 'SOURCES:'
