@@ -1,4 +1,4 @@
-# poem
+# poem (Old version)
 This is a simple web application that sorts poems in their original language.
 
 You can select the language you want and then click on the button "sort" to sort a poem and the picture of the author. The poems are stored in a JSON file.
