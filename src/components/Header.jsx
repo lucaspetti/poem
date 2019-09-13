@@ -4,4 +4,4 @@ const header = (
   </header>
 )
 
-ReactDOM.render(header, rootElement)
+// ReactDOM.render(header, rootElement)

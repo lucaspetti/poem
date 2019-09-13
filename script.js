@@ -5,7 +5,7 @@ const poem = document.querySelector('#poem');
 const imageContainer = document.querySelector('#img-container');
 const poemImage = new Image(672, 372);
 poemImage.src = 'https://i1.wp.com/artlistr.com/wp-content/uploads/2017/04/Fort-Vimieux-1831-JMW-Turner.jpg';
-imageContainer.appendChild(poemImage);
+// imageContainer.appendChild(poemImage);
 let query = "english";
 
 const instruction = document.querySelector('#instruction');
@@ -17,14 +17,14 @@ const germanBtn = document.querySelector('#german-btn');
 const italianBtn = document.querySelector('#italian-btn');
 const portugueseBtn = document.querySelector('#portuguese-btn');
 
-englishBtn.addEventListener('click', englishSite);
-frenchBtn.addEventListener('click', frenchSite);
-spanishBtn.addEventListener('click', spanishSite);
-germanBtn.addEventListener('click', germanSite);
-italianBtn.addEventListener('click', italianSite);
-portugueseBtn.addEventListener('click', portugueseSite);
+// englishBtn.addEventListener('click', englishSite);
+// frenchBtn.addEventListener('click', frenchSite);
+// spanishBtn.addEventListener('click', spanishSite);
+// germanBtn.addEventListener('click', germanSite);
+// italianBtn.addEventListener('click', italianSite);
+// portugueseBtn.addEventListener('click', portugueseSite);
 
-sortBtn.addEventListener('click', displayPoem);
+// sortBtn.addEventListener('click', displayPoem);
 
 function clearImage(){
   poemImage.src = 'handwriting.jpg';

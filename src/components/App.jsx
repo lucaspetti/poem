@@ -1,4 +1,5 @@
 const main = document.getElementById('main');
+const languages = ['english', 'french', 'spanish', 'german', 'italian', 'portuguese']
 
 const Header = (props) => (
   <header>
@@ -26,8 +27,13 @@ function RenderButtons(props) {
 
 //TODO: include validation
 function LanguageButton(props) {
+  function changeLanguage(e) {
+    e.preventDefault();
+    console.log(`You are changing the language to ${props.language}!`);
+  }
+
   return (
-    <a href="#" target="_self">
+    <a href="#" target="_self" onClick={changeLanguage}>
     <img
       id={`${props.language}-btn`}
       src={`css/icons/${props.language}.png`}
@@ -45,8 +51,6 @@ const PoemContainer = (props) => (
 		<p className="poem-author"></p>
 	</div>
 )
-
-const languages = ['english', 'french', 'spanish', 'german', 'italian', 'portuguese']
 
 const element = (
   <div>
