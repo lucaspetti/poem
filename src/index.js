@@ -1,0 +1,1 @@
+render(<App />, document.querySelector('#main'));
