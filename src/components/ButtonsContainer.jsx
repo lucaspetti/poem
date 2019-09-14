@@ -32,10 +32,10 @@ function LanguageButton(props) {
 	}
 
   return (
-    <a href="#" target="_self" onClick={changeLanguage}>
+    <a href="/#" target="_self" onClick={changeLanguage}>
     <img
       id={`${props.language}-btn`}
-      src={`css/icons/${props.language}.png`}
+      src={`/images/icons/${props.language}.png`}
       alt={`${props.language} by corpus delicti from the Noun Project`}
       height="50px" width="50px"
       />
