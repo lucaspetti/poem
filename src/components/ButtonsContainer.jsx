@@ -9,8 +9,7 @@ const ButtonsContainer = (props) => (
 )
 
 function RenderButtons(props) {
-  const languages = props.languages;
-  const buttons = languages.map((language) =>
+  const buttons = props.languages.map((language) =>
     <LanguageButton key={language} language={language} />
   );
   return (
