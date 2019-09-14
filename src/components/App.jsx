@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Header.jsx'
-import ButtonsContainer from './ButtonsContainer.jsx'
-import PoemContainer from './PoemContainer.jsx'
+import Header from './Header/Header.jsx'
+import ButtonsContainer from './ButtonsContainer/ButtonsContainer.jsx'
+import PoemContainer from './PoemContainer/PoemContainer.jsx'
 
 const languages = ['english', 'french', 'spanish', 'german', 'italian', 'portuguese']
 

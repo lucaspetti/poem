@@ -1,22 +1,5 @@
 import React from 'react';
 
-const ButtonsContainer = (props) => (
-  <div className="container" id={props.id}>
-    <RenderButtons languages={props.languages} />
-		<h3 id="instruction">Click the button to sort a poem:</h3>
-		<button className="sort-btn">Sort</button>
-	</div>
-)
-
-function RenderButtons(props) {
-  const buttons = props.languages.map((language) =>
-    <LanguageButton key={language} language={language} />
-  );
-  return (
-    <div id="languages">{buttons}</div>
-  );
-}
-
 //TODO: include validation
 function LanguageButton(props) {
   function changeLanguage(e) {
@@ -42,4 +25,4 @@ function LanguageButton(props) {
   )
 }
 
-export default ButtonsContainer;
+export default LanguageButton;
