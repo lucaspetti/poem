@@ -1,3 +1,5 @@
+import React from 'react';
+
 const PoemContainer = (props) => (
   <div className="container" id={props.id}>
 		<p id="poem"></p>
@@ -5,3 +7,5 @@ const PoemContainer = (props) => (
 		<p className="poem-author"></p>
 	</div>
 )
+
+export default PoemContainer;

@@ -1,3 +1,5 @@
+import React from 'react';
+
 const ButtonsContainer = (props) => (
   <div className="container" id={props.id}>
     <RenderButtons languages={props.languages} />
@@ -20,8 +22,14 @@ function RenderButtons(props) {
 function LanguageButton(props) {
   function changeLanguage(e) {
     e.preventDefault();
-    console.log(`You are changing the language to ${props.language}!`);
-  }
+		console.log(`You are changing the madafaka language to ${props.language}!`);
+		// sortBtn.innerHTML = 'Sort';
+		// instruction.innerHTML = 'Click the button to sort a poem:';
+		// changeLanguage();
+		// poemImage.src = 'https://i1.wp.com/artlistr.com/wp-content/uploads/2017/04/Fort-Vimieux-1831-JMW-Turner.jpg';
+		// poemImage.height = 372;
+		// poemImage.width = 672;
+	}
 
   return (
     <a href="#" target="_self" onClick={changeLanguage}>
@@ -34,3 +42,5 @@ function LanguageButton(props) {
   </a>
   )
 }
+
+export default ButtonsContainer;
