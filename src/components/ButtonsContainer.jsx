@@ -22,7 +22,7 @@ function RenderButtons(props) {
 function LanguageButton(props) {
   function changeLanguage(e) {
     e.preventDefault();
-		console.log(`You are changing the madafaka language to ${props.language}!`);
+		console.log(`You are changing the language to ${props.language}!`);
 		// sortBtn.innerHTML = 'Sort';
 		// instruction.innerHTML = 'Click the button to sort a poem:';
 		// changeLanguage();
