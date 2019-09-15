@@ -1,28 +1,27 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 //TODO: include validation
-function LanguageButton(props) {
-  function changeLanguage(e) {
-    e.preventDefault();
-		console.log(`You are changing the language to ${props.language}!`);
-		// sortBtn.innerHTML = 'Sort';
-		// instruction.innerHTML = 'Click the button to sort a poem:';
-		// changeLanguage();
-		// poemImage.src = 'https://i1.wp.com/artlistr.com/wp-content/uploads/2017/04/Fort-Vimieux-1831-JMW-Turner.jpg';
-		// poemImage.height = 372;
-		// poemImage.width = 672;
-	}
+class LanguageButton extends React.Component {
+  static propTypes = {
+    language: PropTypes.string,
+    changeLanguage: PropTypes.func
+  }
 
-  return (
-    <a href="/#" target="_self" onClick={changeLanguage}>
-    <img
-      id={`${props.language}-btn`}
-      src={`/images/icons/${props.language}.png`}
-      alt={`${props.language} by corpus delicti from the Noun Project`}
-      height="50px" width="50px"
-      />
-  </a>
-  )
+  render() {
+    return (
+      <a href="/#" target="_self" onClick={(e) => {
+        this.props.changeLanguage(e, this.props.language)
+      }}>
+      <img
+        id={`${this.props.language}-btn`}
+        src={`/images/icons/${this.props.language}.png`}
+        alt={`${this.props.language} by corpus delicti from the Noun Project`}
+        height="50px" width="50px"
+        />
+    </a>
+    )
+  }
 }
 
 export default LanguageButton;
