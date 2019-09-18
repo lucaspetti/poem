@@ -17,6 +17,7 @@ class App extends React.Component {
 
   static propTypes = {
     language: PropTypes.string.isRequired,
+    languages: PropTypes.array
   };
 
   setInstruction = language => {
