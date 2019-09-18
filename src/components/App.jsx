@@ -27,7 +27,9 @@ class App extends React.Component {
   }
 
   static propTypes = {
-    language: PropTypes.string.isRequired,
+    language: PropTypes.string,
+    poem: PropTypes.string,
+    author: PropTypes.string,
     languages: PropTypes.array
   };
 
@@ -43,6 +45,11 @@ class App extends React.Component {
   sortPoem = (e, language) => {
     e.preventDefault();
     console.log(`Sorting a poem in ${language}...`);
+    let poem = { ...this.state.poem };
+    let author = { ...this.state.author};
+    poem = 'New Sorted Poem';
+    author = 'E.E. Cummings';
+    this.setState ({ poem, author });
   }
 
   changeLanguage = (e, newLanguage) => {
