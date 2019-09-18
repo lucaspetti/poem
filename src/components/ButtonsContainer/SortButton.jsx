@@ -18,7 +18,7 @@ class SortButton extends React.Component {
 
   render() {
     return (
-      <div>
+      <div class="container">
         <h3 id="instruction">
           {this.props.setInstruction(this.props.language)}
         </h3>

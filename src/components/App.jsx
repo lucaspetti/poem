@@ -55,7 +55,7 @@ class App extends React.Component {
             setInstruction={this.setInstruction}
           />
         </div>
-        <PoemContainer id="poem-container" />
+        <PoemContainer language={this.state.language} />
       </div>
     )
   }
