@@ -2,7 +2,7 @@ import React from 'react';
 
 const PoemContainer = (props) => (
   <div className="container" id="poem-container">
-		<p id="poem"></p>
+		<p id="poem">{props.poem}</p>
 		<div id="img-container">
 			<img
 				alt={`${props.language}-cover`}

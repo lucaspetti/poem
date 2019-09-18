@@ -11,7 +11,8 @@ class App extends React.Component {
 
     this.state = {
       language: props.language,
-      languages: props.languages
+      languages: props.languages,
+      poem: ''
     }
   }
 
@@ -28,6 +29,11 @@ class App extends React.Component {
     else if (language === 'italian') { return 'Fare clic sul pulsante per ordinare una poesia:' }
     else if (language === 'portuguese') { return 'Clique abaixo para sortear um poema:' }
   };
+
+  sortPoem = (e, language) => {
+    e.preventDefault();
+    console.log(`Sorting a poem in ${language}...`);
+  }
 
   changeLanguage = (e, newLanguage) => {
     e.preventDefault();
@@ -53,9 +59,13 @@ class App extends React.Component {
           <SortButton
             language={this.state.language}
             setInstruction={this.setInstruction}
+            sortPoem={this.sortPoem}
           />
         </div>
-        <PoemContainer language={this.state.language} />
+        <PoemContainer
+          language={this.state.language}
+          poem={this.state.poem}
+        />
       </div>
     )
   }

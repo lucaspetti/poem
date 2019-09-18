@@ -18,11 +18,17 @@ class SortButton extends React.Component {
 
   render() {
     return (
-      <div class="container">
+      <div className="container">
         <h3 id="instruction">
           {this.props.setInstruction(this.props.language)}
         </h3>
-        <button className="sort-btn">{this.innerText(this.props.language)}</button>
+        <button
+          className="sort-btn"
+          onClick={(e) => {
+            this.props.sortPoem(e, this.props.language)
+          }}>
+          {this.innerText(this.props.language)}
+        </button>
       </div>
     )
   }
