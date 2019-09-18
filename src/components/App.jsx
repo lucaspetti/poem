@@ -12,7 +12,8 @@ class App extends React.Component {
     this.state = {
       language: props.language,
       languages: props.languages,
-      poem: ''
+      poem: '',
+      author: ''
     }
   }
 
@@ -64,7 +65,9 @@ class App extends React.Component {
         </div>
         <PoemContainer
           language={this.state.language}
+          imageSource={`/images/covers/img-${this.state.language}.jpg`}
           poem={this.state.poem}
+          author={this.state.author}
         />
       </div>
     )

@@ -8,10 +8,10 @@ const PoemContainer = (props) => (
 				alt={`${props.language}-cover`}
 				width="672"
 				height="372"
-				src={`/images/covers/img-${props.language}.jpg`}
+				src={props.imageSource}
 			/>
 		</div>
-		<p className="poem-author"></p>
+		<p className="poem-author">{props.author}</p>
 	</div>
 )
 
