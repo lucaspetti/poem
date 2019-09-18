@@ -10,11 +10,20 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      language: props.language,
-      languages: props.languages,
+      language: '',
+      languages: [],
       poem: '',
       author: ''
     }
+  }
+
+  componentDidMount() {
+    this.setState({
+      language: 'english',
+      languages: ['english', 'french', 'spanish', 'german', 'italian', 'portuguese'],
+      poem: '',
+      author: ''
+    })
   }
 
   static propTypes = {
