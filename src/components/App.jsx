@@ -10,10 +10,11 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      language: '',
+      language: 'english',
       languages: [],
       poem: '',
-      author: ''
+      author: '',
+      data: []
     }
   }
 
@@ -21,16 +22,16 @@ class App extends React.Component {
     this.setState({
       language: 'english',
       languages: ['english', 'french', 'spanish', 'german', 'italian', 'portuguese'],
-      poem: '',
-      author: ''
-    })
+      data: require(`./../data/${this.state.language}-poems.json`)
+    });
   }
 
   static propTypes = {
     language: PropTypes.string,
     poem: PropTypes.string,
     author: PropTypes.string,
-    languages: PropTypes.array
+    languages: PropTypes.array,
+    data: PropTypes.array
   };
 
   setInstruction = language => {
@@ -45,18 +46,21 @@ class App extends React.Component {
   sortPoem = (e, language) => {
     e.preventDefault();
     console.log(`Sorting a poem in ${language}...`);
-    let poem = { ...this.state.poem };
-    let author = { ...this.state.author};
-    poem = 'New Sorted Poem';
-    author = 'E.E. Cummings';
-    this.setState ({ poem, author });
+    let number = Math.floor(Math.random()*this.state.data.length);
+    let sortedPoem = this.state.data[number];
+    this.setState ({
+      poem: sortedPoem.poem,
+      author: sortedPoem.author
+    });
   }
 
   changeLanguage = (e, newLanguage) => {
     e.preventDefault();
-    let language = { ...this.state.language };
-    language = newLanguage;
-    this.setState ({ language });
+    var newData = require(`./../data/${newLanguage}-poems.json`);
+    this.setState ({
+      language: newLanguage,
+      data: newData
+    });
   }
 
   render() {
