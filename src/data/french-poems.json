@@ -1,6 +1,6 @@
 [
   {
-    "name": "<strong>François Villon</strong>",
+    "name": "François Villon",
     "imgSource": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE1ODA0OTcxMzA0OTEyMzk3/francois-villon-38551-1-402.jpg",
     "imgWidth": 250,
     "imgHeight": 250,
@@ -18,7 +18,7 @@
   ]
   },
   {
-    "name": "<strong>Jacques Brel</strong>",
+    "name": "Jacques Brel",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jacques_Brel_1963.jpg/220px-Jacques_Brel_1963.jpg",
     "imgWidth": 220,
     "imgHeight": 323,
@@ -34,7 +34,7 @@
   ]
   },
   {
-    "name": "<strong>Aimé Césaire</strong>",
+    "name": "Aimé Césaire",
     "imgSource": "https://images.gr-assets.com/authors/1288990863p5/49591.jpg",
     "imgWidth": 250,
     "imgHeight": 250,
@@ -52,7 +52,7 @@
   ]
   },
   {
-    "name": "<strong>Arthur Rimbaud</strong>",
+    "name": "Arthur Rimbaud",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Rimbaud.PNG/226px-Rimbaud.PNG",
     "imgWidth": 250,
     "imgHeight": 250,
@@ -100,7 +100,7 @@
   ]
   },
   {
-    "name": "<strong>Antoine Wauters</strong>",
+    "name": "Antoine Wauters",
     "imgSource": "http://www.literaturenights.eu/uploads/304/a70265ce208eff1ef497ca85903831c5.jpg",
     "imgWidth": 220,
     "imgHeight": 270,
@@ -112,7 +112,7 @@
   ]
   },
   {
-    "name": "<strong>Charles Baudelaire</strong>",
+    "name": "Charles Baudelaire",
     "imgSource": "https://almabooks.com/wp-content/uploads/2016/10/Baudelaire-231x300.jpg",
     "imgWidth": 231,
     "imgHeight": 300,
@@ -135,7 +135,7 @@
   ]
   },
   {
-    "name": "<strong>Paul Valery</strong>",
+    "name": "Paul Valery",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Paul_Val%C3%A9ry_-_photo_Henri_Manuel.jpg/220px-Paul_Val%C3%A9ry_-_photo_Henri_Manuel.jpg",
     "imgWidth": 220,
     "imgHeight": 322,
@@ -152,7 +152,7 @@
   ]
   },
   {
-    "name": "<strong>Victor Hugo</strong>",
+    "name": "Victor Hugo",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Victor_Hugo_by_%C3%89tienne_Carjat_1876.jpg/260px-Victor_Hugo_by_%C3%89tienne_Carjat_1876.jpg",
     "imgWidth": 260,
     "imgHeight": 340,
@@ -181,7 +181,7 @@
   ]
   },
   {
-    "name": "<strong>Anne Marie Albiach</strong>",
+    "name": "Anne Marie Albiach",
     "imgSource": "https://jacket2.org/sites/jacket2.org/files/commentary-images/Albiach-Jan-71.jpg",
     "imgWidth": 224,
     "imgHeight": 300,
@@ -212,7 +212,7 @@
   ]
   },
   {
-    "name": "<strong>Christine de Pizan</strong>",
+    "name": "Christine de Pizan",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Christine_de_Pisan_-_cathedra.jpg/220px-Christine_de_Pisan_-_cathedra.jpg",
     "imgWidth": 220,
     "imgHeight": 237,
@@ -238,7 +238,7 @@
   ]
   },
   {
-    "name": "<strong>Stéphane Mallarmé</strong>",
+    "name": "Stéphane Mallarmé",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Portrait_of_St%C3%A9phane_Mallarm%C3%A9.jpg/220px-Portrait_of_St%C3%A9phane_Mallarm%C3%A9.jpg",
     "imgWidth": 220,
     "imgHeight": 302,
@@ -287,7 +287,7 @@
   ]
   },
   {
-    "name": "<strong>Guillaume Apollinaire</strong>",
+    "name": "Guillaume Apollinaire",
     "imgSource": "http://www.unjourunpoeme.fr/wp-content/images/438.jpg",
     "imgWidth": 200,
     "imgHeight": 260,
@@ -309,7 +309,7 @@
   ]
   },
   {
-    "name": "<strong>Antonin Artaud</strong>",
+    "name": "Antonin Artaud",
     "imgSource": "http://www.unjourunpoeme.fr/wp-content/images/527.jpg",
     "imgWidth": 200,
     "imgHeight": 297,
@@ -341,7 +341,7 @@
     ]
   },
   {
-    "name": "<strong>Jean Cocteau</strong>",
+    "name": "Jean Cocteau",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Jean_Cocteau_b_Meurisse_1923.jpg/220px-Jean_Cocteau_b_Meurisse_1923.jpg",
     "imgWidth": 200,
     "imgHeight": 307,

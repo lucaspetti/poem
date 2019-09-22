@@ -1,6 +1,6 @@
 [
   {
-    "name": "<strong>Goethe</strong>",
+    "name": "Goethe",
     "imgSource": "https://images.gr-assets.com/authors/1532614109p5/285217.jpg",
     "imgWidth": 200,
     "imgHeight": 266,
@@ -14,7 +14,7 @@
   ]
   },
   {
-    "name": "<strong>Bertolt Brecht</strong>",
+    "name": "Bertolt Brecht",
     "imgSource": "https://usefulstooges.com/wp-content/uploads/2016/10/bertolt-brecht-pic.jpg",
     "imgWidth": 353,
     "imgHeight": 500,
@@ -33,7 +33,7 @@
 ]
   },
   {
-    "name": "<strong>Heinrich Heine</strong>",
+    "name": "Heinrich Heine",
     "imgSource": "https://www.kunstkopie.de/kunst/e_palm/heinrich-heine_palm.jpg",
     "imgWidth": 327,
     "imgHeight": 400,
@@ -63,7 +63,7 @@
   ]
   },
   {
-    "name": "<strong>Matthias Claudius</strong>",
+    "name": "Matthias Claudius",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/MatthiasClaudius.jpg/170px-MatthiasClaudius.jpg",
     "imgWidth": 170,
     "imgHeight": 237,
@@ -94,7 +94,7 @@
   ]
   },
   {
-    "name": "<strong>Rainer Maria Rilke</strong>",
+    "name": "Rainer Maria Rilke",
     "imgSource": "https://images.gr-assets.com/authors/1493785350p5/7906.jpg",
     "imgWidth": 200,
     "imgHeight": 236,
@@ -110,7 +110,7 @@
   ]
   },
   {
-    "name": "<strong>Rose Ausländer</strong>",
+    "name": "Rose Ausländer",
     "imgSource": "http://1.bp.blogspot.com/_5wUPFCGo68w/Sl0mqSrElJI/AAAAAAAAA90/BF09_M8eFf0/s320/rose_auslander.jpg2.jpg",
     "imgWidth": 220,
     "imgHeight": 320,
@@ -128,7 +128,7 @@
   ]
   },
   {
-    "name": "<strong>Herman Hesse</strong>",
+    "name": "Herman Hesse",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hermann_Hesse_2.jpg/220px-Hermann_Hesse_2.jpg",
     "imgWidth": 220,
     "imgHeight": 263,
@@ -153,7 +153,7 @@
   ]
   },
   {
-    "name": "<strong>Friedrich Schiller</strong>",
+    "name": "Friedrich Schiller",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Friedrich_Schiller_by_Ludovike_Simanowiz.jpg/439px-Friedrich_Schiller_by_Ludovike_Simanowiz.jpg",
     "imgWidth": 220,
     "imgHeight": 300,
@@ -186,7 +186,7 @@
   ]
   },
   {
-    "name": "<strong>Erich Kästner</strong>",
+    "name": "Erich Kästner",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/5/52/Erich_K%C3%A4stner_1961.jpg",
     "imgWidth": 159,
     "imgHeight": 217,
@@ -226,7 +226,7 @@
   ]
   },
   {
-    "name": "<strong>Günter Grass</strong>",
+    "name": "Günter Grass",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/G%C3%BCnter_Grass_auf_dem_Blauen_Sofa.jpg/220px-G%C3%BCnter_Grass_auf_dem_Blauen_Sofa.jpg",
     "imgWidth": 220,
     "imgHeight": 330,
@@ -257,7 +257,7 @@
   ]
   },
   {
-    "name": "<strong>Nelly Sachs</strong>",
+    "name": "Nelly Sachs",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Nelly_Sachs_1966.jpg/220px-Nelly_Sachs_1966.jpg",
     "imgWidth": 220,
     "imgHeight": 311,
@@ -282,7 +282,7 @@
   ]
   },
   {
-    "name": "<strong>Volker Braun</strong>",
+    "name": "Volker Braun",
     "imgSource": "https://www.suhrkamp.de/autorenfotos/300/564_braun_volker.jpg",
     "imgWidth": 220,
     "imgHeight": 300,

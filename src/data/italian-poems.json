@@ -1,6 +1,6 @@
 [
   {
-    "name": "<strong>Dante Alighieri</strong>",
+    "name": "Dante Alighieri",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Portrait_de_Dante.jpg/220px-Portrait_de_Dante.jpg",
     "imgWidth": 220,
     "imgHeight": 336,
@@ -38,7 +38,7 @@
     ]
   },
   {
-    "name": "<strong>Francesco Petrarca</strong>",
+    "name": "Francesco Petrarca",
     "imgSource": "https://d3d00swyhr67nd.cloudfront.net/w1200h1200/NTIII/NTIII_BLI_355512.jpg",
     "imgWidth": 450,
     "imgHeight": 600,
@@ -65,7 +65,7 @@
     ]
   },
   {
-    "name": "<strong>Giovanni Boccaccio</strong>",
+    "name": "Giovanni Boccaccio",
     "imgSource": "https://m.media-amazon.com/images/M/MV5BZjdlZmQwNDItZDVhZi00MzU1LTlhMGMtMDBhZDdlOGZmZWUyXkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_UY317_CR20,0,214,317_AL_.jpg",
     "imgWidth": 214,
     "imgHeight": 317,
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "name": "<strong>Pier Paolo Pasolini</strong>",
+    "name": "Pier Paolo Pasolini",
     "imgSource": "https://m.media-amazon.com/images/M/MV5BMjMyOTk0NjU3OF5BMl5BanBnXkFtZTcwNzMwMDgxOA@@._V1_.jpg",
     "imgWidth": 370,
     "imgHeight": 512,
@@ -95,7 +95,7 @@
     ]
   },
   {
-    "name": "<strong>Giuseppe Ungaretti</strong>",
+    "name": "Giuseppe Ungaretti",
     "imgSource": "https://www.libriantichionline.com/typo3temp/pics/fe33cff6b2.jpeg",
     "imgWidth": 450,
     "imgHeight": 275,
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "name": "<strong>Gaspara Stampa</strong>",
+    "name": "Gaspara Stampa",
     "imgSource": "https://mypoeticside.com/wp-content/uploads/gallery-images/374ddf7.jpeg",
     "imgWidth": 335,
     "imgHeight": 400,
@@ -135,7 +135,7 @@
     ]
   },
   {
-    "name": "<strong>Alda Merini</strong>",
+    "name": "Alda Merini",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Alda_Merini.jpg/220px-Alda_Merini.jpg",
     "imgWidth": 220,
     "imgHeight": 331,
@@ -155,7 +155,7 @@
     ]
   },
   {
-    "name": "<strong>Gabriele D'Annunzio</strong>",
+    "name": "Gabriele D'Annunzio",
     "imgSource": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Gabriele_D%27Anunnzio.png/220px-Gabriele_D%27Anunnzio.png",
     "imgWidth": 220,
     "imgHeight": 312,
@@ -176,7 +176,7 @@
     ]
   },
   {
-    "name": "<strong>Amelia Rosselli</strong>",
+    "name": "Amelia Rosselli",
     "imgSource": "https://www.poets.org/sites/default/files/styles/286x289/public/images/biographies/AmeliaRosselli_NewBioImage.png?itok=lcF4-klX",
     "imgWidth": 286,
     "imgHeight": 289,
@@ -196,7 +196,7 @@
     ]
   },
   {
-    "name": "<strong>Ludovico Ariosto</strong>",
+    "name": "Ludovico Ariosto",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Titian_-_Portrait_of_a_man_with_a_quilted_sleeve.jpg/220px-Titian_-_Portrait_of_a_man_with_a_quilted_sleeve.jpg",
     "imgWidth": 220,
     "imgHeight": 268,
@@ -214,7 +214,7 @@
     ]
   },
   {
-    "name": "<strong>Alessandro Manzoni</strong>",
+    "name": "Alessandro Manzoni",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Francesco_Hayez_040.jpg/220px-Francesco_Hayez_040.jpg",
     "imgWidth": 220,
     "imgHeight": 290,
@@ -289,7 +289,7 @@
     ]
   },
   {
-    "name": "<strong>Alfonso Varano</strong>",
+    "name": "Alfonso Varano",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Alfonso_Varano.png",
     "imgWidth": 250,
     "imgHeight": 300,

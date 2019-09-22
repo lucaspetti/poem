@@ -1,6 +1,6 @@
 [
   {
-    "name": "<strong>William Shakespeare</strong>",
+    "name": "William Shakespeare",
     "imgSource": "https://cdn.pensador.com/img/authors/wi/ll/william-shakespeare-2-l.jpg",
     "imgWidth": 250,
     "imgHeight": 250,
@@ -17,7 +17,7 @@
     ]
   },
   {
-    "name": "<strong>bp Nichol</strong>",
+    "name": "bp Nichol",
     "imgSource": "https://www.poetryinvoice.com/sites/default/files/images/authors/bp-nichol.jpg",
     "imgWidth": 306,
     "imgHeight": 250,
@@ -37,7 +37,7 @@
     ]
   },
   {
-    "name": "<strong>E.E. Cummings</strong>",
+    "name": "E.E. Cummings",
     "imgSource": "https://2.bp.blogspot.com/--af-ZtkuKOQ/Wq-20a3gTZI/AAAAAAAATeI/LZhHTJAuz3EXGMooR8bAs_fFKzi8z2t8wCLcBGAs/s1600/eecummings.jpg",
     "imgWidth": 255,
     "imgHeight": 202,
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "name": "<strong>Edgar Allan Poe</strong>",
+    "name": "Edgar Allan Poe",
     "imgSource": "https://www.telegraph.co.uk/content/dam/books/2016/04/19/edgardallanpoe_trans_NvBQzQNjv4Bqeo_i_u9APj8RuoebjoAHt0k9u7HhRJvuo-ZLenGRumA.jpg?imwidth=450",
     "imgWidth": 270,
     "imgHeight": 175,
@@ -124,7 +124,7 @@
     ]
   },
   {
-    "name": "<strong>Adrienne Rich</strong>",
+    "name": "Adrienne Rich",
     "imgSource": "http://static.poetryfoundation.org/o/harriet/2012/04/adrienne-rich.jpg",
     "imgWidth": 324,
     "imgHeight": 216,
@@ -141,7 +141,7 @@
     ]
   },
   {
-    "name": "<strong>W.B. Yeats</strong>",
+    "name": "W.B. Yeats",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/William_Butler_Yeats_by_George_Charles_Beresford.jpg/220px-William_Butler_Yeats_by_George_Charles_Beresford.jpg",
     "imgWidth": 220,
     "imgHeight": 308,
@@ -158,7 +158,7 @@
     ]
   },
   {
-    "name": "<strong>Robert Frost</strong>",
+    "name": "Robert Frost",
     "imgSource": "https://media.poetryfoundation.org/m/image/15024/robert-frost-hires-cropped.jpg",
     "imgWidth": 294,
     "imgHeight": 199,
@@ -187,7 +187,7 @@
     ]
   },
   {
-    "name": "<strong>John Keats</strong>",
+    "name": "John Keats",
     "imgSource": "https://media.poetryfoundation.org/m/image/17209/John_Keats_by_William_Hilton.jpg",
     "imgWidth": 324,
     "imgHeight": 216,
@@ -229,7 +229,7 @@
     ]
   },
   {
-    "name": "<strong>Emily Dickinson</strong>",
+    "name": "Emily Dickinson",
     "imgSource": "https://media.poetryfoundation.org/m/image/15913/emily-dickinson-hires-cropped.jpg",
     "imgWidth": 324,
     "imgHeight": 216,
@@ -250,7 +250,7 @@
     ]
   },
   {
-    "name": "<strong>Bernadette Mayer</strong>",
+    "name": "Bernadette Mayer",
     "imgSource": "http://writing.upenn.edu/epc/authors/mayer/hunger.jpg",
     "imgWidth": 198,
     "imgHeight": 250,
@@ -267,7 +267,7 @@
     ]
   },
   {
-    "name": "<strong>Ezra Pound</strong>",
+    "name": "Ezra Pound",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Lustra_%28private_print%29_-_Ezra_Pound_-_Frontispiece.jpg/220px-Lustra_%28private_print%29_-_Ezra_Pound_-_Frontispiece.jpg",
     "imgWidth": 220,
     "imgHeight": 285,
@@ -326,7 +326,7 @@
     ]
   },
   {
-    "name": "<strong>William Shakespeare</strong>",
+    "name": "William Shakespeare",
     "imgSource": "https://cdn.pensador.com/img/authors/wi/ll/william-shakespeare-2-l.jpg",
     "imgWidth": 250,
     "imgHeight": 250,
