@@ -19,7 +19,7 @@ class App extends React.Component {
     this.setState({
       language: 'english',
       languages: ['english', 'french', 'spanish', 'german', 'italian', 'portuguese'],
-      image: `/images/covers/img-${this.state.language}.jpg`,
+      image: process.env.PUBLIC_URL + `/images/covers/img-${this.state.language}.jpg`,
       imageWidth: 672,
       imageHeight: 372,
       data: require(`./../data/${this.state.language}-poems.json`)
@@ -64,7 +64,7 @@ class App extends React.Component {
     var newData = require(`./../data/${newLanguage}-poems.json`);
     this.setState ({
       language: newLanguage,
-      image: `/images/covers/img-${newLanguage}.jpg`,
+      image: process.env.PUBLIC_URL + `/images/covers/img-${newLanguage}.jpg`,
       data: newData,
       poem: '',
       author: ''
