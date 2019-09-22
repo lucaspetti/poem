@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Header from './Header/Header.jsx'
-import LanguageButton from './ButtonsContainer/LanguageButton'
-import SortButton from './ButtonsContainer/SortButton'
-import PoemContainer from './PoemContainer/PoemContainer.jsx'
+import Header from './Header/Header'
+import LanguageButton from './LanguageButton/LanguageButton'
+import SortButton from './SortButton/SortButton'
+import PoemContainer from './PoemContainer/PoemContainer'
 
 class App extends React.Component {
   constructor(props) {
@@ -44,7 +44,7 @@ class App extends React.Component {
     else if (language === 'portuguese') { return 'Clique abaixo para sortear um poema:' }
   };
 
-  sortPoem = (e, language) => {
+  sortPoem = (e) => {
     e.preventDefault();
     this.clearImage();
     let number = Math.floor(Math.random()*this.state.data.length);

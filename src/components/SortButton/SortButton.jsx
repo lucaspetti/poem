@@ -25,7 +25,7 @@ class SortButton extends React.Component {
         <button
           className="sort-btn"
           onClick={(e) => {
-            this.props.sortPoem(e, this.props.language)
+            this.props.sortPoem(e)
           }}>
           {this.innerText(this.props.language)}
         </button>
