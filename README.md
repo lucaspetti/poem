@@ -8,4 +8,4 @@ To access the website <a href="https://lucaspetti.github.io/poem/" target="_blan
 I added six languages to start: English, French, Spanish, German, Italian and Portuguese.
 I chose these because they are the ones I can read (or at least try to).
 
-Application made using Javascript. Currently rewriting in React.
+Application made using Javascript and refactored in React.
