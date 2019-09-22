@@ -7,27 +7,31 @@ class SortButton extends React.Component {
     setInstruction: PropTypes.func
   };
 
-  innerText = (language) => {
-    if (language === 'english') { return 'Sort' }
-    else if (language === 'french') { return 'Trier' }
-    else if (language === 'spanish') { return 'Sortear' }
-    else if (language === 'german') { return 'Sortieren' }
-    else if (language === 'italian') { return 'Assortire' }
-    else if (language === 'portuguese') { return 'Sortear' }
+  renderInstructions(language, text) {
+    const instructions = {
+      english: { innerText: 'Sort', instruction: 'Click the button to sort a poem:' },
+      french: { innerText: 'Trier', instruction: 'Cliquez sur le bouton pour trier un poème:' },
+      spanish: { innerText: 'Sortear', instruction: 'Clica al botón para sortear un poema:' },
+      german: { innerText: 'Sortieren', instruction: 'Klicken Sie hier, um ein Gedicht zu sortieren:' },
+      italian: { innerText: 'Assortire', instruction: 'Fare clic sul pulsante per ordinare una poesia' },
+      portuguese: { innerText: 'Sortear', instruction: 'Clique abaixo para sortear um poema:' }
+    }
+
+    return instructions[language][text]
   }
 
   render() {
     return (
       <div className="container">
         <h3 id="instruction">
-          {this.props.setInstruction(this.props.language)}
+          {this.renderInstructions(this.props.language, 'instruction')}
         </h3>
         <button
           className="sort-btn"
           onClick={(e) => {
             this.props.sortPoem(e)
           }}>
-          {this.innerText(this.props.language)}
+          {this.renderInstructions(this.props.language, 'innerText')}
         </button>
       </div>
     )

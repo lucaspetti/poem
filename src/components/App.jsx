@@ -35,15 +35,6 @@ class App extends React.Component {
     data: PropTypes.array
   };
 
-  setInstruction = language => {
-    if (language === 'english') { return 'Click the button to sort a poem:' }
-    else if (language === 'french') { return 'Cliquez sur le bouton pour trier un poème:' }
-    else if (language === 'spanish') { return 'Clica al botón para sortear un poema:' }
-    else if (language === 'german') { return 'Klicken Sie hier, um ein Gedicht zu sortieren:' }
-    else if (language === 'italian') { return 'Fare clic sul pulsante per ordinare una poesia:' }
-    else if (language === 'portuguese') { return 'Clique abaixo para sortear um poema:' }
-  };
-
   sortPoem = (e) => {
     e.preventDefault();
     this.clearImage();
@@ -93,7 +84,6 @@ class App extends React.Component {
           </div>
           <SortButton
             language={this.state.language}
-            setInstruction={this.setInstruction}
             sortPoem={this.sortPoem}
           />
         </div>
