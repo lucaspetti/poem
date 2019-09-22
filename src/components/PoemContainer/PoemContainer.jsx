@@ -6,12 +6,12 @@ const PoemContainer = (props) => (
 		<div id="img-container">
 			<img
 				alt={`${props.language}-cover`}
-				width="672"
-				height="372"
+				width={props.imageWidth}
+				height={props.imageHeight}
 				src={props.imageSource}
 			/>
 		</div>
-		<p className="poem-author">{props.author}</p>
+		<p className="poem-author font-weight-bold">{props.author}</p>
 	</div>
 )
 
