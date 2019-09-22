@@ -8,7 +8,7 @@ const PoemContainer = (props) => (
 				alt={`${props.language}-cover`}
 				width={props.imageWidth}
 				height={props.imageHeight}
-				src={props.imageSource}
+				src={process.env.PUBLIC_URL + props.imageSource}
 			/>
 		</div>
 		<p className="poem-author font-weight-bold">{props.author}</p>

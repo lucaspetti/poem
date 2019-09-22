@@ -65,7 +65,9 @@ class App extends React.Component {
     this.setState ({
       language: newLanguage,
       image: `/images/covers/img-${newLanguage}.jpg`,
-      data: newData
+      data: newData,
+      poem: '',
+      author: ''
     });
   }
 
