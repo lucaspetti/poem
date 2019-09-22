@@ -15,7 +15,7 @@ class LanguageButton extends React.Component {
       }}>
       <img
         id={`${this.props.language}-btn`}
-        src={`/images/icons/${this.props.language}.png`}
+        src={process.env.PUBLIC_URL + `/images/icons/${this.props.language}.png`}
         alt={`${this.props.language} by corpus delicti from the Noun Project`}
         height="50px" width="50px"
         />
