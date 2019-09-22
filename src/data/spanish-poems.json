@@ -1,6 +1,6 @@
 [
   {
-    "name": "<strong>Pablo Neruda</strong>",
+    "name": "Pablo Neruda",
     "imgSource": "http://www.agenciabalcells.com/fileadmin/_processed_/csm_Neruda__Pablo_cd1395ffd0.jpg",
     "imgWidth": 300,
     "imgHeight": 402,
@@ -38,7 +38,7 @@
     ]
   },
   {
-    "name": "<strong>Ajo</strong>",
+    "name": "Ajo",
     "imgSource": "http://www.culturasur.com/typo3temp/pics/e12e321467.jpg",
     "imgWidth": 425,
     "imgHeight": 268,
@@ -56,7 +56,7 @@
     ]
   },
   {
-    "name": "<strong>Blanca Varela</strong>",
+    "name": "Blanca Varela",
     "imgSource": "https://deadorkicking.com/wp-content/uploads/featured-img/b/blanca-varela-300x224.jpg",
     "imgWidth": 300,
     "imgHeight": 224,
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "name": "<strong>Cecilia Pavón</strong>",
+    "name": "Cecilia Pavón",
     "imgSource": "http://2.bp.blogspot.com/_5wUPFCGo68w/TTWbRV-RVzI/AAAAAAAABSU/_6ObuHfL_n4/s1600/pavon.jpg",
     "imgWidth": 280,
     "imgHeight": 425,
@@ -155,7 +155,7 @@
     ]
   },
   {
-    "name": "<strong>Violeta Parra</strong>",
+    "name": "Violeta Parra",
     "imgSource": "http://www.eldesconcierto.cl/wp-content/uploads/2017/10/violeta-parra-810x540.jpg",
     "imgWidth": 405,
     "imgHeight": 270,
@@ -200,7 +200,7 @@
     ]
   },
   {
-    "name": "<strong>Jorge Luis Borges</strong>",
+    "name": "Jorge Luis Borges",
     "imgSource": "https://images.gr-assets.com/authors/1537559279p5/500.jpg",
     "imgWidth": 200,
     "imgHeight": 202,
@@ -222,7 +222,7 @@
     ]
   },
   {
-    "name": "<strong>Federico Garcia Lorca</strong>",
+    "name": "Federico Garcia Lorca",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Lorca_%281914%29.jpg/220px-Lorca_%281914%29.jpg",
     "imgWidth": 220,
     "imgHeight": 242,
@@ -245,7 +245,7 @@
     ]
   },
   {
-    "name": "<strong>Octavio Paz</strong>",
+    "name": "Octavio Paz",
     "imgSource": "https://res.cloudinary.com/ndbooks/image/upload/w_500,f_auto,q_80,dpr_auto/Paz_Octavio600.jpg",
     "imgWidth": 250,
     "imgHeight": 250,
@@ -267,7 +267,7 @@
     ]
   },
   {
-    "name": "<strong>Juana Inés de la Cruz</strong>",
+    "name": "Juana Inés de la Cruz",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Sor_Juana_In%C3%A9s_de_la_Cruz_%28Juan_de_Miranda%29.jpg/220px-Sor_Juana_In%C3%A9s_de_la_Cruz_%28Juan_de_Miranda%29.jpg",
     "imgWidth": 220,
     "imgHeight": 347,
@@ -340,7 +340,7 @@
     ]
   },
   {
-    "name": "<strong>Rosario Castellanos</strong>",
+    "name": "Rosario Castellanos",
     "imgSource": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Rosario_Castellanos.jpg/220px-Rosario_Castellanos.jpg",
     "imgWidth": 220,
     "imgHeight": 336,
@@ -354,7 +354,7 @@
     ]
   },
   {
-    "name": "<strong>Lope de Vega</strong>",
+    "name": "Lope de Vega",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LopedeVega.jpg/220px-LopedeVega.jpg",
     "imgWidth": 220,
     "imgHeight": 282,
@@ -377,7 +377,7 @@
     ]
   },
   {
-    "name": "<strong>Antonio Machado</strong>",
+    "name": "Antonio Machado",
     "imgSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/AntonioMachado.JPG/220px-AntonioMachado.JPG",
     "imgWidth": 220,
     "imgHeight": 349,
