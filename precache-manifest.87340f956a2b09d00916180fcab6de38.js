@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/poem/static/js/runtime~main.fa8ff389.js"
   },
   {
-    "revision": "fc69f41e57aceacb061a",
-    "url": "/poem/static/js/main.f94a5fc9.chunk.js"
+    "revision": "060ee06f03b1514b8fcc",
+    "url": "/poem/static/js/main.0d3305b4.chunk.js"
   },
   {
     "revision": "e12d85a55a531299a8f0",
     "url": "/poem/static/js/2.16dd4b19.chunk.js"
   },
   {
-    "revision": "fc69f41e57aceacb061a",
-    "url": "/poem/static/css/main.d4c15abd.chunk.css"
+    "revision": "060ee06f03b1514b8fcc",
+    "url": "/poem/static/css/main.52bf2866.chunk.css"
   },
   {
-    "revision": "194bf534ed2e47d3ae32d22f10d81b34",
+    "revision": "556ef434f10b3378f07ea5f7204b7bd8",
     "url": "/poem/index.html"
   }
 ];

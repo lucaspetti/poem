@@ -1,14 +1,14 @@
 {
-  "main.css": "/poem/static/css/main.d4c15abd.chunk.css",
-  "main.js": "/poem/static/js/main.f94a5fc9.chunk.js",
-  "main.js.map": "/poem/static/js/main.f94a5fc9.chunk.js.map",
+  "main.css": "/poem/static/css/main.52bf2866.chunk.css",
+  "main.js": "/poem/static/js/main.0d3305b4.chunk.js",
+  "main.js.map": "/poem/static/js/main.0d3305b4.chunk.js.map",
   "runtime~main.js": "/poem/static/js/runtime~main.fa8ff389.js",
   "runtime~main.js.map": "/poem/static/js/runtime~main.fa8ff389.js.map",
   "static/js/2.16dd4b19.chunk.js": "/poem/static/js/2.16dd4b19.chunk.js",
   "static/js/2.16dd4b19.chunk.js.map": "/poem/static/js/2.16dd4b19.chunk.js.map",
   "index.html": "/poem/index.html",
-  "precache-manifest.68cbfb952e132900d67f15b5e96282a7.js": "/poem/precache-manifest.68cbfb952e132900d67f15b5e96282a7.js",
+  "precache-manifest.87340f956a2b09d00916180fcab6de38.js": "/poem/precache-manifest.87340f956a2b09d00916180fcab6de38.js",
   "service-worker.js": "/poem/service-worker.js",
-  "static/css/main.d4c15abd.chunk.css.map": "/poem/static/css/main.d4c15abd.chunk.css.map",
+  "static/css/main.52bf2866.chunk.css.map": "/poem/static/css/main.52bf2866.chunk.css.map",
   "static/media/style.css": "/poem/static/media/background.a0f45977.jpg"
 }
