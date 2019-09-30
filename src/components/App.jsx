@@ -41,7 +41,7 @@ class App extends React.Component {
     let number = Math.floor(Math.random()*this.state.data.length);
     let sortedPoem = this.state.data[number];
     this.setState ({
-      poem: sortedPoem.poem.join('<br />\ '),
+      poem: sortedPoem.poem.join('<br /> '),
       image: sortedPoem.imgSource,
       imageHeight: sortedPoem.imgHeight,
       imageWidth: sortedPoem.imgWidth,

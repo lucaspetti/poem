@@ -1,11 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-//TODO: include validation
 class LanguageButton extends React.Component {
   static propTypes = {
-    language: PropTypes.string,
-    changeLanguage: PropTypes.func
+    language: PropTypes.string.isRequired,
+    changeLanguage: PropTypes.func.isRequired
   }
 
   render() {
