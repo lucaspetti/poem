@@ -8,7 +8,7 @@
   "main": "script.js",
   "devDependencies": {
     "concurrently": "4.1.0",
-    "react-scripts": "^2.1.1"
+    "react-scripts": "^5.0.1"
   },
   "dependencies": {
     "autoprefixer-stylus": "0.14.0",
