@@ -10,3 +10,12 @@ I added six languages to start: English, French, Spanish, German, Italian and Po
 I chose these because they are the ones I can read (or at least try to).
 
 Application created using Javascript and refactored in React.
+
+## Install
+
+- Make sure to have yarn installed and run:
+
+```bash
+yarn install
+```
+
